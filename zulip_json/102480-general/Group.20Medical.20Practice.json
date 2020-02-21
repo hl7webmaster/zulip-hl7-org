@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Hello All, I have a question about HL7 segment and field. If we want to send or receive Group Medical Practice information Inbound or outbound, in an ADT message, which Field is allotted for this?</p>",
+        "id": 165333720,
+        "sender_full_name": "Shital Garad",
+        "timestamp": 1557493173
+    },
+    {
+        "content": "<p>Can you be a little more specific?  What about  Group Medical Practice information are you interested in passing?</p>",
+        "id": 165409193,
+        "sender_full_name": "David Pyke",
+        "timestamp": 1557577407
+    },
+    {
+        "content": "<p>Group of doctors practice together at certain locations - when patient is admitted to a hospital and being treated by one of the doctors - we capture which group practice that doctor belongs to. I want to send this information outbound</p>",
+        "id": 165810418,
+        "sender_full_name": "Shital Garad",
+        "timestamp": 1558014032
+    },
+    {
+        "content": "<p>That's not a standard field.  You will need to talk to the systems you will be exchanging information with and work out policy for this.</p>",
+        "id": 165813079,
+        "sender_full_name": "David Pyke",
+        "timestamp": 1558015782
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"116975\">@David Pyke</span>  - So, we should go for Z segment - is that right?</p>",
+        "id": 165813221,
+        "sender_full_name": "Shital Garad",
+        "timestamp": 1558015830
+    },
+    {
+        "content": "<p>Possibly.  However, that is a policy decision and needs to be made with all parties</p>",
+        "id": 165813264,
+        "sender_full_name": "David Pyke",
+        "timestamp": 1558015864
+    },
+    {
+        "content": "<p>right, that can be taken care - but before doing that, i was just confirming that there is no dedicated field in HL7 standard..</p>",
+        "id": 165813437,
+        "sender_full_name": "Shital Garad",
+        "timestamp": 1558015958
+    },
+    {
+        "content": "<p>So, my take away from this conversation - HL7 standards do not have field to send \"Group Practice Info\" as of now... Thanks a lot David! :) this is helpful..</p>",
+        "id": 165813822,
+        "sender_full_name": "Shital Garad",
+        "timestamp": 1558016191
+    }
+]

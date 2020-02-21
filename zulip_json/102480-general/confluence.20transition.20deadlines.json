@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>What is the current view on expectation for workgroups to move (1) into Confluence, and (2) away from the hl7 wiki?</p>",
+        "id": 136789820,
+        "sender_full_name": "John Moehrke",
+        "timestamp": 1540918388
+    },
+    {
+        "content": "<p>Hello John, the current expectation for workgroups to move to Confluence is to sign up here: <a href=\"https://confluence.hl7.org/display/RWM/Register+WorkGroup+Migration\" target=\"_blank\" title=\"https://confluence.hl7.org/display/RWM/Register+WorkGroup+Migration\">https://confluence.hl7.org/display/RWM/Register+WorkGroup+Migration</a>. During the week specified for the move by the workgroup, I will contact the cochairs and we'll have a screen share to go over specific needs you may have. Futher, I'll set up your space in Confluence and migrate applicable documents. At the time of the workgroup's migration to Confluence, it will be expected that future conference call meetings and workgroup meetings agendas/minutes/attendance will be held on Confluence rather than the wiki. The wiki will continue to exist as an archive. Does that answer your question?</p>",
+        "id": 136793811,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1540921711
+    },
+    {
+        "content": "<p>If our WG (eg Clinical Genomics) already has a confluence presence, do we still need to sign up? Are there other hl7 wiki items that will be transferred over other than what was originally set up and what we already have in place?</p>",
+        "id": 150783427,
+        "sender_full_name": "Bob Milius",
+        "timestamp": 1543856219
+    },
+    {
+        "content": "<p>Good afternoon Bob,</p>",
+        "id": 150783818,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1543856532
+    },
+    {
+        "content": "<p>It seems, after looking at Clinical Genomics, your space is in pretty good shape. I'll look over it this week and add a few links to the wiki and <a href=\"http://hl7.org\" target=\"_blank\" title=\"http://hl7.org\">hl7.org</a>. (just for ease of navigating back and forth). You will not need to sign up for a workgroup migration. However, if you do have questions or need content moved that currently is not, please let me know and I'm happy to help!</p>",
+        "id": 150783871,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1543856624
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"106465\">@Kevin Power</span> <span class=\"user-mention\" data-user-id=\"106469\">@Amnon Shabo (Shvo)</span> <span class=\"user-mention\" data-user-id=\"106703\">@Bob Freimuth</span></p>",
+        "id": 150787585,
+        "sender_full_name": "Bob Milius",
+        "timestamp": 1543859981
+    }
+]

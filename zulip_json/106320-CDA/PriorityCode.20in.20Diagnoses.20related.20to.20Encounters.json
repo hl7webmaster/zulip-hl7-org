@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>Hi all - especially my EHR vendor friends.  Does anyone use the PriorityCode element in the (entryRelationship&gt;observation) off of the Encounter entry in a CCDA when specifying a diagnoses and when it is an ambulatory/outpatient encounter, i.e. 99213?  If you do, what values do you use for the coded data - SNOMED codes for Primary, secondary, principal, etc.  ThanQ in advance.</p>",
+        "id": 171957033,
+        "sender_full_name": "Linda Michaelsen",
+        "timestamp": 1564415004
+    }
+]

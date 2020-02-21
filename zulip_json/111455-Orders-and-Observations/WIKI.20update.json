@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>I have contacted the consultant who performed the WIKI upgrade and move.  When the server was installed, the plug-in that handles redirects was not available on the newer version.  The content is in the database but is not displaying properly.</p>",
+        "id": 172885348,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1565381649
+    },
+    {
+        "content": "<p>He is working on it now.</p>",
+        "id": 172885351,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1565381652
+    },
+    {
+        "content": "<p>There has been a restart of the wiki</p>",
+        "id": 172885956,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1565382174
+    },
+    {
+        "content": "<p>and the link off the main page is displaying content now</p>",
+        "id": 172885959,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1565382180
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Computerworld writes about Apple and FHIR: <a href=\"https://www.computerworld.com/article/3281331/mobile-wireless/wwdc-industry-experts-praise-apples-health-records-api.html\" target=\"_blank\" title=\"https://www.computerworld.com/article/3281331/mobile-wireless/wwdc-industry-experts-praise-apples-health-records-api.html\">https://www.computerworld.com/article/3281331/mobile-wireless/wwdc-industry-experts-praise-apples-health-records-api.html</a></p>",
+        "id": 128117299,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1529065590
+    },
+    {
+        "content": "<p>\"FHIR was developed with the intention of allowing different EHR systems to communicate with each other. However, the ‘last mile’ of healthcare, the connection from clinical systems to end consumers, so far has proven hard to crack. Apple Health Records is probably the biggest push so far for bridging it.\"</p>",
+        "id": 128117332,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1529065665
+    },
+    {
+        "content": "<p>\"This means developers are going to have to be knowledgeable in processing FHIR data. FHIR is still a relatively new standard and by no means perfect, so developers will have to be prepared to meet new demands. For many developers of consumer apps, dealing with FHIR will be a new experience.</p>",
+        "id": 128117387,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1529065702
+    },
+    {
+        "content": "<p>The World Is At Our Doorstep!</p>",
+        "id": 128117603,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1529066082
+    },
+    {
+        "content": "<p>And the big tech companies are taking notice!<br>\n<a href=\"https://www.businessinsider.com/apple-google-amazon-microsoft-fhir-tools-for-medical-records-2020-1\" target=\"_blank\" title=\"https://www.businessinsider.com/apple-google-amazon-microsoft-fhir-tools-for-medical-records-2020-1\">https://www.businessinsider.com/apple-google-amazon-microsoft-fhir-tools-for-medical-records-2020-1</a></p>",
+        "id": 186353582,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1579748448
+    },
+    {
+        "content": "<p>This is truly an exciting time to be part of such a strong community of standards developers.</p>",
+        "id": 186353798,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1579748831
+    }
+]

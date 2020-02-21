@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>Anyone have problems logging into Confluence?  It keeps rejecting my password.  I was able to follow the change password workflow, and reset it.  And I can log into JIRA, but I still can't sign in for Confluence?</p>",
+        "id": 167796129,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1560200455
+    },
+    {
+        "content": "<p>Hello Kevin, is it giving you a specific error when trying to login or just resets the screen?</p>",
+        "id": 167796176,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1560200507
+    },
+    {
+        "content": "<p>It said wrong password, and then it started asking for password + captcha.  Now it just kicks me back to whatever page I was on.</p>",
+        "id": 167796274,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1560200573
+    },
+    {
+        "content": "<p>I can still get into JIRA just fine.</p>",
+        "id": 167796304,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1560200601
+    },
+    {
+        "content": "<p>If you go to the triple line menu at top left from Jira while logged in and then select Confluence, what happens?</p>",
+        "id": 167796419,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1560200668
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/1284/OBQBeaRmeIdtu3Tga9cHBusW/pasted_image.png\" target=\"_blank\" title=\"pasted_image.png\">pasted image</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/1284/OBQBeaRmeIdtu3Tga9cHBusW/pasted_image.png\" target=\"_blank\" title=\"pasted image\"><img src=\"/user_uploads/1284/OBQBeaRmeIdtu3Tga9cHBusW/pasted_image.png\"></a></div>",
+        "id": 167796421,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1560200670
+    },
+    {
+        "content": "<p>Jira shows me logged in (I see my pic in upper right).  Confluence still shows \"Log In\"</p>",
+        "id": 167796503,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1560200748
+    },
+    {
+        "content": "<p>Are you using Chrome as a browser?</p>",
+        "id": 167796558,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1560200764
+    },
+    {
+        "content": "<p>Firefox</p>",
+        "id": 167796579,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1560200778
+    },
+    {
+        "content": "<p>ok. checking account now. One moment please</p>",
+        "id": 167796600,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1560200798
+    },
+    {
+        "content": "<p>Just to close this out, <span class=\"user-mention\" data-user-id=\"122628\">@Joshua Procious</span>  had me delete cookies for '<a href=\"http://confluence.hl7.org\" target=\"_blank\" title=\"http://confluence.hl7.org\">confluence.hl7.org</a>', and it worked for me.</p>",
+        "id": 167797024,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1560201145
+    }
+]

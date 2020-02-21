@@ -1,0 +1,119 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/102480-general/topic/ORU.5ER01.20messages.html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html">ORU^R01 messages</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="179990567"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/179990567" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Julie Paulson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#179990567">(Nov 05 2019 at 23:54)</a>:</h4>
+<p>Good afternoon - posting my first question here.  I am somewhat new to HL7 V2.  My question is concerning ORU^R01 messages and how to correlate 2 or 3 ORU's with the same fill order number(OBR-3)?  What other fields do I need to take into account(RESULT_STATUS, MSG_DATE)?  How would I handle this scenario?  (1)  I get an ORUR01 with an OBR-25(result status)  of F(Final) and this OBR has 2 OBX segments under it.  Then I get a second ORUR01 with the same fill order number but this one has an OBR-25 of A(Amended).  My question is, will the second ORUR01 be a full replacement of the first one or will they just send the OBX that was amended?  I dont quite understand how to handle updates to a result(single fill order no).</p>
+
+
+
+<a name="180030357"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/180030357" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Craig Newman <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#180030357">(Nov 06 2019 at 13:15)</a>:</h4>
+<p><span class="user-mention" data-user-id="248361">@Julie Paulson</span>  In my experience, it depends on who you are getting the ORU messages from as different systems will populate the messages differently. HL7 does have the concept of "snapshot" mode which means that every message is a full picture (snapshot) of the result. In this case, you should be able to replace the first result with the second result (note that "replace" doesn't mean you can delete the first result, it's usually pretty important to keep a history of it in case clinical decisions were made on the basis of the earlier result). In my experience, this is the most common way that systems send ORUs. The other way (non-snapshot mode) is such that only updated observations are sent. These can be new observations or deletions of previous observations (OBX-11 will tell you which is which). In this case, the original results should be "pulled forward" the original results (again, you want to keep a copy of the original result as it was in the first message) and update it with the new observations. The trick here is knowing which existing results to update or delete. For example, if the first result has an observation for an organism found in a urine culture and the value is "E coli" but then the second ORU comes in and the value is now "Salmonella" does that mean 2 different organisms were found or that what they thought was E coli turned out to be Salmonella? It's hard to know. Sometimes the combination of OBX-3 and OBX-4 is enough to uniquely identify an observation, but this only works if the sending system consistently populates OBX-4 in different messages for the same result (which may not be the case will all systems). Newer versions of v2 do support OBX-21 (Observation Instance Identifier) which is a unique ID for each observation but I'm not sure how many systems actually support that today. Overall, this can be a very tricky thing to get right but it's critical that it's handled correctly. Don't be afraid to ask more questions. <span class="user-mention" data-user-id="104693">@Hans Buitendijk</span> may have some more thoughts on this.</p>
+
+
+
+<a name="180030833"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/180030833" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Craig Newman <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#180030833">(Nov 06 2019 at 13:21)</a>:</h4>
+<p>You should definitely be looking at OBR-22 (result date) and OBR-25 (result status) in determining if a newer ORU message should update an existing result. 99% of the time, the second message will be an update to the existing result but it's possible that due to human intervention (often in error) or some sort of technical blip and older message will be resent and shouldn't update the current result. Typically, you'll want to valid at the result date in the message is after the result date on the current result and that the status isn't going backwards (that is a Preliminary shouldn't overwrite an existing Final, nor should a Final overwrite a Corrected or Ammended result. Also keep in mind that OBR-3 (Filler ID) isn't always unique (it could be a specimen ID of a specimen used for multiple tests) it's usually the combination of OBR-2 (if populated), OBR-3 and OBR-4 which uniquely identifies a result (OBR-7 (specimen collection date/time) can also be used to double check the determination of result identity).</p>
+
+
+
+<a name="180032094"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/180032094" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Craig Newman <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#180032094">(Nov 06 2019 at 13:33)</a>:</h4>
+<p>If you're talking about lab results, reflex test results may be slightly different. If you're not familiar with reflex tests, these are tests automatically performed by the lab based on the results of an earlier test (for example, if a rapid Strep test is negative, the lab may "reflex" a full throat culture to confirm the negative finding). Reflexes can be tricky because some people think of them as just new observations to the original result while others may think of them as a new, separate result. If you think you'll need to deal with reflexes you'll need to do some more thinking on the topic. And discrete microbiology (cultures and susceptibility results) is a completely different (and more complicated) kettle of fish that I won't even start on here.</p>
+
+
+
+<a name="180032317"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/180032317" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Craig Newman <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#180032317">(Nov 06 2019 at 13:35)</a>:</h4>
+<p>And seriously, don't hesitate to ask more questions. This is really important to get right.</p>
+
+
+
+<a name="180148432"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/180148432" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Julie Paulson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#180148432">(Nov 07 2019 at 16:23)</a>:</h4>
+<p>Thank you Craig for you detailed and very helpful response.  Everything you said made sense to me.  We are in the process of ingesting  HL7 messages for an external EHR system and I am learning as I go.  I have a pretty good handle on the structure of the messages we are receiving but still learning how updates/amendments/corrections to messages are handled.  I sent a follow up email to the sending system requesting more info in regards to the points you brought up above.  Thanks again!</p>
+
+
+
+<a name="183861268"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/183861268" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Julie Paulson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#183861268">(Dec 19 2019 at 16:26)</a>:</h4>
+<p>What does this mean? <br>
+ "When a lab order is reflexed it will create a new order with the same accession number. Each order on the accession is a separate ORU, so you would group the results by specimen using the accession number but match the result by Order ID".</p>
+<p>We are receiving HL7 ORU^R01 messages and we are in the info gathering phase of development.  We get many different types fo OUR's - radiology, notes, blood transfusions, etc.  I have a handle on how  all but the labs ....we receive blood work labs and I am trying to determine how to "correlate" same labs together.  the fill order number(OBR-3) is not populated.  The accession # is stored in OBR-20.  I wanted to know how I can match 2 ORU's together and received the reply above.  Is this clear to anyone else?  We received 2 ORU^R01's (one was for ABORH and the other RBC) with the same accession#(OBR-20) but different OBR-2 numbers. Do they belong to the same result or different?</p>
+
+
+
+<a name="183864236"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/183864236" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Frank Oemig <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#183864236">(Dec 19 2019 at 17:00)</a>:</h4>
+<p>You may group them together by group numbers: ORC-4, OBR-51, OBR-52, etc.<br>
+It depends on whether it is supported or not.</p>
+
+
+
+<a name="183865289"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/183865289" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Julie Paulson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#183865289">(Dec 19 2019 at 17:13)</a>:</h4>
+<p>yes those fields are not supported in the app....I will have to try and get better clarification from vendor.  How are ORU^R01's typically correlated?  in other words, if I received an ORU that had White blood counts and red blood counts, then a week later I received an updated to that same ORU because the original red blood count was incorrect...how will I know the 2 ORU's are "correlate"?  what field is usually used?</p>
+
+
+
+<a name="183883592"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/183883592" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Craig Newman <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#183883592">(Dec 19 2019 at 20:46)</a>:</h4>
+<p>If you are talking about updates to a single result, it's typically by matching the new ORU to an existing result with the same OBR-2 and/or OBR-3 values and possibly the same service ID (what the test was) in OBR-4. For some systems OBR-2 and/or OBR-3 are unique a specific test (eg a CBC) and in other systems they are not unique (that is two tests which are performed on the same sample can share the same value in OBR-2 and/or OBR-3 but have different values in OBR-4). OBR-20 is a generic catch-all field that typically isn't the basis for any sort of matching logic and you'll just have to understand how the sending system is populating it and how that data fits into your matching logic.</p>
+
+
+
+<a name="183883774"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/183883774" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Craig Newman <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#183883774">(Dec 19 2019 at 20:49)</a>:</h4>
+<p>It is possible that two tests (like an ABORH and RBC) could share the same specimen (I'm not a lab person, so I can say if these two specific tests do share the same specimen type) but be otherwise unrelated. That is, the outcome of the RBC  didn't cause the ABORH to be performed (and vice versa). It just happens that they were both ordered at the same time and the lab decided to only draw a single specimen from the patient to minimize the number of needle sticks.  In that case, they can probably be considered separate results.</p>
+
+
+
+<a name="183967810"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/183967810" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Julie Paulson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#183967810">(Dec 20 2019 at 19:58)</a>:</h4>
+<p>Craig, when you say "OBR-2 and/or OBR-3 values " - how does that typically look like?  In other words, if we get an initial ORU with only the OBR-2 populated and then get Final ORU , will I just need to match on the OBR-2, regardless if OBR-3 is populated in final?  What I am trying to get at is, does the second ORU need to have the exact same info in OBR2/OBR3 as first or just one field to match(example - initial ORU has OBR2 and OBR3 populated so final ORU will need to have both OBR2 and OBR3 populated and equal the initial)?  Or will just OBR2 be okay as a matching criteria(initial has OBR2 and OBR3 populated and second ORU only has OBR2 populated and equal to initial OBR2)?  I do realize different vendors do this differently but I am just asking about what is typically done out there in the HL7 healthcare systems...much appreciate your insights...</p>
+
+
+
+<a name="184473437"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/184473437" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Craig Newman <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#184473437">(Dec 30 2019 at 13:44)</a>:</h4>
+<p><span class="user-mention" data-user-id="248361">@Julie Paulson</span> there are no hard and fast rules, but you will likely want to validate with as much information as possible to ensure the two message are for the same results. I think it would be something of a red flag if two messages came in and they had the same OBR-2 value but different OBR-3 values (or only one message with OBR-3). In my experience, the IDs (OBR-2 and -3) are typically assigned very early in the process and should be stable across all result messages for the test. As I think I mentioned before, you may also want to validate on OBR-4 (the test type) as not all OBR-2 and OBR-3 values are unique for a single test)</p>
+
+
+
+<a name="187497344"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/187497344" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Julie Paulson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#187497344">(Feb 05 2020 at 21:33)</a>:</h4>
+<p>I have 2 ORU^R01 Lab messages that seem to correlate.  One is a CBC w/ Diff, OBR-2 = 12345 and accession number = 88888.  The second ORU^R01 is a Diff Auto, OBR-2 = 87654 and accession number is the same as first ORU of 88888.  I am not sure I am understanding what the relationship is between these 2 messages.  Is it that they both were created with the same blood draw and results sent in 2 different orders since the test type is different (CBC and Diff Auto)?  thank you</p>
+
+
+
+<a name="187549186"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/187549186" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Craig Newman <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#187549186">(Feb 06 2020 at 13:54)</a>:</h4>
+<p><span class="user-mention" data-user-id="209838">@Kathy Walsh</span> or <span class="user-mention" data-user-id="106810">@David Burgess</span>  may be able to confirm or deny this, but I think this is likely to be an example of a reflex order. The original order may have been for a CBC but when the results came back they may have triggered the reflexive Auto Diff test based on some sort of abnormal result in the CBC. The fact that the accession number (presumably in OBR-3) is the same suggests that the two tests were performed on the same specimen. Your best bet is to talk to the lab who sent the results to understand how they perform CBCs and what results may come back. It should be noted that while in this case the CBC and Diff are probably related, two or more unrelated tests can also be performed on the same specimen. This may impact how you store and display the results (for example, the results for the CBC and Diff may be best displayed to the clinician together while the results for two unrelated tests on the specimen may not benefit from being displayed in conjunction with each other).</p>
+
+
+
+<a name="187556626"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORU%5ER01%20messages/near/187556626" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Julie Paulson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORU.5ER01.20messages.html#187556626">(Feb 06 2020 at 15:17)</a>:</h4>
+<p><span class="user-mention" data-user-id="104289">@Craig Newman</span>  -you are absolutely right..I didnt even think of that.  After re-looking at the messages, the Auto Diff had the parent_number populated with the OBR-2 from the CBC ORU.  Thank you so much for your insight and always helpful replies!</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>

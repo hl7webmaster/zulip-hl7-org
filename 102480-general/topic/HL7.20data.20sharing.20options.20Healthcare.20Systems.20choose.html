@@ -1,0 +1,33 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/102480-general/topic/HL7.20data.20sharing.20options.20Healthcare.20Systems.20choose.html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.20data.20sharing.20options.20Healthcare.20Systems.20choose.html">HL7 data sharing options Healthcare Systems choose</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="152630390"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7%20data%20sharing%20options%20Healthcare%20Systems%20choose/near/152630390" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Jim Bailey <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.20data.20sharing.20options.20Healthcare.20Systems.20choose.html#152630390">(Dec 28 2018 at 01:44)</a>:</h4>
+<p>Is there a publication that describes the HL7 fields a healthcare system may choose to share with other healthcare systems?  I want to understand if they can choose each field or a group of fields to share.  I would also like to understand what data sharing options are available in FHIR.  Thank you.</p>
+
+
+
+<a name="152633740"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7%20data%20sharing%20options%20Healthcare%20Systems%20choose/near/152633740" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Lloyd McKenzie <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.20data.20sharing.20options.20Healthcare.20Systems.20choose.html#152633740">(Dec 28 2018 at 03:30)</a>:</h4>
+<p>HL7 is an organization.  It produces a bunch of different standards - HL7 v2, HL7 v3, CDA, FHIR, CCOW and a bunch of others.  I presume your question about fields is about HL7 v2.  The v2 standard describes a large set of messages that can potentially be exchanged.  Each message includes a grammar that indicates what segments can be present or must be present and in what order they're sent.  Each segment indicates what fields can be sent - and in some cases must be sent.  So long as your message instance meets the constraints of the base v2 specification, your message is considered valid.  A valid message typically doesn't need to contain very many fields.  What other fields you send is up to you.  That said, the recipients of your messages are free to impose additional expectations, such that if you omit a field that the HL7 standard allows to be omitted, they can still choose to reject your message on the grounds it violates that system's business rules.  In other words, to know what you really need to send, you should check with the systems you expect to send to.</p>
+<p>Your questions about FHIR are best answered on <a href="http://chat.fhir.org" target="_blank" title="http://chat.fhir.org">http://chat.fhir.org</a>.  However, before you do so, I'd encourage you to look at the FHIR specification (<a href="http://hl7.org/fhir" target="_blank" title="http://hl7.org/fhir">http://hl7.org/fhir</a>) {note - the FHIR site is being replaced over the next 24 hours as we finish the process for releasing FHIR R4}.  I'd also encourage you to read <a href="http://wiki.hl7.org/index.php?title=FHIR_Rules_for_asking_questions" target="_blank" title="http://wiki.hl7.org/index.php?title=FHIR_Rules_for_asking_questions">FHIR's rules for asking questions </a> and make your question a bit more specific.</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>

@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Lloyd McKenzie 10:28 AM   <br>\nIs booked for Sunday at 10am in the Magazine room</p>",
+        "id": 121628659,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1517072223
+    },
+    {
+        "content": "<p>TEST</p>",
+        "id": 121629170,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1517073292
+    },
+    {
+        "content": "<p>HI all - I will be handling the track lead duties for the Genomics track.  For anyone who is doing work, if you don't mind sending me some feedback here, I would greatly appreciate it.  I will also plan to chat with everyone 1-1 at some point, but having it here in chat would be valuable as well.  Thanks.</p>",
+        "id": 121648107,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1517093559
+    },
+    {
+        "content": "<p>If everyone can add their names/servers/clients/use cases here, it would be a huge help: <a href=\"https://docs.google.com/spreadsheets/d/11QbX8iB49s_-YMP6GmEej41uT58ir4f6W2EvMEe4cUg/edit#gid=1775022935\" target=\"_blank\" title=\"https://docs.google.com/spreadsheets/d/11QbX8iB49s_-YMP6GmEej41uT58ir4f6W2EvMEe4cUg/edit#gid=1775022935\">https://docs.google.com/spreadsheets/d/11QbX8iB49s_-YMP6GmEej41uT58ir4f6W2EvMEe4cUg/edit#gid=1775022935</a></p>",
+        "id": 121648366,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1517094184
+    },
+    {
+        "content": "<p>Here is the template to complete for the Track outcomes:  If anyone has feedback on these topics, please contact me: </p>\n<p>Genomics[edit]</p>\n<p>Goal[edit]<br>\nGenomic data are of increasing importance to clinical care and secondary analysis. Genomics consists of the Sequence resource and several profiles built on top of existing FHIR resources (DiagnosticReport-genetics profile, DiagnosticOrder-genetics profile, Observation-genetics profile). The Sequence resource is a core resource in FHIR Genomics. It is used to represent complex genetics data. FHIR Genomics focuses on clinical genetics data reporting.<br>\nWe will also look to compare current FHIR extension model with a component-based model. New genomics IG<br>\nParticipants[edit]<br>\nNames and Company Names<br>\nLogos optional<br>\nNotable Achievements[edit]<br>\nPlease limit to one paragraph summary<br>\nScreenshots[edit]<br>\n1-2 screenshots if relevant and interesting and/or links to further information about implementations / achievements<br>\nDiscovered issues[edit]<br>\nWhat challenged the group?<br>\nWhat questions did you come away with?<br>\nNext Steps[edit]<br>\n1 paragraph: now what?</p>",
+        "id": 121674357,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1517155272
+    },
+    {
+        "content": "<p>Here's the link to the \"genetics-unified\" google doc, which now includes the new diagrams: <a href=\"https://docs.google.com/document/d/1juWEnjyXV34yYmPq3FDpLAiJlM0Hiv0FyNBfvPD6enM\" target=\"_blank\" title=\"https://docs.google.com/document/d/1juWEnjyXV34yYmPq3FDpLAiJlM0Hiv0FyNBfvPD6enM\">https://docs.google.com/document/d/1juWEnjyXV34yYmPq3FDpLAiJlM0Hiv0FyNBfvPD6enM</a></p>",
+        "id": 121677060,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1517161207
+    },
+    {
+        "content": "<p>For those that were in the post meeting discussion where we discussed Complex, here are some examples of Compound Het variants in ClinVar: <a href=\"https://www.ncbi.nlm.nih.gov/clinvar/?term=%22Compound+heterozygote%22%5BComplexity%5D\" target=\"_blank\" title=\"https://www.ncbi.nlm.nih.gov/clinvar/?term=%22Compound+heterozygote%22%5BComplexity%5D\">https://www.ncbi.nlm.nih.gov/clinvar/?term=%22Compound+heterozygote%22%5BComplexity%5D</a></p>",
+        "id": 121677878,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1517162915
+    }
+]

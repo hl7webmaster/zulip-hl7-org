@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Welcome to <a class=\"stream\" data-stream-id=\"110823\" href=\"/#narrow/stream/CG\">#CG</a>.</p>\n<p><strong>Description</strong>: Clinical Genomics</p>",
+        "id": 121392808,
+        "sender_full_name": "Welcome Bot",
+        "timestamp": 1516644528
+    },
+    {
+        "content": "<p>This is the first message in the Zulip Clinical Genomics Stream, topic hello!</p>",
+        "id": 121392820,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1516644577
+    },
+    {
+        "content": "<p>Thanks for setting this up David.</p>",
+        "id": 121392852,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1516644602
+    },
+    {
+        "content": "<p>My pleasure.  I look forward to this being a tool that helps everyone.  We get through it so we can get to it. :-)</p>",
+        "id": 121392889,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1516644647
+    },
+    {
+        "content": "<p>Fellow CG chatters - I see that Zulip provides an email address as a means to send messages to the stream.  Thoughts on registering that email address to receive emails from our listserv in Zulip?  Might allow some to really focus on just Zulip as their means to keep up with things.  Thoughts?</p>",
+        "id": 121479307,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1516806706
+    },
+    {
+        "content": "<p>The challenge would be how replies would work.  If you read the post here but have to sign up to the list in order to respond, that doesn't help much.  It may make more sense to let traffic just naturally migrate.</p>",
+        "id": 121479784,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1516807491
+    },
+    {
+        "content": "<p>Good call.</p>",
+        "id": 121479802,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1516807546
+    },
+    {
+        "content": "<p>Part of that migration will be encouraging a context-sensitive quorum of individuals to sign up here and, as a work group, decide that we're going to at least try to communicate here.  We, like many other WGs, will have to establish patterns around how much gets talked about here and how much gets talked about on the FHIR chat.</p>",
+        "id": 121480305,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1516808389
+    },
+    {
+        "content": "<p>Anyone aware of plans to consolidate FHIR and HL7 servers?</p>",
+        "id": 121480437,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1516808578
+    },
+    {
+        "content": "<p>I don't think so.  <a href=\"http://chat.fhir.org\" target=\"_blank\" title=\"http://chat.fhir.org\">chat.fhir.org</a> is a <a href=\"http://fhir.org\" target=\"_blank\" title=\"http://fhir.org\">fhir.org</a> thing aimed at the implementer community.  <a href=\"http://chat.hl7.org\" target=\"_blank\" title=\"http://chat.hl7.org\">chat.hl7.org</a> is an HL7 thing aimed at the standards development community</p>",
+        "id": 121480688,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1516808916
+    }
+]

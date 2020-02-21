@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Welcome to <a class=\"stream\" data-stream-id=\"192140\" href=\"/#narrow/stream/192140-RIM\">#RIM</a>.</p>\n<p><strong>Description</strong>: Discussion about HL7 Reference Information Model</p>",
+        "id": 161160341,
+        "sender_full_name": "Welcome Bot",
+        "timestamp": 1553009135
+    },
+    {
+        "content": "<p>Dear HL7 users, I am researcher/practitioner expert in Model-Driven Engineering (<a href=\"https://www.linkedin.com/in/lucaberardinelli/\" target=\"_blank\" title=\"https://www.linkedin.com/in/lucaberardinelli/\">https://www.linkedin.com/in/lucaberardinelli/</a>) (<a href=\"https://www.researchgate.net/profile/Luca_Berardinelli\" target=\"_blank\" title=\"https://www.researchgate.net/profile/Luca_Berardinelli\">https://www.researchgate.net/profile/Luca_Berardinelli</a>). I am playing with HL7. I started with RIM and I found that your are exporting it in XMI in the wrong way. It seems that the export step in UML is done via commercial tools like IBM Rational Rose that mixes open source de-facto standard (Ecore) with tool specific conventions.  I strongly suggest to use Eclipse UML as a reference exporting format (.uml) which is compatible with many commercial tools and fully compatible with OMG standards (like UML. XMI, MOF and many others). Moreover, you are not exporting the UML profile in XMI. And the .xmi obtained at the end is useless. Do you plan to fix this issue? thanks</p>",
+        "id": 161160833,
+        "sender_full_name": "Luca Berardinelli",
+        "timestamp": 1553009480
+    },
+    {
+        "content": "<p>See response <a href=\"#narrow/stream/102480-general/topic/RIM\" title=\"#narrow/stream/102480-general/topic/RIM\">here</a></p>",
+        "id": 161182789,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1553023979
+    }
+]

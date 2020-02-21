@@ -1,0 +1,86 @@
+[
+    {
+        "content": "<p>Welcome to <a class=\"stream\" data-stream-id=\"110652\" href=\"/#narrow/stream/Social\">#Social</a>.</p>\n<p><strong>Description</strong>: Open Stream for topics of general interest or general community discussions</p>",
+        "id": 121280088,
+        "sender_full_name": "Welcome Bot",
+        "timestamp": 1516389893
+    },
+    {
+        "content": "<p>Hello Socialites!</p>",
+        "id": 121280956,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1516391132
+    },
+    {
+        "content": "<p>responding back</p>",
+        "id": 121281142,
+        "sender_full_name": "Patricia Guerra",
+        "timestamp": 1516391421
+    },
+    {
+        "content": "<p>Perfect</p>",
+        "id": 121281155,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1516391458
+    },
+    {
+        "content": "<p>I'm here too</p>",
+        "id": 121281177,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1516391476
+    },
+    {
+        "content": "<p>The downtown Cottage Inn has half price pizza on Monday nights.  Fantastic meal last night.</p>",
+        "id": 125945386,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1525183621
+    },
+    {
+        "content": "<p>Now you tell us!</p>",
+        "id": 125945400,
+        "sender_full_name": "Anne Wizauer",
+        "timestamp": 1525183645
+    },
+    {
+        "content": "<p>I haven't been there in years. <em>adds to places-to-go list</em></p>",
+        "id": 125945455,
+        "sender_full_name": "Anne Wizauer",
+        "timestamp": 1525183688
+    },
+    {
+        "content": "<p>Nice atmosphere, not a lot of people, and great price on the pizza.  We were going to leave when we first saw the difference in price over the delivery but then Kiersten asked about the sign out front \"1/2 off\"</p>",
+        "id": 125945470,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1525183734
+    },
+    {
+        "content": "<p>Large Gourmet and three-topping medium at 21 dollars.</p>",
+        "id": 125945476,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1525183751
+    },
+    {
+        "content": "<p><span class=\"emoji emoji-1f389\" title=\"tada\">:tada:</span></p>",
+        "id": 125945485,
+        "sender_full_name": "Anne Wizauer",
+        "timestamp": 1525183794
+    },
+    {
+        "content": "<p>Pizza there is a sticker shock, but it's WAY better than any of the delivery places.</p>",
+        "id": 125945552,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1525183868
+    },
+    {
+        "content": "<p>And the half-price Mondays makes it less shocking.  I still tipped at full price because I'm so awesome, and I mean that, so walked out at about 28.</p>",
+        "id": 125946525,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1525185573
+    },
+    {
+        "content": "<p>It's great to see more people signing in to Zulip.  If you ever have any questions, please let me know, I'd be happy to help!</p>",
+        "id": 126590416,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1526389344
+    }
+]

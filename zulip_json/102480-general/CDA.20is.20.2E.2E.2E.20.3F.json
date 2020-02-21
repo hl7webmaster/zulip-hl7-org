@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>What's the take on new projects/greenfield projects involving HL7 standards (I'm trying to start war here)? Does HL7 itself have any recommendations towards the use of either HL7 2.x, HL7 CDA or HL7 FHIR?</p>",
+        "id": 183091027,
+        "sender_full_name": "Jens Kristian Villadsen",
+        "timestamp": 1576004880
+    },
+    {
+        "content": "<p>It depends on whether you're looking to get it installed quickly or can wait a bit.  V2 and CDA are installed and running everywhere and uptake can be quick.  FHIR may take a while because lots of orgs are waiting for it to stabilize and many major software packages don't  fully support R4 yet</p>",
+        "id": 183092642,
+        "sender_full_name": "David Pyke",
+        "timestamp": 1576005920
+    },
+    {
+        "content": "<p>a good parent doesn't have favorites. All children are beautiful... well, except for CCOW and V3.</p>",
+        "id": 183092962,
+        "sender_full_name": "John Moehrke",
+        "timestamp": 1576006072
+    },
+    {
+        "content": "<p>It probably also depends on what you're trying to do and what the trading partners are willing to support. As David pointed out some vendors may support 90% of what you need in v2 or CDA but may be reluctant to do development in those areas if they are focusing more on FHIR for the future. Talking to the various product family management groups might be a good place to start.</p>",
+        "id": 183099961,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1576010415
+    },
+    {
+        "content": "<p>PS. v2 is clearly the best... Tried and true</p>",
+        "id": 183100011,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1576010463
+    },
+    {
+        "content": "<p><a href=\"https://www.hl7.org/Special/2018StrategicValues.pptx\" target=\"_blank\" title=\"https://www.hl7.org/Special/2018StrategicValues.pptx\">https://www.hl7.org/Special/2018StrategicValues.pptx</a> states the following: \"Establish FHIR as the primary standard for global health data interoperability\"</p>",
+        "id": 183146345,
+        "sender_full_name": "Jens Kristian Villadsen",
+        "timestamp": 1576062267
+    },
+    {
+        "content": "<p>Yes, replacing V3 and V2.</p>",
+        "id": 183172679,
+        "sender_full_name": "David Pyke",
+        "timestamp": 1576080887
+    }
+]

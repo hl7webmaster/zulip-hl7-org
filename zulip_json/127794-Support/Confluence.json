@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>This is where Confluence Questions Will Flow In!</p>",
+        "id": 128611688,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1529947171
+    },
+    {
+        "content": "<p>Are workgroups other than the pilots able to create pages for weekly and WGM minutes? On the HL7 Work Groups &amp; Projects page, I see our work group (Clinical Genomics)  but it's not highlighted. The page also says \"Once each group begins use, their hyperlink will be activated.\" How do we so this? Can I create a space for our workgroup? or does somebody else do this?</p>",
+        "id": 132539034,
+        "sender_full_name": "Bob Milius",
+        "timestamp": 1534882169
+    },
+    {
+        "content": "<p>Hello Bob,</p>",
+        "id": 132539251,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1534882408
+    },
+    {
+        "content": "<p>I would be happy to Create a Space for your Workgroup. You can edit it how you wish from there. The link will also be active so you can access it from the HL7 Work Groups &amp; Projects page.</p>",
+        "id": 132539312,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1534882484
+    },
+    {
+        "content": "<p>That would be great! Is there a template(s) for workgroups/minutes/etc?</p>",
+        "id": 132539344,
+        "sender_full_name": "Bob Milius",
+        "timestamp": 1534882535
+    },
+    {
+        "content": "<p>There is. It will be included once the space is set up. If you would like to go over some best practices and how it works I'd be happy to do that with a screen share</p>",
+        "id": 132539412,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1534882605
+    },
+    {
+        "content": "<p>Your space is created. Please let me know if/when you'd like to do that screenshare. Note that under the Documentation page is a link to all docs on the <a href=\"http://HL7.org\" target=\"_blank\" title=\"http://HL7.org\">HL7.org</a> website and a place for you to upload new docs as you go.</p>",
+        "id": 132540001,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1534883222
+    },
+    {
+        "content": "<p>thanks! I'll contact you for a screenshare. Perhaps get the other co-chairs to attend as well. In the meantime, I'll explore.</p>",
+        "id": 132540552,
+        "sender_full_name": "Bob Milius",
+        "timestamp": 1534883916
+    },
+    {
+        "content": "<p>Perfect. Just as a heads up Amnon Shabo and Gil Alterovitz (two of the co-chairs) do not currently have Confluence accounts.</p>",
+        "id": 132540771,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1534884189
+    },
+    {
+        "content": "<p>All users please be aware that we have updated Confluence to the latest version and are working on final tweaks.</p>",
+        "id": 132691278,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1535110085
+    },
+    {
+        "content": "<p>The confluence upgrade is complete.</p>",
+        "id": 132691490,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1535110410
+    }
+]

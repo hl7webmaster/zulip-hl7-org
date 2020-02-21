@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>Workflow: Generate or receive Unstructured CDA containing embedded PDF Patient OTA. If receiving identify as OTA for workflow.   Has anyone found found an appropriate identifier for the document E.g. LOINC Code.  “89424-6 Long-Term opioid therapy for pain consent document”   <br>\nHas anyone investigated this workflow?<br>\nHas anyone found an identifier that could be or become standard for this workflow?</p>",
+        "id": 162636786,
+        "sender_full_name": "George Dixon",
+        "timestamp": 1554480808
+    }
+]

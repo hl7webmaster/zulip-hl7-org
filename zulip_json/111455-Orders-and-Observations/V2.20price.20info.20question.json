@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>(I’m reposting this question, previously posted to the General stream, trying to reach a wider audience)<br>\nIn the US Realm you’ve probably seen advocacy for price transparency so a patient will know the price of a medical service in advance of committing to the treatment.  Is there a preferred way to do this for existing V2 interfaces?  I looked in the standards master grid but did not see any V2 implementation guides for this topic but found existing message segments that may suffice.  </p>\n<p>For example, a provider’s EHR system could send a general order message (ORM) to a laboratory requesting the price for a laboratory test for a specific patient, e.g. what would be charged.  The ORM (general order message [event O01]) message structures contain repeating, optional FT1 (Financial Transaction) segments and at first look it seems these fields might be appropriate to return the test price from the laboratory to the provider’s EHR system (below extracted from the V2.5.1 standard):  <br>\nFT1-4 (DR) Transaction Date (required)<br>\nFT1-6 (IS) Transaction Type (required), Table 0017 value CG-Charge <br>\nFT1-7 (CE) Transaction Code (required)<br>\nFT1-10 (NM) Transaction Quantity <br>\nFT1-11 (CP) Transaction Amount - Extended <br>\nFT1-12 (CP) Transaction Amount – Unit</p>\n<p>When I posted this to the general stream Frank Oemig suggested using Chpt. 5 queries, but we’d prefer to leverage existing V2 functionality with  Chapter 4 messages.</p>",
+        "id": 185961887,
+        "sender_full_name": "Freida Hall",
+        "timestamp": 1579298127
+    },
+    {
+        "content": "<p>Maybe using the FT1 like that?  It seems like we might still need something that's a \"lite\" query, like a new set of control codes in ORC-1, in order to indicate this wasn't actually an order to be performed and just a query for pricing.</p>",
+        "id": 188668267,
+        "sender_full_name": "Daniel Rutz",
+        "timestamp": 1582226058
+    }
+]

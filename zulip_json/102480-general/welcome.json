@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Welcome to <a class=\"stream\" data-stream-id=\"102480\" href=\"/#narrow/stream/general\">#general</a>.</p>",
+        "id": 116027827,
+        "sender_full_name": "Welcome Bot",
+        "timestamp": 1505763586
+    },
+    {
+        "content": "<p>Should I be expecting others to join?</p>",
+        "id": 116734157,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1507240501
+    },
+    {
+        "content": "<p>All right, I'm in.</p>",
+        "id": 118258879,
+        "sender_full_name": "Adam Woodcock",
+        "timestamp": 1510241983
+    },
+    {
+        "content": "<p>I'm in but I really wasn't expecting the learning curve to be this steep.</p>",
+        "id": 118425360,
+        "sender_full_name": "Laura Mitter",
+        "timestamp": 1510586710
+    },
+    {
+        "content": "<p>It's confusing at first.  This is the general stream and you are talking in the welcome topic</p>",
+        "id": 118425367,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1510586737
+    }
+]

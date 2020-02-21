@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<blockquote>\n<p>I got the HL7 message from TCP listener as a Source , from there need to transfer specific data ( i.e patient is, patient name and patient DOB ) to my service which is written in Java Web Service. So please help me how to send data to Java Web Service through Mirth Connect i.e what destination I need to select and destination configuration</p>\n</blockquote>\n<p><span class=\"user-mention\" data-user-id=\"226436\">@Samba Chennamsetty</span>  You should post this in a proper stream - HL7 Implementation at the minimum.  You also need to determine which HL7 specification your \"message\" is and then you can ask your question on an even more relevant stream.  Please look at the HL7 webpage and determine if you have V2, V3, CDA, or FHIR.</p>",
+        "id": 168857850,
+        "sender_full_name": "Jean Duteau",
+        "timestamp": 1561388990
+    }
+]

@@ -1,0 +1,66 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/109445-V2/topic/V2.20Message.20Consumption.20Expectations.html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/index.html">V2</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/V2.20Message.20Consumption.20Expectations.html">V2 Message Consumption Expectations</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="181637381"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/109445-V2/topic/V2%20Message%20Consumption%20Expectations/near/181637381" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Lisa Nelson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/V2.20Message.20Consumption.20Expectations.html#181637381">(Nov 22 2019 at 13:33)</a>:</h4>
+<p>Hi All,  I'm curious what the expectations are for EHRs who receive Laboratory ORU messages. Does the V2 standard specify that the data in the message SHALL, SHOULD, or MAY be incorporated into the patient's chart--as in consumed directly into the database holding the data of the patient's chart, just as if it has been entered into the chart through the EHR UI?  What workflow expectations are set? and is there testing to confirm if EHRs are properly and fully consuming the data that comes in, for example, a Laboratory ORU message?</p>
+
+
+
+<a name="181638124"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/109445-V2/topic/V2%20Message%20Consumption%20Expectations/near/181638124" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Craig Newman <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/V2.20Message.20Consumption.20Expectations.html#181638124">(Nov 22 2019 at 13:43)</a>:</h4>
+<p>In the lab world, the lab is ultimately responsible for how the EHR displays the lab results. This does make implementations complex but ultimately, the expectation is that the EHR will display the contents of the ORU message. As part of the LRI project 5+ years ago, I believe that the expectations were codified but ultimately not accepted into Meaningful Use regulation (Riki Merrick) I’m sure has details on that). I’m not sure if that has been officially published or not.</p>
+<p>We don’t have a repository of messages (although it’s on the v2 MG “to do” list) but because ORUs were part of certified EHR technology testing a number of messages were created for that. These are probably as close to gold standard as you can get. They are available from the NIST testing tool at: <a href="https://hl7v2-lab-testing.nist.gov/mu-lab/" target="_blank" title="https://hl7v2-lab-testing.nist.gov/mu-lab/">https://hl7v2-lab-testing.nist.gov/mu-lab/</a> in the EHR Context-based Validation tab.</p>
+
+
+
+<a name="181644125"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/109445-V2/topic/V2%20Message%20Consumption%20Expectations/near/181644125" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Riki Merrick <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/V2.20Message.20Consumption.20Expectations.html#181644125">(Nov 22 2019 at 14:48)</a>:</h4>
+<p>Craig beat me to it.<br>
+Yes - the EHR-S Functional requirements document has been published as STU (it expired and it is on my docket to request an extension for it) - this also describes how to handle data updates and what to do for error handling: <a href="http://www.hl7.org/implement/standards/product_brief.cfm?product_id=433" target="_blank" title="http://www.hl7.org/implement/standards/product_brief.cfm?product_id=433">http://www.hl7.org/implement/standards/product_brief.cfm?product_id=433</a><br>
+In the US each interface has to be verified by the lab, so the short answer is YES, all the data is integrated into the patient's record in the EHR of the ordering provider - there are no rules about copy to providers (though it would make sense to treat it the same way, provided the patient can be located).additional ORU example message can also be found for ELR on the context based validation tab in that NIST tool: <a href="https://hl7v2-elr-testing.nist.gov/mu-elr/" target="_blank" title="https://hl7v2-elr-testing.nist.gov/mu-elr/">https://hl7v2-elr-testing.nist.gov/mu-elr/</a></p>
+
+
+
+<a name="181747123"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/109445-V2/topic/V2%20Message%20Consumption%20Expectations/near/181747123" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Grahame Grieve <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/V2.20Message.20Consumption.20Expectations.html#181747123">(Nov 24 2019 at 06:09)</a>:</h4>
+<p>I think there's a lack of clarity here: the v2 standard doesn't require this. LRI and/or national agreements might.</p>
+
+
+
+<a name="181822925"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/109445-V2/topic/V2%20Message%20Consumption%20Expectations/near/181822925" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Craig Newman <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/V2.20Message.20Consumption.20Expectations.html#181822925">(Nov 25 2019 at 13:44)</a>:</h4>
+<p>I think in general, the v2 base standard tries to stay silent on receiver expectations (and as far as I know, this is by design). I think Riki and I were trying to describe the real world expectations of working with v2. We may have misinterpreted Lisa's question.</p>
+
+
+
+<a name="181858568"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/109445-V2/topic/V2%20Message%20Consumption%20Expectations/near/181858568" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Grahame Grieve <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/V2.20Message.20Consumption.20Expectations.html#181858568">(Nov 25 2019 at 20:16)</a>:</h4>
+<p>I'm not so much saying that your interpretation was wrong as warning that it's potentially only correct in a particular context</p>
+
+
+
+<a name="181985138"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/109445-V2/topic/V2%20Message%20Consumption%20Expectations/near/181985138" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Rene Spronk <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/V2.20Message.20Consumption.20Expectations.html#181985138">(Nov 27 2019 at 02:56)</a>:</h4>
+<p>e.g. France takes this one step further: not only do labs have a desire to influence how results are shown, but once the lab results have been viewed a message is sent back to the lab to convey the fact that the lab results have been seen. That way they know that the lab values have not been ignored. <br>
+In general in v2, we have server-side orchestration, so it's entirely up to the server to decide if, when and what to process when it comes to v2 message content. It's the nature of messaging that there are business/workflow expectations associated with a trigger event, but such expectations are heavily impacted by local legislation/customs/workflows, and need to be agreed upon by senders/recievers. As such it's difficult to make any sweeping statements about the processing of message content.</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>

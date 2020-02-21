@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>hello guys, is there an official templates repository built by HL7 organization？<br>\nThe term \"templates repository\" is mentioned in 《HL7_TEMPLATES_R1_2018MAY.pdf》 from HL7.</p>",
+        "id": 160474418,
+        "sender_full_name": "huangxiaoshuo",
+        "timestamp": 1552307593
+    },
+    {
+        "content": "<p>Please put questions in a specific thread (e.g. <a class=\"stream\" data-stream-id=\"102480\" href=\"/#narrow/stream/102480-general\">#general</a>), not on <a class=\"stream\" data-stream-id=\"102479\" href=\"/#narrow/stream/102479-announce\">#announce</a></p>",
+        "id": 160485341,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1552316056
+    }
+]

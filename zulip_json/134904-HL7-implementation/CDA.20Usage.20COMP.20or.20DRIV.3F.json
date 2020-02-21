@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>Recently one of my HL7 Netherlands colleagues mentioned that the StrucDoc committee (during the recent HL7 WGM) made a statement that a document being DRIV (text derived from structured content) was an exception to the rule, and that COMP (text is richer semantically than the underlying structures, if there are such structures). </p>\n<p>I'm somewhat surprised by this, most European implementations of CDA are 100% DRIV (the only COMP document I know is a textual Pathology report). Looking at a guide like CCDA or the IHE CDA specs with highly structured templates, one would assume those to be 100% DRIV as well. epSOS, Trillium Bridge etc: 100% DRIV.</p>\n<p>So I'm a bit curious as to why a group of (mainly US) CDA experts would claim most implementations to be COMP rather than DRIV. What's the reason for making such a statement?</p>",
+        "id": 157414253,
+        "sender_full_name": "Rene Spronk",
+        "timestamp": 1549096448
+    }
+]

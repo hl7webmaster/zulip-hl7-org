@@ -1,0 +1,47 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/102480-general/topic/ORM.5EO01.20Price.html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORM.5EO01.20Price.html">ORM^O01 Price</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="185546690"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORM%5EO01%20Price/near/185546690" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Freida Hall <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORM.5EO01.20Price.html#185546690">(Jan 13 2020 at 22:50)</a>:</h4>
+<p>In the US Realm you’ve probably seen advocacy for price transparency so a patient will know the price of a medical service in advance of committing to the treatment.  Is there a preferred way to do this for existing V2 interfaces?  I looked in the standards master grid but did not see any V2 implementation guides for this topic but found existing message content that may suffice.  <br>
+For example, a provider’s EHR system could send a general order message (ORM) to a laboratory requesting the price for a laboratory test.  The ORM (general order message [event O01]) message structures contain repeating FT1 (Financial Transaction) segments and at first look it seems these fields might be appropriate to return the test price from the laboratory to the provider’s EHR system (below extracted from the V2.5.1 standard):  <br>
+FT1-4 (DR) Transaction Date (required)<br>
+FT1-6 (IS) Transaction Type (required), Table 0017 value CG-Charge <br>
+FT1-7 (CE) Transaction Code (required)<br>
+FT1-10 (NM) Transaction Quantity <br>
+FT1-11 (CP) Transaction Amount - Extended <br>
+FT1-12 (CP) Transaction Amount – Unit</p>
+<p>Does this seem like a reasonable approach, or does anyone know of a different solution?<br>
+Thx!</p>
+
+
+
+<a name="185675775"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORM%5EO01%20Price/near/185675775" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Frank Oemig <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORM.5EO01.20Price.html#185675775">(Jan 15 2020 at 07:51)</a>:</h4>
+<p>Pricing is master data. What about using master data queries? Chp.5</p>
+
+
+
+<a name="185958882"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/ORM%5EO01%20Price/near/185958882" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Freida Hall <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/ORM.5EO01.20Price.html#185958882">(Jan 17 2020 at 21:22)</a>:</h4>
+<p>Thanks Frank.  We’d like to use Chapter 4 messages to leverage existing V2 functionality without introducing messages from different chapters.  BTW, laboratories have already developed two different V2 implementation guides for compendium price info based on Chapter 8 master files, dating back to 2011, but there has been limited adoption. This would be a different approach, providing the price for a specific patient in response to an explicit order, and hopefully easy for the provider's EHR system to ‘consume’.  There’s a FHIR project in process also, so anything we do now in V2 may eventually be replaced by FHIR.  I didn’t realize when I posted this topic there’s also an Orders &amp; Observations stream so I will post the question there in case there may be others subscribed to the O&amp;O stream not watching here who have input.</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>

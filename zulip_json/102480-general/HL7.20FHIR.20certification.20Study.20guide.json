@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>I would appreciate some pointers to a FHIR study guide(if any) available for the FHIR certification exam. There are courses available online on HL7 site but I didnt see any specific about study guides etc.</p>",
+        "id": 186332537,
+        "sender_full_name": "Shruti Bhide",
+        "timestamp": 1579728285
+    },
+    {
+        "content": "<p>Shruti!  Thanks for asking!  Have you been to this page: <a href=\"http://www.hl7.org/implement/courseList.cfm?ref=nav\" target=\"_blank\" title=\"http://www.hl7.org/implement/courseList.cfm?ref=nav\">http://www.hl7.org/implement/courseList.cfm?ref=nav</a></p>",
+        "id": 186333444,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1579728906
+    },
+    {
+        "content": "<p>There is also this document: <a href=\"http://www.hl7.org/documentcenter/public/training/HL7%20FHIR%20Proficiency%20Study%20Guide.pdf\" target=\"_blank\" title=\"http://www.hl7.org/documentcenter/public/training/HL7%20FHIR%20Proficiency%20Study%20Guide.pdf\">http://www.hl7.org/documentcenter/public/training/HL7%20FHIR%20Proficiency%20Study%20Guide.pdf</a></p>",
+        "id": 186333709,
+        "sender_full_name": "Laura Mitter",
+        "timestamp": 1579729127
+    }
+]

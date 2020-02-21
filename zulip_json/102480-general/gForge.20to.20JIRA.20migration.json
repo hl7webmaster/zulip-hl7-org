@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>What's the timeline for the transition for gForge to JIRA? We're currently working on ballot reconciliation in gForge and know there's going to be a freeze at some point, but we're in the dark on exactly when and how the transition will happen (and how it may impact our activities). I've checked confluence but all I can see is the (vague) September CTO update.</p>",
+        "id": 178677164,
+        "sender_full_name": "Rute Martins",
+        "timestamp": 1571678610
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"104482\">@Lloyd McKenzie</span> can you provide any more update from the last CTO update on this?</p>",
+        "id": 178682172,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1571681524
+    },
+    {
+        "content": "<p>We're still waiting on one of the ballot spreadsheets to be cleaned up and loaded.  Also working on the ability to import ballot spreadsheets into Jira.  Timeline had been to migrate last weekend.  We're now looking for migration in early-mid November.  Freeze, when it happens, should just be for a weekend and you'll get notice at least several days ahead of time.</p>",
+        "id": 178688013,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1571685349
+    },
+    {
+        "content": "<p>Will this include migrating existing trackers to JIRA?</p>",
+        "id": 178758059,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1571752497
+    },
+    {
+        "content": "<p>Absolutely</p>",
+        "id": 178758390,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1571752687
+    }
+]

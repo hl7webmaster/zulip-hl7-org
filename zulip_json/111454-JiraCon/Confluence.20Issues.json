@@ -1,0 +1,272 @@
+[
+    {
+        "content": "<p>Is anyone else have issues with Confluence?  We hare having trouble creating new pages with templates and adding labels to existing pages.</p>",
+        "id": 125002668,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1523564655
+    },
+    {
+        "content": "<p>Was this today?  About what time?</p>",
+        "id": 125002683,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523564679
+    },
+    {
+        "content": "<p>It's been for a few days now. We - Public Health work group - had reported the issue with templates earlier this week.  I just tried to add a label to a page now with no success.</p>",
+        "id": 125002711,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1523564744
+    },
+    {
+        "content": "<p>We were aware of issues with Create, but our version was end-of-lifed and I could not ask for support.</p>",
+        "id": 125002758,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523564771
+    },
+    {
+        "content": "<p>There were a series of upgrades that completed this morning.</p>",
+        "id": 125002762,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523564779
+    },
+    {
+        "content": "<p>We are now on the latest version of Confluence and encourage everyone to please keep going.</p>",
+        "id": 125002768,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523564798
+    },
+    {
+        "content": "<p>If there are issues that happen still, with create or anything, please let me know!</p>",
+        "id": 125002782,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523564816
+    },
+    {
+        "content": "<p>Also, I love the Public Health Work Group space,  it's a great example of page tree usage for things like the meeting notes</p>",
+        "id": 125002903,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523564994
+    },
+    {
+        "content": "<p>The project list is really well done.  Just glad to see the usage.  Please take a look at the upgraded site.  We now have Collaborative Editing!  (we'll have to see how well it works... :-) )</p>",
+        "id": 125002967,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523565042
+    },
+    {
+        "content": "<p>...both are still issues.  When trying to add a label to a page, we see a generic error message.  And when we try to create a new page using a template, it just hangs.  No templates (e.g. meeting notes, etc.) are presented as options.</p>",
+        "id": 125003040,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1523565125
+    },
+    {
+        "content": "<p>okay, so you are seeing this right now in the public health work group.  You want to create a page</p>",
+        "id": 125003047,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523565151
+    },
+    {
+        "content": "<p>May I ask what Browser version you are using?</p>",
+        "id": 125003062,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523565184
+    },
+    {
+        "content": "<p>I've tried with IE, Chrome and Safari.</p>",
+        "id": 125003590,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1523565988
+    },
+    {
+        "content": "<p>When you tried with Chrome do you happen to know the version of Chrome?</p>",
+        "id": 125003600,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566035
+    },
+    {
+        "content": "<p>Also, in Chrome, could you visit this site and tell me if Websockets are supported? <a href=\"http://websocket.org/echo.html\" target=\"_blank\" title=\"http://websocket.org/echo.html\">http://websocket.org/echo.html</a></p>",
+        "id": 125003608,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566050
+    },
+    {
+        "content": "<p>I really appreciate your patience on this, I'd like to work through the issue so it's fixed for everybody.</p>",
+        "id": 125003612,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566074
+    },
+    {
+        "content": "<p>latest version of Chrome.  And yes, websockets are supported</p>",
+        "id": 125003876,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1523566473
+    },
+    {
+        "content": "<p>okay, well that's good news.</p>",
+        "id": 125003896,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566527
+    },
+    {
+        "content": "<p>Those two things indicate you should be able to do this.</p>",
+        "id": 125003898,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566537
+    },
+    {
+        "content": "<p>Can you try something else for me?</p>",
+        "id": 125003904,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566555
+    },
+    {
+        "content": "<p>I know this sounds weird, but it would really help.</p>",
+        "id": 125003953,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566564
+    },
+    {
+        "content": "<p>I understand you are logged into Confluence, right?</p>",
+        "id": 125003957,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566575
+    },
+    {
+        "content": "<p>I can be</p>",
+        "id": 125003965,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1523566600
+    },
+    {
+        "content": "<p>Just to be sure, you were when you were trying to create, right?</p>",
+        "id": 125003976,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566628
+    },
+    {
+        "content": "<p>yes</p>",
+        "id": 125003981,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1523566639
+    },
+    {
+        "content": "<p>Yeah, you must have been. No button otherwise. :-)</p>",
+        "id": 125003985,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566648
+    },
+    {
+        "content": "<p>So while logged into confluence, I'd like to know if you could select the tri-menu and then select JIRA in the top left</p>",
+        "id": 125003990,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566668
+    },
+    {
+        "content": "<p>Then with the same username and password log into JIRA</p>",
+        "id": 125003994,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566678
+    },
+    {
+        "content": "<p>then use the tri-menu to come back to Confluence, and still logged in, select create.</p>",
+        "id": 125004035,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566696
+    },
+    {
+        "content": "<p>that seems to work</p>",
+        "id": 125004115,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1523566829
+    },
+    {
+        "content": "<p>okay, still a bug. and not a convenience to the user at all.</p>",
+        "id": 125004118,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566841
+    },
+    {
+        "content": "<p>But what we've seen is that you have to be logged into JIRA in order to create in Confluence.</p>",
+        "id": 125004124,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566857
+    },
+    {
+        "content": "<p>I'm going to report this to Atlassian (confluence vendor) immediately</p>",
+        "id": 125004133,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566872
+    },
+    {
+        "content": "<p>Thank you very much for helping to debug this. We've been hoping to figure out a way to recreate it.</p>",
+        "id": 125004142,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566888
+    },
+    {
+        "content": "<p>I'll probably post this on the main page of Confluence.  It's very frustrating but people will need to know.</p>",
+        "id": 125004201,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566944
+    },
+    {
+        "content": "<p>thanks</p>",
+        "id": 125004206,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1523566957
+    },
+    {
+        "content": "<p>Thank you!</p>",
+        "id": 125004207,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1523566963
+    },
+    {
+        "content": "<p>Anyone in Cologne:  I'm considering a Confluence Restart but want to know current status of meeting</p>",
+        "id": 126543202,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1526312057
+    },
+    {
+        "content": "<p>restarting, given permission from Wayne</p>",
+        "id": 126543240,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1526312105
+    },
+    {
+        "content": "<p>There are known issues with updating pages/saving attachments in Confluence.  Joshua Procious is aware of the issue and is researching a fix now.  Confluence may be unavailable for brief periods while the issue is resolved.</p>",
+        "id": 186504065,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1579881227
+    },
+    {
+        "content": "<p>Confluence is back online. If you have any questions or need assistance with data during a page load missing, please let me know here or at <a href=\"mailto:joshua@hl7.org\" title=\"mailto:joshua@hl7.org\">joshua@hl7.org</a>.</p>",
+        "id": 186506191,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1579882522
+    },
+    {
+        "content": "<p>Kudos to Josh for a successful JIRA upgrade this morning.  And by kudos I mean...</p>",
+        "id": 186810711,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1580235533
+    },
+    {
+        "content": "<p>Confluence is still undergoing an upgrade. Thank you for your patience. Approx time 1hour.</p>",
+        "id": 186985521,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1580390882
+    },
+    {
+        "content": "<p>Thank you for your continued patience. Confluence new up time 12:00 PM EST</p>",
+        "id": 186996123,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1580397331
+    },
+    {
+        "content": "<p>Confluence is back online. If you have any questions, please email <a href=\"mailto:joshua@hl7.org\" title=\"mailto:joshua@hl7.org\">joshua@hl7.org</a>.</p>",
+        "id": 187005243,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1580402585
+    }
+]

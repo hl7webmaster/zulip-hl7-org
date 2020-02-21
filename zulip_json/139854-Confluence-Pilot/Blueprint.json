@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"122628\">@Joshua Procious</span>  - can we set the category or categories in a new space when we use Blueprint to create the space?</p>",
+        "id": 132965445,
+        "sender_full_name": "Lorraine Constable",
+        "timestamp": 1535499056
+    },
+    {
+        "content": "<p>yes we can. as of now i've got it set to create new spaces under the \"teams\" category</p>",
+        "id": 132993360,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1535546393
+    }
+]

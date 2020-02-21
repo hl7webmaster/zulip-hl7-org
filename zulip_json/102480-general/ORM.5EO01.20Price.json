@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>In the US Realm you’ve probably seen advocacy for price transparency so a patient will know the price of a medical service in advance of committing to the treatment.  Is there a preferred way to do this for existing V2 interfaces?  I looked in the standards master grid but did not see any V2 implementation guides for this topic but found existing message content that may suffice.  <br>\nFor example, a provider’s EHR system could send a general order message (ORM) to a laboratory requesting the price for a laboratory test.  The ORM (general order message [event O01]) message structures contain repeating FT1 (Financial Transaction) segments and at first look it seems these fields might be appropriate to return the test price from the laboratory to the provider’s EHR system (below extracted from the V2.5.1 standard):  <br>\nFT1-4 (DR) Transaction Date (required)<br>\nFT1-6 (IS) Transaction Type (required), Table 0017 value CG-Charge <br>\nFT1-7 (CE) Transaction Code (required)<br>\nFT1-10 (NM) Transaction Quantity <br>\nFT1-11 (CP) Transaction Amount - Extended <br>\nFT1-12 (CP) Transaction Amount – Unit</p>\n<p>Does this seem like a reasonable approach, or does anyone know of a different solution?<br>\nThx!</p>",
+        "id": 185546690,
+        "sender_full_name": "Freida Hall",
+        "timestamp": 1578955825
+    },
+    {
+        "content": "<p>Pricing is master data. What about using master data queries? Chp.5</p>",
+        "id": 185675775,
+        "sender_full_name": "Frank Oemig",
+        "timestamp": 1579074697
+    },
+    {
+        "content": "<p>Thanks Frank.  We’d like to use Chapter 4 messages to leverage existing V2 functionality without introducing messages from different chapters.  BTW, laboratories have already developed two different V2 implementation guides for compendium price info based on Chapter 8 master files, dating back to 2011, but there has been limited adoption. This would be a different approach, providing the price for a specific patient in response to an explicit order, and hopefully easy for the provider's EHR system to ‘consume’.  There’s a FHIR project in process also, so anything we do now in V2 may eventually be replaced by FHIR.  I didn’t realize when I posted this topic there’s also an Orders &amp; Observations stream so I will post the question there in case there may be others subscribed to the O&amp;O stream not watching here who have input.</p>",
+        "id": 185958882,
+        "sender_full_name": "Freida Hall",
+        "timestamp": 1579296155
+    }
+]

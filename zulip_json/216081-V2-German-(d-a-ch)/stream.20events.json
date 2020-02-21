@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Stream created by <span class=\"user-mention silent\" data-user-id=\"104170\">Frank Oemig</span>.</p>",
+        "id": 182457781,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1575385923
+    },
+    {
+        "content": "<p>Super das es diesen Stream für Diskussionen gibt. Man findet hier leichter das Thema als im parallelen FHIR Chat.</p>",
+        "id": 182664645,
+        "sender_full_name": "Tom Freier",
+        "timestamp": 1575556788
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"252898\">@Tom Freier</span> <br>\nGenau das war/ist die Intention. Hier sollte alles diskutiert werden, was nicht direkt FHIR ist. Nur wird das schwer zu trennen sein, weil man immer einen Bezug herstellen können wird..</p>",
+        "id": 182888538,
+        "sender_full_name": "Frank Oemig",
+        "timestamp": 1575803900
+    }
+]

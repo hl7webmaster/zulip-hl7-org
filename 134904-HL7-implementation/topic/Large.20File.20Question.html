@@ -1,0 +1,49 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/134904-HL7-implementation/topic/Large.20File.20Question.html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/134904-HL7-implementation/index.html">HL7 implementation</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/134904-HL7-implementation/topic/Large.20File.20Question.html">Large File Question</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="163572278"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/134904-HL7%20implementation/topic/Large%20File%20Question/near/163572278" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> David Johnson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/134904-HL7-implementation/topic/Large.20File.20Question.html#163572278">(Apr 17 2019 at 15:36)</a>:</h4>
+<p>I have an email with the following request for help.  Anyone able to provide direction?</p>
+<p>We are working with reporting software that sends updates to EMR and in some cases, those updates contain large files (larger than 65k chars in base64), sometimes may be even gifs or videos that are provided by specific tests, and we have issue with sending large files with ORU_R01 message, as OBX segment has limitation for large files.</p>
+<p>I found in some cases that people remove limitation from configuration, but they provide very “handmade” solutions.<br>
+There was also interesting solution, to send file link and to upload it on shared server, but first, I want to hear from HL7 International, what do you think about this.</p>
+<p>Have you faced any issue with large files in your experience?</p>
+<p>Do you have any solution to send large files, or can you suggest the way of solving this problem?</p>
+
+
+
+<a name="163617342"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/134904-HL7%20implementation/topic/Large%20File%20Question/near/163617342" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Grahame Grieve <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/134904-HL7-implementation/topic/Large.20File.20Question.html#163617342">(Apr 18 2019 at 02:15)</a>:</h4>
+<p>large files are sent by reference in my experience.</p>
+
+
+
+<a name="163627537"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/134904-HL7%20implementation/topic/Large%20File%20Question/near/163627537" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Rene Spronk <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/134904-HL7-implementation/topic/Large.20File.20Question.html#163627537">(Apr 18 2019 at 06:51)</a>:</h4>
+<p>By the way: there is no size limitation in HL7 v2 for OBX-5. The value of 64k, just like -1, is a special value which denotes 'unlimited size'. It's up to senders and/or receivers to set a max size.</p>
+
+
+
+<a name="163656852"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/134904-HL7%20implementation/topic/Large%20File%20Question/near/163656852" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Irakli Gigiberia <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/134904-HL7-implementation/topic/Large.20File.20Question.html#163656852">(Apr 18 2019 at 14:31)</a>:</h4>
+<p>Thank you, responses where very helpful</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>

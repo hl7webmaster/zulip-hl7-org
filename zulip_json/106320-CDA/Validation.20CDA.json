@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Hi guys,</p>\n<p>we are developing the CDA 2 SDTC (Digital signature) and we would like to have an XSD to validate the product xml. Can we have it?</p>\n<p>Regards,</p>",
+        "id": 183942621,
+        "sender_full_name": "Pasquale Lapetina",
+        "timestamp": 1576854133
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"120321\">@Lisa Nelson</span></p>",
+        "id": 183947851,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1576857553
+    },
+    {
+        "content": "<p>There are several validation servers for this purpose:<br>\nNIST<br>\nLantana<br>\nGazelle<br>\nHealth Suisse<br>\n...</p>",
+        "id": 184015209,
+        "sender_full_name": "Frank Oemig",
+        "timestamp": 1576943336
+    },
+    {
+        "content": "<p>The cda stdc schema for validating yourself is located here: <a href=\"https://gforge.hl7.org/gf/project/strucdoc/frs/\" target=\"_blank\" title=\"https://gforge.hl7.org/gf/project/strucdoc/frs/\">https://gforge.hl7.org/gf/project/strucdoc/frs/</a></p>",
+        "id": 184026906,
+        "sender_full_name": "Oliver Egger",
+        "timestamp": 1576964250
+    },
+    {
+        "content": "<p>Thanks a lot</p>",
+        "id": 184104413,
+        "sender_full_name": "Pasquale Lapetina",
+        "timestamp": 1577108036
+    }
+]

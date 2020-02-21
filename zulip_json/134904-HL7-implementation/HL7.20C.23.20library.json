@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Hello anybody please can tell me where I can find a solid  HL7 C# library (open source)  or free? for hl7 version 2.XX</p>",
+        "id": 183763805,
+        "sender_full_name": "hisham alrashdan",
+        "timestamp": 1576685318
+    },
+    {
+        "content": "<p>i just googled C# and HL7 v2.x and found this...  <a href=\"https://github.com/duaneedwards/nHapi/\" target=\"_blank\" title=\"https://github.com/duaneedwards/nHapi/\">https://github.com/duaneedwards/nHapi/</a></p>",
+        "id": 183793527,
+        "sender_full_name": "Jean Duteau",
+        "timestamp": 1576705497
+    }
+]

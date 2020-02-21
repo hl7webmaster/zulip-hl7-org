@@ -1,0 +1,128 @@
+[
+    {
+        "content": "<p>Hi.  It looks like some of the bundled templates - e.g. Meeting Notes - have been changed.  Would it be possible to get a heads up that these are changing, being removed, etc.?  Even better would be to be engaged to provide input.</p>",
+        "id": 154870537,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1547153368
+    },
+    {
+        "content": "<p>The Meeting Notes Template, Jira Decision Template, Retrospective Template, How-To Template, and Task Report Template removals were in error and have been restored. Thank you for bringing this to our attention! The other templates, have been  found to be duplicates to other custom global templates within HL7 (PSS, decisions, agenda's, attendance...etc) and have been removed.</p>",
+        "id": 154875786,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1547157809
+    },
+    {
+        "content": "<p>Hi - Any chance this is affecting the WGM Attendence template?  I am having trouble adding it?</p>",
+        "id": 154942342,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1547236594
+    },
+    {
+        "content": "<p>I get the Create screen, but I just get a spinner and nothing ever returns.</p>",
+        "id": 154942390,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1547236640
+    },
+    {
+        "content": "<p>Although Josh Procious is best for help with this issue, the spinner problem causes me to remember an early issue</p>",
+        "id": 154942466,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1547236684
+    },
+    {
+        "content": "<p>by chance is there a :8090 or :8080 in your address bar for the URL?</p>",
+        "id": 154942478,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1547236700
+    },
+    {
+        "content": "<p>No sir</p>",
+        "id": 154942509,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1547236724
+    },
+    {
+        "content": "<p>Because if there is there shouldn't be. <span class=\"emoji emoji-1f642\" title=\"slight smile\">:slight_smile:</span>  There were a few bookmarks out there that still had it.</p>",
+        "id": 154942513,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1547236728
+    },
+    {
+        "content": "<p>I am boarding a flight, so won't be able to respond for a while :)</p>",
+        "id": 154942543,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1547236746
+    },
+    {
+        "content": "<p>Josh should be in San Antonio now.  I'll send a shoutout indicating you have a question</p>",
+        "id": 154942550,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1547236750
+    },
+    {
+        "content": "<p>Well, I guarantee he will be on site and ready to help with just this type of issue</p>",
+        "id": 154942562,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1547236761
+    },
+    {
+        "content": "<p>It may be best to take the flight, and meet up with Josh at the meeting.  He'll be there the entire time ready to help</p>",
+        "id": 154942587,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1547236784
+    },
+    {
+        "content": "<p>I will see if I can find him, thanks David.</p>",
+        "id": 154965446,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1547262312
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"122628\">@Joshua Procious</span> - any chance you can look at this?  I am still unable to create our attendance document.<br>\n<a href=\"https://confluence.hl7.org/display/CGW/2019-01+CG+WGM+Agenda\" target=\"_blank\" title=\"https://confluence.hl7.org/display/CGW/2019-01+CG+WGM+Agenda\">https://confluence.hl7.org/display/CGW/2019-01+CG+WGM+Agenda</a></p>",
+        "id": 155036656,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1547396940
+    },
+    {
+        "content": "<p>Good morning Kevin,</p>",
+        "id": 155038193,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1547399408
+    },
+    {
+        "content": "<p>I've added the new attendance log to that button. However, a better practice moving forward will be to create from the ellipsis in the top center of the screen. Here is some helpful documentation on it : <a href=\"https://confluence.hl7.org/display/HDH/How+to+Use+2019+WGM+Attendance\" target=\"_blank\" title=\"https://confluence.hl7.org/display/HDH/How+to+Use+2019+WGM+Attendance\">https://confluence.hl7.org/display/HDH/How+to+Use+2019+WGM+Attendance</a></p>",
+        "id": 155038212,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1547399512
+    },
+    {
+        "content": "<p>Let me know if you have any questions!</p>",
+        "id": 155038270,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1547399595
+    },
+    {
+        "content": "<p>Thanks <span class=\"user-mention\" data-user-id=\"122628\">@Joshua Procious</span> - I followed the better practice, do I need to manually update the Agenda now to include a link to the attendance?  I don't think I want to leave the button there and allow someone to create another attendance document.</p>",
+        "id": 155039398,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1547401342
+    },
+    {
+        "content": "<p>actually, never mind. I updated the content label.  Thanks!</p>",
+        "id": 155039483,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1547401461
+    },
+    {
+        "content": "<p>Ok very good! Let me know if you have any questions.</p>",
+        "id": 155041800,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1547405339
+    },
+    {
+        "content": "<p>Tooling Documenation here: <a href=\"http://www.hl7.org/documentcenter/public_temp_7E2D48E5-1C23-BA17-0C3356AA8033F8D2/membership/HL7_Processes_and_Tools_Conceptual_Modelv1.1.pdf\" target=\"_blank\" title=\"http://www.hl7.org/documentcenter/public_temp_7E2D48E5-1C23-BA17-0C3356AA8033F8D2/membership/HL7_Processes_and_Tools_Conceptual_Modelv1.1.pdf\">http://www.hl7.org/documentcenter/public_temp_7E2D48E5-1C23-BA17-0C3356AA8033F8D2/membership/HL7_Processes_and_Tools_Conceptual_Modelv1.1.pdf</a></p>",
+        "id": 159012555,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1550695151
+    }
+]

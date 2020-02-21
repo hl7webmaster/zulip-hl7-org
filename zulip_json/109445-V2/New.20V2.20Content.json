@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>V2.9 will be officially published shortly and the V2 Management Group is interested in learning what new V2 content is on the horizon so that we can begin planning for the next release of the base standard. So far, we know that there is new content in the area of specimen event tracking but if you know of additional content that will need to be included in the base standard, please let me know. As well, if you know of any new implementation guides on the horizon, please let me know that as well. Thanks.</p>",
+        "id": 184738157,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1578062410
+    },
+    {
+        "content": "<p>I found a need for a technical correction in chapter 17, the definition of ITM-25. What is the best way to get that addressed?</p>",
+        "id": 184749637,
+        "sender_full_name": "Vassil Peytchev",
+        "timestamp": 1578071046
+    },
+    {
+        "content": "<p>Please create a gForge ticket at <a href=\"https://gforge.hl7.org/gf/project/v2-ballot-pkg/tracker/?action=TrackerItemBrowse&amp;tracker_id=1035\" target=\"_blank\" title=\"https://gforge.hl7.org/gf/project/v2-ballot-pkg/tracker/?action=TrackerItemBrowse&amp;tracker_id=1035\">https://gforge.hl7.org/gf/project/v2-ballot-pkg/tracker/?action=TrackerItemBrowse&amp;tracker_id=1035</a></p>",
+        "id": 184751441,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1578072565
+    },
+    {
+        "content": "<p>Done - GF#25230</p>",
+        "id": 184752792,
+        "sender_full_name": "Vassil Peytchev",
+        "timestamp": 1578073637
+    }
+]

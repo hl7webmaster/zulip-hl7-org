@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>I presume there is an easy way to reference a jira item in a confluence page.. besides pasting the URL... ?</p>",
+        "id": 182972399,
+        "sender_full_name": "John Moehrke",
+        "timestamp": 1575908569
+    },
+    {
+        "content": "<p>Good morning John, what type and how many Jira items are you looking to reference in Confluence?</p>",
+        "id": 182972480,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1575908620
+    },
+    {
+        "content": "<p>for example in making notes of a discussion about a specific one.. I want an easy way to type the jira item and have it automatically hotlink.</p>",
+        "id": 182974343,
+        "sender_full_name": "John Moehrke",
+        "timestamp": 1575909728
+    },
+    {
+        "content": "<p>like we can do with usernames by prefixing with \"@\"</p>",
+        "id": 182974416,
+        "sender_full_name": "John Moehrke",
+        "timestamp": 1575909770
+    },
+    {
+        "content": "<p>The easiest way to insert a Jira Link while editing a page in Confluence is to use the \"insert Macro\" shortcut (left curly bracket) { and then type \"Jira\". Hit enter and the \"Insert Jira Issue/Filter will pop up. From here you can search using jql or predefined filter, you can create new issues, and you can select from ones you've recently viewed (usually the quickest in my experience).</p>",
+        "id": 182975850,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1575910626
+    },
+    {
+        "content": "<p>tried that... not as good as the \"@\" mechanics.. but it did seem to function. I did notice that it assumes a huge screen layout. Once I typed \"{\" and it gave the set of choices, \"Jira\" was above the screen. Typing jira did work...</p>",
+        "id": 182983246,
+        "sender_full_name": "John Moehrke",
+        "timestamp": 1575915335
+    }
+]

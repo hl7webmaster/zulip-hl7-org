@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>I am trying to verify how to \"link up\" a patient's CDA message to their HL7 messages(ADT's, ORU^R01's etc) via encounter number. More specifically, we have an encounter number in the PID segment(we use PID-18).  Our ICD-10 codes are sent to us in the CDA message.  I cannot seem to find the encounter number(PID-18) in the CDA.  Is that common?  I would like to match the ICD10 codes sent to us in the CDA with the  specific encounter in the HL7 messages.  It appears to me that the only way to \"link/match\" them is by date only.  I was curious how this can be done or if it is done industry-wise or is CDA not really meant to be \"encounter based\" - just date range-based?  Thank you,</p>",
+        "id": 187366768,
+        "sender_full_name": "Julie Paulson",
+        "timestamp": 1580829379
+    },
+    {
+        "content": "<p>See the <a class=\"stream\" data-stream-id=\"106320\" href=\"/#narrow/stream/106320-CDA\">#CDA</a> stream for a more targeted audience</p>",
+        "id": 187373627,
+        "sender_full_name": "Vassil Peytchev",
+        "timestamp": 1580833688
+    }
+]

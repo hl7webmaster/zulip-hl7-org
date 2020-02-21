@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>Hi There, <br>\nI'm new to Zulip and this #CDA stream. I was hoping someone might have some information on telehealth data, and how it is expected to be coded in CCDA. I have been working with a client who collects telehealth data—vital signs collected via telemetric devices that are connected to their EHR—and they are trying to code it using CCDA 1.1. The client wants to keep this data separate from their clinician measured vital signs, but we have not found any HL7 standards for coding these telemonitored values. Do you have any idea if this has been a discussion internally in <a href=\"http://HL7.org\" target=\"_blank\" title=\"http://HL7.org\">HL7.org</a> discussing the gold standard on coding these values? Any information you might have would be extremely helpful. Thank you so much for your time!</p>",
+        "id": 164016194,
+        "sender_full_name": "Julia Prusik",
+        "timestamp": 1556044231
+    }
+]

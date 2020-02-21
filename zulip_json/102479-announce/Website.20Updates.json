@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>In approximately three hours the <a href=\"http://hl7.org\" target=\"_blank\" title=\"http://hl7.org\">hl7.org</a> server will be going down.  The site will  be moved to a new server and brought back online after database updates and configuration changes.</p>",
+        "id": 181656134,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1574441587
+    },
+    {
+        "content": "<p>The update has been moved to 5 pm</p>",
+        "id": 181657013,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1574442203
+    },
+    {
+        "content": "<p>There are known issues with file corruption on download.  It is being worked on now.</p>",
+        "id": 181824060,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1574690393
+    },
+    {
+        "content": "<p>There are known issues with LOGIN and ACCOUNT CREATION on <a href=\"http://www.hl7.org\" target=\"_blank\" title=\"http://www.hl7.org\">www.hl7.org</a>.  We have had a firewall break on us and are replacing it now.  Estimated time to completion is 2 hours.</p>",
+        "id": 184747390,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1578069409
+    },
+    {
+        "content": "<p>Login and Account Creation are available.  The firewall has been replaced.</p>",
+        "id": 184750291,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1578071585
+    }
+]

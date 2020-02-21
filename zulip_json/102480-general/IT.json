@@ -1,0 +1,230 @@
+[
+    {
+        "content": "<p>Comodo contacted me to let me know that I can contact them.</p>",
+        "id": 118739561,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511202707
+    },
+    {
+        "content": "<p>I told them that I am interested <span class=\"user-mention\" data-user-email=\"adam@hl7.org\" data-user-id=\"103331\">@Adam Woodcock</span> in getting code signing cert</p>",
+        "id": 118739599,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511202724
+    },
+    {
+        "content": "<p>they said they are having a sale</p>",
+        "id": 118739602,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511202728
+    },
+    {
+        "content": "<p>But I haven't heard back on what that means yet</p>",
+        "id": 118739607,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511202737
+    },
+    {
+        "content": "<p>but I think it's the right path to go down</p>",
+        "id": 118739610,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511202744
+    },
+    {
+        "content": "<p>If they're having a sale of some kind that definitely sounds like it would be helpful to us in terms of getting this sorted out. Probably makes it The Most Affordable Option depending on how good the sale is.</p>",
+        "id": 118739723,
+        "sender_full_name": "Adam Woodcock",
+        "timestamp": 1511202961
+    },
+    {
+        "content": "<p>I never heard anything about that gforge pointer record</p>",
+        "id": 118741020,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511204826
+    },
+    {
+        "content": "<p>dammit</p>",
+        "id": 118741027,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511204831
+    },
+    {
+        "content": "<p>Comodo emailed and told me to call</p>",
+        "id": 118741186,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511205068
+    },
+    {
+        "content": "<p>Calling now</p>",
+        "id": 118741190,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511205078
+    },
+    {
+        "content": "<p>well, i hung up on them</p>",
+        "id": 118741497,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511205508
+    },
+    {
+        "content": "<p>they required i use internet explorer to make the purchase</p>",
+        "id": 118741501,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511205516
+    },
+    {
+        "content": "<p>i'm having a bad microsoft day</p>",
+        "id": 118741504,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511205521
+    },
+    {
+        "content": "<p>but i did find this out</p>",
+        "id": 118741506,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511205524
+    },
+    {
+        "content": "<p>:/</p>",
+        "id": 118741507,
+        "sender_full_name": "Adam Woodcock",
+        "timestamp": 1511205525
+    },
+    {
+        "content": "<p>I can purchase this through the same company that we just got our ssl for <a href=\"http://hl7.org\" target=\"_blank\" title=\"http://hl7.org\">hl7.org</a></p>",
+        "id": 118741510,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511205536
+    },
+    {
+        "content": "<p>Oh, that's helpful.</p>",
+        "id": 118741515,
+        "sender_full_name": "Adam Woodcock",
+        "timestamp": 1511205546
+    },
+    {
+        "content": "<p>I'm going to log in to there and see what I can figure out</p>",
+        "id": 118741518,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511205549
+    },
+    {
+        "content": "<p>Sure, makes sense.</p>",
+        "id": 118741520,
+        "sender_full_name": "Adam Woodcock",
+        "timestamp": 1511205559
+    },
+    {
+        "content": "<p>especially because our login is already associated with the organization</p>",
+        "id": 118741521,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511205563
+    },
+    {
+        "content": "<p>Mmhm.</p>",
+        "id": 118741522,
+        "sender_full_name": "Adam Woodcock",
+        "timestamp": 1511205568
+    },
+    {
+        "content": "<p>Where's the md file for the dns?</p>",
+        "id": 118786018,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511287851
+    },
+    {
+        "content": "<p>It's under hardware. I'm going to move it to Network/DNS though, since I realized that's a folder that exists.</p>",
+        "id": 118786028,
+        "sender_full_name": "Adam Woodcock",
+        "timestamp": 1511287875
+    },
+    {
+        "content": "<p>It's been moved now.</p>",
+        "id": 118786031,
+        "sender_full_name": "Adam Woodcock",
+        "timestamp": 1511287887
+    },
+    {
+        "content": "<p>GForge added the pointer record on their rackspace servers and it all works now.</p>",
+        "id": 119061822,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511888793
+    },
+    {
+        "content": "<p>I've got to upload a .8 gig file to youtube.  I'm thinking about 5:30 being the best time to do so.</p>",
+        "id": 119066258,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511895943
+    },
+    {
+        "content": "<p>what's not clear to me about this Zulip is how it's going to be organised. Are we going to have a stream per committee? per product family? per published standard?</p>",
+        "id": 119423255,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1512599387
+    },
+    {
+        "content": "<p>In the EST meeting last week the concensus was a working group is a stream and has topics.  However, other things could certainly be streams.</p>",
+        "id": 119423324,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1512599438
+    },
+    {
+        "content": "<p>so should we create those streams?</p>",
+        "id": 119423332,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1512599465
+    },
+    {
+        "content": "<p>I think it's something that is being rolled out slowly as working groups come on, and not a mass creation</p>",
+        "id": 119423340,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1512599492
+    },
+    {
+        "content": "<p>Co Chairs are being invited, and they have the ability to invite, but it's not open invitation.</p>",
+        "id": 119423383,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1512599526
+    },
+    {
+        "content": "<p>ok</p>",
+        "id": 119423388,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1512599537
+    },
+    {
+        "content": "<p>And as necessary, the streams are being created</p>",
+        "id": 119423390,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1512599538
+    },
+    {
+        "content": "<p>I see that I have organizational admin and the ability to update the description.  I'll get a link to the GOM in the description now.  If there's another better place, please let me know</p>",
+        "id": 119423459,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1512599663
+    },
+    {
+        "content": "<p>well, what we did for FHIR is create a page on the wiki. We can add additional notes to that as we see fit, and reference the GOM from there</p>",
+        "id": 119423472,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1512599702
+    },
+    {
+        "content": "<p>I see.  So there's a page on the wiki that outlines zulip usage.  That makes sense.</p>",
+        "id": 119423491,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1512599733
+    },
+    {
+        "content": "<p>what would be really cool would be if there was a concall stream where conferences were announced with appropriate info/links a few minutes before they start....</p>",
+        "id": 119425397,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1512603083
+    },
+    {
+        "content": "<p>there's a google calendar bot....</p>",
+        "id": 119425402,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1512603117
+    }
+]

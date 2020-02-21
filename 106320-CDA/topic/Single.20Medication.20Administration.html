@@ -1,0 +1,70 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/106320-CDA/topic/Single.20Medication.20Administration.html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/106320-CDA/index.html">CDA</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/106320-CDA/topic/Single.20Medication.20Administration.html">Single Medication Administration</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="160869693"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/106320-CDA/topic/Single%20Medication%20Administration/near/160869693" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Lisa Nelson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/106320-CDA/topic/Single.20Medication.20Administration.html#160869693">(Mar 15 2019 at 12:27)</a>:</h4>
+<p>Hi all<br>
+There is an old HL7 Helpdesk question that asks how to represent this is in CDA.<br>
+We are turning some of the helpdesk answers into FAQs. <br>
+Is this the best way to record that a medication was given once please?<br>
+It covers a whole day presumably because the exact time is unknown.<br>
+Also if there is already some better example or reference for this let me know and I will use that instead.</p>
+<p>&lt;substanceAdministration classCode="SBADM" moodCode="EVN"&gt;<br>
+    &lt;text&gt;Drug taken once&lt;/text&gt;<br>
+    &lt;statusCode code="completed"/&gt;<br>
+    &lt;effectiveTime xsi:type="IVL_TS"&gt;<br>
+        &lt;low value="20140206"/&gt;<br>
+        &lt;high value="20140207" inclusive="false"/&gt;<br>
+    &lt;/effectiveTime&gt;<br>
+    &lt;effectiveTime xsi:type="PIVL_TS" institutionSpecified="true" operator="A"&gt;<br>
+        &lt;period value="24" unit="h"/&gt;<br>
+    &lt;/effectiveTime&gt;<br>
+    &lt;repeatNumber value="1"/&gt;<br>
+    &lt;!-- the actual drug goes here --&gt;<br>
+&lt;/substanceAdministration&gt;<br>
+Thanks<br>
+Rik</p>
+
+
+
+<a name="160869774"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/106320-CDA/topic/Single%20Medication%20Administration/near/160869774" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Lisa Nelson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/106320-CDA/topic/Single.20Medication.20Administration.html#160869774">(Mar 15 2019 at 12:28)</a>:</h4>
+<p>I’ve found this example:</p>
+<p><a href="http://cdasearch.hl7.org/examples/view/Medications/Single%20administration%20of%20medication" target="_blank" title="http://cdasearch.hl7.org/examples/view/Medications/Single%20administration%20of%20medication">http://cdasearch.hl7.org/examples/view/Medications/Single%20administration%20of%20medication</a></p>
+<p>It’s a lot simpler with just a single effectiveTime with the time of the administration. </p>
+<p>Is that the preferred way to show a one time administration?</p>
+<p>Rik</p>
+
+
+
+<a name="160869807"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/106320-CDA/topic/Single%20Medication%20Administration/near/160869807" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Lisa Nelson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/106320-CDA/topic/Single.20Medication.20Administration.html#160869807">(Mar 15 2019 at 12:29)</a>:</h4>
+<p>Rik,</p>
+<p>I would recommend an example that has been vetted through the CDA Examples Task Force over one that has not.</p>
+<p>I will point out three things about this sample:<br>
+1.  The comment is a good fit for the use case you are looking to address:<br>
+&lt;!-- This medication use case is a medication administered a single time in the past. If it to be administered use moodCode = "INT". If an ordered drug then use moodCode = "RQO" --&gt;</p>
+<p>2.  There are complexities noted here:<br>
+&lt;!-- Dependencies exist between moodCode, statusCode and effectiveTime  </p>
+<p>3.  The CDA Examples Task Force spends a fair amount of energy debating the accurate human readable text that would be derived from the structured entry information (note the assertion of &lt;entry typeCode=”DRIV”&gt;<br>
+The issue of whether statusCode is “clinical information” or “machine state of the entry” continues to be debated.  If statusCode is not “clinical information”, then it should not be presented in the text element for the entry.  The data in statusCode would drive machine processing behavior, and would not be “human readable” information.  Note also the proper dereferencing into the narrative text by the entry.text element.</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>

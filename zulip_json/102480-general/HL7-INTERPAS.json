@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>I cannot access the HL7-INTERPAS document</p>",
+        "id": 186657525,
+        "sender_full_name": "Melaku Haile Likka",
+        "timestamp": 1580108336
+    },
+    {
+        "content": "<p>What happens when you go here? <a href=\"https://www.hl7.org/implement/standards/product_brief.cfm?product_id=483\" target=\"_blank\" title=\"https://www.hl7.org/implement/standards/product_brief.cfm?product_id=483\">https://www.hl7.org/implement/standards/product_brief.cfm?product_id=483</a></p>",
+        "id": 186677994,
+        "sender_full_name": "David Pyke",
+        "timestamp": 1580129160
+    },
+    {
+        "content": "<p>The CDA version that David posted is what is currently published for IPS (originally known as INTERPAS).  The FHIR version will be published soon (expected this month) and the CI build for that is <a href=\"https://build.fhir.org/ig/HL7/fhir-ips/index.html\" target=\"_blank\" title=\"https://build.fhir.org/ig/HL7/fhir-ips/index.html\">here</a>.</p>",
+        "id": 187163780,
+        "sender_full_name": "Rob Hausam",
+        "timestamp": 1580566755
+    }
+]

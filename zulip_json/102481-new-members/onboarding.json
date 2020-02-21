@@ -1,0 +1,92 @@
+[
+    {
+        "content": "<p>A <a class=\"stream\" data-stream-id=\"102481\" href=\"/#narrow/stream/new%20members\">#new members</a> stream is great for onboarding new members.</p>\n<p>If you're reading this and aren't the first person here, introduce yourself in a new thread using your name as the topic! Type <code>c</code> or click on <code>New Topic</code> at the bottom of the screen to start a new topic.</p>",
+        "id": 116027828,
+        "sender_full_name": "Welcome Bot",
+        "timestamp": 1505763586
+    },
+    {
+        "content": "<p>Welcome <span class=\"user-mention\" data-user-email=\"dhamill@hl7.org\" data-user-id=\"104139\">@Dave Hamill</span> to Zulip!</p>",
+        "id": 119071291,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511904552
+    },
+    {
+        "content": "<p>This should now be showing in your Home area, along with our private messages</p>",
+        "id": 119071295,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511904574
+    },
+    {
+        "content": "<p>you can click on the one that you want to respond to, and then type in the area below</p>",
+        "id": 119071299,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1511904589
+    },
+    {
+        "content": "<p>Hi I am Software Engineer, Now a days working in Healthcare. Mr. David referred me to create account here. Thanks Mr. David.<br>\nBasic purpose to come here to understand HL7. <br>\nThanks</p>",
+        "id": 159970519,
+        "sender_full_name": "I Butt",
+        "timestamp": 1551752242
+    },
+    {
+        "content": "<p>Hi all, I am Luca Berardinelli, a Software Engineer and former researcher in Model-Driven (Software) Engineering (MDE). I created a channel about RIM. Please, have a look. I am discussing a (common) issue when UML and XMI in general is used to export standards.</p>",
+        "id": 161161406,
+        "sender_full_name": "Luca Berardinelli",
+        "timestamp": 1553009839
+    },
+    {
+        "content": "<p>Hello! My name is Jeremy Greco and I work for a software company called EMS Consultants Ltd. We are considering trying to implement HL7 standards into our patient care standard and I have been trying to find an XSD template for the latest version of HL7. Can anyone help me with this?</p>",
+        "id": 162809385,
+        "sender_full_name": "Jeremy Greco",
+        "timestamp": 1554724056
+    },
+    {
+        "content": "<p>Which HL7 standard are you looking for CDA?  Which version?</p>",
+        "id": 162811205,
+        "sender_full_name": "David Pyke",
+        "timestamp": 1554725751
+    },
+    {
+        "content": "<p>There's more than one standard for HL7? I thought HL7 was the name of the standard. As far as version I'm looking for whatever the latest version currently is. I understand it to be Version 3. I found a document on the website (<a href=\"http://www.hl7.org/implement/standards/product_brief.cfm?product_id=276\" target=\"_blank\" title=\"http://www.hl7.org/implement/standards/product_brief.cfm?product_id=276\">http://www.hl7.org/implement/standards/product_brief.cfm?product_id=276</a>) for convertion NEMSIS 3 to HL7 that i've been referencing and at the bottom of that document I see there is an example XML file. I'm looking for an XSD that defines that file or if there is a newer version of it.</p>",
+        "id": 162811696,
+        "sender_full_name": "Jeremy Greco",
+        "timestamp": 1554726132
+    },
+    {
+        "content": "<p>Okay, You're doing work with CDA.  What you're looking for can be found here: <a href=\"https://www.hl7.org/implement/standards/product_brief.cfm?product_id=7\" target=\"_blank\" title=\"https://www.hl7.org/implement/standards/product_brief.cfm?product_id=7\">https://www.hl7.org/implement/standards/product_brief.cfm?product_id=7</a> The CDA set of standards is likely what you want, and you'll want Release 2 (the first download link).  That should give you what you need.</p>",
+        "id": 162812238,
+        "sender_full_name": "David Pyke",
+        "timestamp": 1554726609
+    },
+    {
+        "content": "<p>What does CDA stand for?</p>",
+        "id": 162814814,
+        "sender_full_name": "Jeremy Greco",
+        "timestamp": 1554728695
+    },
+    {
+        "content": "<p>Nevermind. Right there in the link</p>",
+        "id": 162814834,
+        "sender_full_name": "Jeremy Greco",
+        "timestamp": 1554728711
+    },
+    {
+        "content": "<p>Anyone has hl7 ADT41 sample? What does a41 do?</p>",
+        "id": 163228779,
+        "sender_full_name": "Suman Tuladhar",
+        "timestamp": 1555104768
+    },
+    {
+        "content": "<blockquote>\n<p>Anyone has hl7 ADT41 sample? What does a41 do?</p>\n</blockquote>\n<p>Suman - that is a HL7 V2 message from the Patient Administation domain.  You will want to look at Chapter 3 of the HL7 v2 specification.  A41 is the trigger event for a Merging of two account records.</p>",
+        "id": 163232375,
+        "sender_full_name": "Jean Duteau",
+        "timestamp": 1555108403
+    },
+    {
+        "content": "<p>Hi everyone,</p>\n<p>Am a software engineer, i want to understand the HL7 standard since we are working in healthcare domain.<br>\nSo help to make it more knowledge of HL7.</p>\n<p>Thanks</p>",
+        "id": 172572246,
+        "sender_full_name": "Senthil ELab",
+        "timestamp": 1565083177
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Ireland are looking at ways of conveying a dig sig as part of the v2 message itself. I suggested to add a Z-segment at the tail end to send the sig of 'all segments bar the z-segment itself'. AFAIK there's no standard mechanism to accomplish this. <br>\nWhat's your experience / recommendation for this use case?</p>",
+        "id": 185202161,
+        "sender_full_name": "Rene Spronk",
+        "timestamp": 1578568252
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"116494\">@Rene Spronk</span> I'm not sure what the answer is off the top of my head, but I've put it on the agenda for the v2 Management Group call on Friday. That call is at 3PM Eastern (which might be late for you) but you're welcome to join the call to discuss (we also meet the following Friday at 9AM Eastern which might be easier to make). </p>\n<p>In the meantime, someone was looking for some clarification. Are you talking about digitally signing V2 messages, or just including some signature information inside the V2 message?  Or both?</p>",
+        "id": 185210644,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1578575806
+    },
+    {
+        "content": "<p>There is an Australian standard for that, but it doesn't sound like it is necessarily an appropriate solution:  <a href=\"http://www.healthintersections.com.au/?p=688\" target=\"_blank\" title=\"http://www.healthintersections.com.au/?p=688\">http://www.healthintersections.com.au/?p=688</a></p>",
+        "id": 185221514,
+        "sender_full_name": "Vassil Peytchev",
+        "timestamp": 1578583506
+    },
+    {
+        "content": "<p>As a more general approach, transforming HL7 V2 from the ER7 to XML format will allow using XML digital signature. This will move the development complexity from managing a digital signature \"by hand\" to transforming ER7 to V2.XML, and will bring the benefits of using existing libraries for XML Digital Signatures.</p>",
+        "id": 185229203,
+        "sender_full_name": "Vassil Peytchev",
+        "timestamp": 1578587588
+    },
+    {
+        "content": "<p>That said, any kind of signing of a v2 message is fraught with practical challenges if the ecosystem you're applying it to is used to being able to manipulate messages in transit (selecting one coding system per recipient when a sender includes several, removing fields or segments not needed for data minimalism, or regression testing avoidance reasons, etc.).  This is, of course, quite common in many established HL7 v2 ecosystems.</p>\n<p>The XML digital signature route still allows for individual fields to be specified to be the signed elements, I believe, but it would need an implementation-specific agreement on which segments/fields should be signed and which are flexible.  But at that point it becomes a dialog for the relevant regulating/implementing bodies to have in finding a reasonable middle ground.</p>",
+        "id": 185231079,
+        "sender_full_name": "Daniel Rutz",
+        "timestamp": 1578588621
+    },
+    {
+        "content": "<p>Thanks all. <span class=\"user-mention\" data-user-id=\"104289\">@Craig Newman</span> It's not my use-case, this Irish use case was raised during a HL7v2 training course. I'll inform them about this discussion.</p>",
+        "id": 185288721,
+        "sender_full_name": "Rene Spronk",
+        "timestamp": 1578642173
+    },
+    {
+        "content": "<p>As said, signing only works if there is no change. But most live systems rely on communication servers which is a No-Go then. Or signatures are reduced to partial information.</p>",
+        "id": 185428633,
+        "sender_full_name": "Frank Oemig",
+        "timestamp": 1578825199
+    },
+    {
+        "content": "<blockquote>\n<p>any kind of signing of a v2 message is fraught with practical challenges if the ecosystem you're applying it to is used to being able to manipulate messages in transit</p>\n</blockquote>\n<p>And this is a very hard thing to unwind</p>",
+        "id": 185561029,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1578970917
+    },
+    {
+        "content": "<p>Hello everyone,<br>\nAnyone can help me please with a detailed example on how to register a new user using A28 event type,<br>\nI have searched the internet for days, but I have 2 main questions: <br>\n1- How should I send the required field(s) which I don't have them in my system, ex: \"Patient ID (Internal ID)\" ?<br>\n2- in the \"patient name\" if my system is bi-lingual, can i send english and the other language within this field or the English name only and save the other one in my DB?</p>",
+        "id": 187752660,
+        "sender_full_name": "Mo Aamer",
+        "timestamp": 1581241091
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"263147\">@Mo Aamer</span> As far as the Patient ID (PID-3) goes, is there really no identifier associated with the patient in your system? There are a lot of different ID types that can be sent and I would have thought that all systems at least have some sort of ID for a given patient. What sort of system is generating the A28s (an EHR, a practice management system, an ancillary system)?</p>\n<p>The description of the XPN data type in chapter 2A does cover some issues with internationalization of patient names. If you haven't looked at section, it may be of help. In general though, PID-5 is allowed to repeat.</p>",
+        "id": 187813891,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1581340702
+    },
+    {
+        "content": "<p>Having said all this, I'm not really that much of a patient administration sort of person. <span class=\"user-mention\" data-user-id=\"116961\">@Alexander de Leon</span>  may have more thoughts on this.</p>",
+        "id": 187813954,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1581340743
+    },
+    {
+        "content": "<p>Finally, are you trying to develop a general outgoing interface that can be used with many different trading partners or just developing a specific point-to-point interface with one other system. If the latter, the best course of action is to be talking directly to your trading partner and see what they can handle in these scenarios. They may or may not be able to accept a message without PID-3 and repeating names. If you're developing a more general interface, just be sure to document what your system can and cannot do so that future trading partners will know your capabilities. While there are many v2 implementation guides out there for various types of exchanges (all of which use PID segments), I don't think there is any sort of ADT implementation guide that covers A28s.</p>",
+        "id": 187814203,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1581340941
+    }
+]

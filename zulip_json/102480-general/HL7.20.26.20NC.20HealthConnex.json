@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>I work for an EHR company and we are preparing to connect to NC's Health Information Exchange, NC HealthConnex. Anyone familiar with how to build the HL7 files for NC HealthConnex? We currently don't make files of that type and we are unsure of what we need to do to build these files. Is there documentation anyone can point me to? Thanks!</p>",
+        "id": 132863224,
+        "sender_full_name": "Sarah Maiolo",
+        "timestamp": 1535383024
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Aus v2.9 können wir jetzt 4 Felder zur Übermittlung der VSDM Informationen wie bspw. Prüfungsdatum und Errorcodes ins IN3 Segment prä-adoptieren. Das Profil für das Segment ist im <a href=\"http://wiki.hl7.de\" target=\"_blank\" title=\"http://wiki.hl7.de\">wiki.hl7.de</a> hinterlegt. Weitere Wünsche bitte mitteilen.</p>",
+        "id": 183257677,
+        "sender_full_name": "Frank Oemig",
+        "timestamp": 1576157021
+    },
+    {
+        "content": "<p>Ich habe im Wiki VSDM hinzugefügt, sonst findet man es nicht. Der Use-Case hätte mich interessiert.</p>",
+        "id": 183728200,
+        "sender_full_name": "Tom Freier",
+        "timestamp": 1576656716
+    },
+    {
+        "content": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+        "id": 183789226,
+        "sender_full_name": "Frank Oemig",
+        "timestamp": 1576702423
+    }
+]

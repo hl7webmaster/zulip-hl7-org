@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Dear HL7 users, I am researcher/practitioner expert in Model-Driven Engineering (<a href=\"https://www.linkedin.com/in/lucaberardinelli/\" target=\"_blank\" title=\"https://www.linkedin.com/in/lucaberardinelli/\">https://www.linkedin.com/in/lucaberardinelli/</a>) (<a href=\"https://www.researchgate.net/profile/Luca_Berardinelli\" target=\"_blank\" title=\"https://www.researchgate.net/profile/Luca_Berardinelli\">https://www.researchgate.net/profile/Luca_Berardinelli</a>). I am playing with HL7. I started with RIM and I found that your are exporting it in XMI in the wrong way. It seems that the export step in UML is done via commercial tools like IBM Rational Rose that mixes open source de-facto standard (Ecore) with tool specific conventions. I strongly suggest to use Eclipse UML as a reference exporting format (.uml) which is compatible with many commercial tools and fully compatible with OMG standards (like UML. XMI, MOF and many others). Moreover, you are not exporting the UML profile in XMI. And the .xmi obtained at the end is useless. Do you plan to fix this issue? thanks</p>",
+        "id": 161162208,
+        "sender_full_name": "Luca Berardinelli",
+        "timestamp": 1553010417
+    },
+    {
+        "content": "<p>Short answer: no current plans to fix.  The XMI representation has never been widely consumed and is not instrumental to HL7's internal processes.  What's currently exposed is exposed on the basis that it was \"relatively easy to do\".  There isn't an obvious return on revisiting that process, particularly given that most HL7 implementers aren't terribly focused on RIM-based standards at the moment (though we do continue to use the RIM internally).  That doesn't mean that HL7 would necessarily object to spitting out the RIM in XMI in a manner that would be more conformant/useful, just that if it's needed, you should expect to have to do a lot of the work yourself to make that happen (or find others with a similar need who are willing to do the grunt work).  If that's of interest to you, we can do a bit of digging and figure out how the XMI export is happening right now and point you at the code so you can work on making the needed adjustments.  (Side note - I'm not stating official policy, merely expressing opinion as someone who's heavily involved with the work group responsible for RIM maintenance and who has a reasonable degree of familiarity with the tooling involved.)</p>",
+        "id": 161182745,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1553023926
+    },
+    {
+        "content": "<p>what is the tooling involved?</p>",
+        "id": 161511000,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1553322901
+    },
+    {
+        "content": "<p>I don't actually know.  <span class=\"user-mention\" data-user-id=\"103581\">@Lynn Laakso</span>?</p>",
+        "id": 161540836,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1553371854
+    },
+    {
+        "content": "<p>Woody used IBM Rational Rose.</p>\n<p>Luca - along with the XMI export from Rational Rose that we provide, we also provide an Enterprise Architect file that you can use to export different flavours of XMI if you so wanted to.</p>",
+        "id": 161559054,
+        "sender_full_name": "Jean Duteau",
+        "timestamp": 1553402651
+    },
+    {
+        "content": "<p>Thanks <span class=\"user-mention\" data-user-id=\"104295\">@Jean Duteau</span>  I really would have no idea where to start right now. We haven't even balloted a RIM-based standard in a year so we haven't generated any RIM content for publication, even. The tooling is quite dusty</p>",
+        "id": 161580168,
+        "sender_full_name": "Lynn Laakso",
+        "timestamp": 1553435660
+    },
+    {
+        "content": "<p>if we are actually using rational rose, it should be possible to also do a manual export to the ecore format?</p>",
+        "id": 161594522,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1553458024
+    },
+    {
+        "content": "<p>FYI - Nictiz maintains a full working stack of v3 tools because of their use of v3. Alexander Henket (not on this Zulip) should know more - in case it's ever needed.</p>",
+        "id": 161623857,
+        "sender_full_name": "Rene Spronk",
+        "timestamp": 1553503225
+    },
+    {
+        "content": "<p>Including for RIM maintenance?</p>",
+        "id": 161642253,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1553520256
+    },
+    {
+        "content": "<p>That's rather unlikely - they've picked one specific RIM version (and datatypes R1) as the basis for their v3 developments.</p>",
+        "id": 161835543,
+        "sender_full_name": "Rene Spronk",
+        "timestamp": 1553671944
+    }
+]

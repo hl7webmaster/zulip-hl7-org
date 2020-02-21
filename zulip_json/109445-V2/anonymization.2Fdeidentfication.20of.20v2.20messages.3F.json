@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>hi, has anyone a pointer to a tool/software which can deidentify or anonymize hl7 v2 messages?</p>",
+        "id": 136860785,
+        "sender_full_name": "Oliver Egger",
+        "timestamp": 1541000962
+    },
+    {
+        "content": "<p>Deidentification and anonymization are risk reduction processes that require context in order to evaluate risk of identification and in order to know what sort of information must be retained to support purpose of use.  Add onto that that v2 systems are notorious for not populating segments consistently plus frequent reliance on Z-segments for important information, I think you'll be hard-pressed to find a generic tooling solution.</p>",
+        "id": 136862869,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1541002528
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"116959\">@John Moehrke</span></p>",
+        "id": 136862877,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1541002537
+    },
+    {
+        "content": "<p>I agree with Lloyd.  There might be some tools that are more aware of how to do this, but I am sure there is little in the way of off-the-shelf.     Note, that all de-identification is a process that is specific to the data you have and the intended use of the resulting de-identified data. This process would look to the content of each element (e.g. each z-segment), and the need for the data to be maintained.  see my article on this <a href=\"https://healthcaresecprivacy.blogspot.com/2015/02/is-it-really-possible-to-anonymize-data.html\" target=\"_blank\" title=\"https://healthcaresecprivacy.blogspot.com/2015/02/is-it-really-possible-to-anonymize-data.html\">https://healthcaresecprivacy.blogspot.com/2015/02/is-it-really-possible-to-anonymize-data.html</a></p>",
+        "id": 136871569,
+        "sender_full_name": "John Moehrke",
+        "timestamp": 1541010740
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"104482\">@Lloyd McKenzie</span> and <span class=\"user-mention\" data-user-id=\"116959\">@John Moehrke</span> thanks a lot for the information provided! i completely agree with your statements but I hoped maybe someone had already tackled part of it with a software tooling stack.</p>",
+        "id": 136909390,
+        "sender_full_name": "Oliver Egger",
+        "timestamp": 1541063314
+    },
+    {
+        "content": "<p>possibly <a href=\"https://privacy-analytics.com/\" target=\"_blank\" title=\"https://privacy-analytics.com/\">https://privacy-analytics.com/</a></p>",
+        "id": 136919269,
+        "sender_full_name": "John Moehrke",
+        "timestamp": 1541076509
+    },
+    {
+        "content": "<p>I would not be too surprised that the large hl7 v2 interface engines had some capability</p>",
+        "id": 136919275,
+        "sender_full_name": "John Moehrke",
+        "timestamp": 1541076531
+    },
+    {
+        "content": "<p>the creation of the algorithm that is specific to your data, and your intended use of the resulting data set is the hard part, and something that is not possible to automate (well, except for the tried-and-true algorithm &gt; /dev/null</p>",
+        "id": 136919345,
+        "sender_full_name": "John Moehrke",
+        "timestamp": 1541076604
+    }
+]

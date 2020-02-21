@@ -1,0 +1,41 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/111455-Orders-and-Observations/topic/V2.20price.20info.20question.html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/111455-Orders-and-Observations/index.html">Orders and Observations</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/111455-Orders-and-Observations/topic/V2.20price.20info.20question.html">V2 price info question</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="185961887"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/111455-Orders%20and%20Observations/topic/V2%20price%20info%20question/near/185961887" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Freida Hall <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/111455-Orders-and-Observations/topic/V2.20price.20info.20question.html#185961887">(Jan 17 2020 at 21:55)</a>:</h4>
+<p>(I’m reposting this question, previously posted to the General stream, trying to reach a wider audience)<br>
+In the US Realm you’ve probably seen advocacy for price transparency so a patient will know the price of a medical service in advance of committing to the treatment.  Is there a preferred way to do this for existing V2 interfaces?  I looked in the standards master grid but did not see any V2 implementation guides for this topic but found existing message segments that may suffice.  </p>
+<p>For example, a provider’s EHR system could send a general order message (ORM) to a laboratory requesting the price for a laboratory test for a specific patient, e.g. what would be charged.  The ORM (general order message [event O01]) message structures contain repeating, optional FT1 (Financial Transaction) segments and at first look it seems these fields might be appropriate to return the test price from the laboratory to the provider’s EHR system (below extracted from the V2.5.1 standard):  <br>
+FT1-4 (DR) Transaction Date (required)<br>
+FT1-6 (IS) Transaction Type (required), Table 0017 value CG-Charge <br>
+FT1-7 (CE) Transaction Code (required)<br>
+FT1-10 (NM) Transaction Quantity <br>
+FT1-11 (CP) Transaction Amount - Extended <br>
+FT1-12 (CP) Transaction Amount – Unit</p>
+<p>When I posted this to the general stream Frank Oemig suggested using Chpt. 5 queries, but we’d prefer to leverage existing V2 functionality with  Chapter 4 messages.</p>
+
+
+
+<a name="188668267"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/111455-Orders%20and%20Observations/topic/V2%20price%20info%20question/near/188668267" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Daniel Rutz <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/111455-Orders-and-Observations/topic/V2.20price.20info.20question.html#188668267">(Feb 20 2020 at 19:14)</a>:</h4>
+<p>Maybe using the FT1 like that?  It seems like we might still need something that's a "lite" query, like a new set of control codes in ORC-1, in order to indicate this wasn't actually an order to be performed and just a query for pricing.</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>

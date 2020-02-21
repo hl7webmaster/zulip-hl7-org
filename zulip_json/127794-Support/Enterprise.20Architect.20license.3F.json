@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Hi - I had heard that HL7 might have some options to get licenses for Enterprise Architect.  Is that right, anyone know?</p>",
+        "id": 134973577,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1538403891
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"104139\">@Dave Hamill</span> Is your best contact.</p>",
+        "id": 134973598,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1538403911
+    },
+    {
+        "content": "<p>He is able to quantify usage and distribute licenses as necessary</p>",
+        "id": 134973638,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1538403960
+    },
+    {
+        "content": "<p>Many thanks.</p>",
+        "id": 134973744,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1538404044
+    },
+    {
+        "content": "<p>If you're at the WGM, he's there, or an email to <a href=\"mailto:dhamill@hl7.org\" title=\"mailto:dhamill@hl7.org\">dhamill@hl7.org</a> would get you started.</p>",
+        "id": 134973767,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1538404076
+    }
+]

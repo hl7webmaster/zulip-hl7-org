@@ -1,0 +1,122 @@
+[
+    {
+        "content": "<p>I am looking for HL7 Message specification for Request &amp; Response to Get all the orders related with Radiology / Xray from HIS. Query will be based on Patient ID / MRN<br>\nI reached with the following:-<br>\nRequest:<br>\nFor Example:-<br>\nRequest:-<br>\n--&gt; Sample Request Message<br>\n MSH Segment, MSH-9 Field for Pharmacy Query QRY^Q26 (I am looking this field for Radiology Order Query)<br>\nQRD Segment will send about Patient MRN and Order Type</p>\n<p>Response:<br>\nSample Response message for all the Radiology Orders<br>\nFor Example: <br>\n(MSH-9 Field)<br>\nPID Segment<br>\nORC (I am not sure)<br>\nOBR ( I am not Sure)</p>\n<p>Thanks</p>",
+        "id": 159971862,
+        "sender_full_name": "I Butt",
+        "timestamp": 1551754246
+    },
+    {
+        "content": "<p>Support for v2 queries is highly variable.  Have you reached out to the administrators of the systems you're trying to query data from to find out what they support?</p>",
+        "id": 159975676,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1551760194
+    },
+    {
+        "content": "<blockquote>\n<p>Support for v2 queries is highly variable.  Have you reached out to the administrators of the systems you're trying to query data from to find out what they support?</p>\n</blockquote>\n<p>Unfortunately the team told us you send us the HL7 specification we will prepare accordingly. Due to this I am looking for it.</p>",
+        "id": 159976054,
+        "sender_full_name": "I Butt",
+        "timestamp": 1551760698
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"106765\">@Elliot Silver</span> ?</p>",
+        "id": 159977925,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1551763339
+    },
+    {
+        "content": "<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"106765\">Elliot Silver</span> ?</p>\n</blockquote>\n<p>I am here for solution not for argument and reasons. This is HL7 forum, I should find solution from here.</p>",
+        "id": 159978501,
+        "sender_full_name": "I Butt",
+        "timestamp": 1551764143
+    },
+    {
+        "content": "<p>I’ve never heard of someone doing this; systems that I’m aware of simply listen for the orders and keep a record. </p>\n<p>The original question seems to suggest that there is a pharmacy-specific way of doing this, and by extension expects a radiology-specific variant. I’m not sure this is true. </p>\n<p>I don’t know V2 query well enough to know if such a query is even possible, let alone how to populate it.</p>",
+        "id": 159978563,
+        "sender_full_name": "Elliot Silver",
+        "timestamp": 1551764210
+    },
+    {
+        "content": "<blockquote>\n<p>I’ve never heard of someone doing this; systems that I’m aware of simply listen for the orders and keep a record. </p>\n<p>The original question seems to suggest that there is a pharmacy-specific way of doing this, and by extension expects a radiology-specific variant. I’m not sure this is true. </p>\n<p>I don’t know V2 query well enough to know if such a query is even possible, let alone how to populate it.</p>\n</blockquote>\n<p>Thanks For reply.<br>\nBut there should be some way to get all orders (Pharmacy, Lab &amp; Radiology) for a specific patient by Patient ID or MRN. Pharmacy example i present here because I got this easily and provide them the HL7 specification they implemented and its working fine. Request Message QRY^Q26 with QRD Segment. Response Message: ROR^ROR With ORC and RXC Segment.</p>\n<p><strong>Alternate Is: </strong>Can you please specify the trigger Message for Radiology Orders?  So in this case when patient have any order  (New, change or cancel)   we receive message.</p>",
+        "id": 159978644,
+        "sender_full_name": "I Butt",
+        "timestamp": 1551764329
+    },
+    {
+        "content": "<p>\"Should be\" and \"is\" are not necessarily the same.  As Elliot says, a lot of v2 systems don't do queries at all.  HL7 only defines standard queries where the community has asked us to do so.  There are no standard queries defined in the radiology space.  If you need one, you're going to have to define one of your own.  Chapter 5 explains how to do that.  The good news is that your communication partner has said they'll do whatever you tell them to - so define a query that takes the parameters you need and returns the data you need and you're good to go.  Just don't expect anyone that you haven't specifically negotiated with to support it.</p>",
+        "id": 159979113,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1551765054
+    },
+    {
+        "content": "<p>O23 is the trigger for radiology orders.  You'll need to look at all of the other triggers for changes though.  Those can all be found in the HL7 spec.</p>",
+        "id": 159979184,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1551765159
+    },
+    {
+        "content": "<blockquote>\n<p>O23 is the trigger for radiology orders.  You'll need to look at all of the other triggers for changes though.  Those can all be found in the HL7 spec.</p>\n</blockquote>\n<p>Thanks and I understood what Mr. Elliot said and I agree with you and his response.<br>\nIf you help in Message Type (MSH-9) and Segments It will be big support.<br>\nThanks</p>",
+        "id": 159979320,
+        "sender_full_name": "I Butt",
+        "timestamp": 1551765379
+    },
+    {
+        "content": "<p>Have you read chapter 5 of the specification about creating custom queries?  The segments can be whatever ones you find useful - which will depend on your business case.  You can take a look at the radiology message structures to see which ones could theoretically be present in a notification and subset from there.</p>",
+        "id": 159979459,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1551765611
+    },
+    {
+        "content": "<blockquote>\n<p>Have you read chapter 5 of the specification about creating custom queries?  The segments can be whatever ones you find useful - which will depend on your business case.  You can take a look at the radiology message structures to see which ones could theoretically be present in a notification and subset from there.</p>\n</blockquote>\n<p>Before After Long struggle I provide them HL7 specification for two interfaces  1. Patient Demographic Information 2. Pharmacy Orders<br>\n3. Now I am looking for radiology Orders, I though from here I can find quick solution.<br>\nCan you provide the URL for so I can download HL7 chapter 5.<br>\nLet me check and get back to you.</p>",
+        "id": 159979603,
+        "sender_full_name": "I Butt",
+        "timestamp": 1551765871
+    },
+    {
+        "content": "<p>For clarity on what <span class=\"user-mention\" data-user-id=\"104482\">@Lloyd McKenzie</span> said, O23 is the OMI^O23 message, although many systems are still using older ORM messages. </p>\n<p>As well as checking out chapter 5 of the V2 spec, I suggest digging into chapter 4 on orders. </p>\n<p>I’m not sure which version of V2 you need,, but I think they’re all downloadable here: <a href=\"https://www.hl7.org/implement/standards/product_brief.cfm?product_id=185\" target=\"_blank\" title=\"https://www.hl7.org/implement/standards/product_brief.cfm?product_id=185\">https://www.hl7.org/implement/standards/product_brief.cfm?product_id=185</a></p>",
+        "id": 159979772,
+        "sender_full_name": "Elliot Silver",
+        "timestamp": 1551766128
+    },
+    {
+        "content": "<p>I come up with following option. </p>\n<p>Request:<br>\nMSH|^~\\&amp;|QS||RAD||199910180900-0700||QBP^Q61^QBP_Q11|7777|P|2.4|<br>\nQPD|Q61^Radiology Order|Q98|01111111^^^^MR| --&gt; Patient ID<br>\nRCP|I|</p>\n<p>Response:<br>\nMSH|^~\\&amp;|RAD||QS||||RSP^K61^RSP_K61|5555|P|2.4|<br>\nMSA|AA|7777|<br>\nQAK|Q98|OK|Q61^Radiology Order|<br>\nQPD|Q61^Radiology Order|Q98|01111111^^^^MR|<br>\nPID|||01111111^^^^MR|<br>\nORC<br>\nOBR<br>\nOBR<br>\nOBR<br>\nOBR</p>\n<p>Please check is it fine?</p>",
+        "id": 159989228,
+        "sender_full_name": "I Butt",
+        "timestamp": 1551778900
+    },
+    {
+        "content": "<p>That's not really the purpose of this discussion forum.  You're free to ask quick questions that other members of the community (i.e. volunteers) who might have past experience that allows them to give you a quick answer.  However, no one here is paid.  Doing a review of a draft specification (or even a draft instance) to make sure it's valid is the sort of thing you'd probably need to pay someone to do if you can't do it yourself.  (That said, tha bare ORC and OBRs look odd - normally if you have nothing to send for a segment you omit it.  Also, I think you're missing at least some required elements.  Make sure you read through the spec for every segment and data type you're sending.</p>",
+        "id": 160010976,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1551798896
+    },
+    {
+        "content": "<blockquote>\n<p>For clarity on what <span class=\"user-mention silent\" data-user-id=\"104482\">Lloyd McKenzie</span> said, O23 is the OMI^O23 message, although many systems are still using older ORM messages. </p>\n<p>As well as checking out chapter 5 of the V2 spec, I suggest digging into chapter 4 on orders. </p>\n<p>I’m not sure which version of V2 you need,, but I think they’re all downloadable here: <a href=\"https://www.hl7.org/implement/standards/product_brief.cfm?product_id=185\" target=\"_blank\" title=\"https://www.hl7.org/implement/standards/product_brief.cfm?product_id=185\">https://www.hl7.org/implement/standards/product_brief.cfm?product_id=185</a></p>\n</blockquote>\n<p>Thanks for Help, Can you please help for the Orders Segment Name for order details  OBC &amp; OBR is fine?</p>",
+        "id": 160058563,
+        "sender_full_name": "I Butt",
+        "timestamp": 1551836425
+    },
+    {
+        "content": "<p>I'm not understanding the question</p>",
+        "id": 160063567,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1551843161
+    },
+    {
+        "content": "<blockquote>\n<p>I'm not understanding the question</p>\n</blockquote>\n<p>OMI^O23 is the Message Type with O23 trigger.<br>\nWhich segment have Order detail by Physician / Doctor For example chest Xray etc., Currently focus radiology only.</p>",
+        "id": 160069043,
+        "sender_full_name": "I Butt",
+        "timestamp": 1551850790
+    },
+    {
+        "content": "<p>You've looked at the segment definitions in the spec?</p>",
+        "id": 160070301,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1551852605
+    },
+    {
+        "content": "<p>Yes I checked. <br>\n<strong>ORC </strong>Common Order, Which is required. <strong>TQ1 </strong>(Timing / Quantity) also required. <strong>OBR </strong>-- Observation Request. <br>\nIs segments are OK?, and OBR is repeatable?</p>\n<p>Remaining Segment definition  / detail i will check from spec. This is Understandable for me.</p>",
+        "id": 160072981,
+        "sender_full_name": "I Butt",
+        "timestamp": 1551856579
+    }
+]

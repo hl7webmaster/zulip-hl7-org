@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>Funny...I've been working with HL7 messages for over close to 30 years and didn't know about this place!!  I was given this as a place to ask my questions about Syndromic Surveilance message formats.  I see there is a thread with Immunizations...am  I just missing something...or do I need to start my own conversation?</p>",
+        "id": 176128755,
+        "sender_full_name": "Donna Bailey",
+        "timestamp": 1568918259
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"240978\">@Donna Bailey</span> This space is pretty new, so there may not be relevant streams here.  As well, this space isn't necessarily monitored by large parts of the v2 implementer space, so responses here may be slower in coming.  But it never hurts to post :)</p>",
+        "id": 176159669,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1568946426
+    },
+    {
+        "content": "<p>I guess the apppropriate group is Public Health. But I don't know whether they are active here...</p>",
+        "id": 177922699,
+        "sender_full_name": "Frank Oemig",
+        "timestamp": 1570810425
+    },
+    {
+        "content": "<p>I am product manager for RIS working with HL7 and DIcom for more than 25 years. HL7 has so many options so I hope this is the place to discuss about common solutions and best practices.</p>",
+        "id": 182664919,
+        "sender_full_name": "Tom Freier",
+        "timestamp": 1575556940
+    },
+    {
+        "content": "<p>It's not as active as the <a href=\"http://chat.fhir.org\" target=\"_blank\" title=\"http://chat.fhir.org\">http://chat.fhir.org</a> space, but there is still useful discussion here.  Welcome :)</p>",
+        "id": 182668038,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1575558682
+    },
+    {
+        "content": "<p>Hello everyone!  My name is Jack Haines and I am Founder and CEO of Healthcare Integrations, LLC based in Kansas City.  I have 20+ years in IT and 10+ years specifically in healthcare IT.  I'm Mirth Connect (Advanced) and Qvera QIE (Advanced)-certified.  If I can be of assistance with any integrations questions, I would be happy to help!</p>",
+        "id": 183082188,
+        "sender_full_name": "Jack Haines",
+        "timestamp": 1575999422
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"253669\">@Jack Haines</span> Welcome to the community.  Question answerers are especially welcome :)</p>",
+        "id": 183118046,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1576025391
+    },
+    {
+        "content": "<p>I will do my best!</p>\n<p>Healthcare Integrations Signature</p>\n<p>[image:<br>\n<a href=\"https://www.healthcareintegrations.com/images/logos/HealthcareIntegrationsEmail.png\" target=\"_blank\" title=\"https://www.healthcareintegrations.com/images/logos/HealthcareIntegrationsEmail.png\">https://www.healthcareintegrations.com/images/logos/HealthcareIntegrationsEmail.png</a><br>\nLogo] &lt;<a href=\"https://www.healthcareintegrations.com\" target=\"_blank\" title=\"https://www.healthcareintegrations.com\">https://www.healthcareintegrations.com</a>&gt;<br>\n<em>Jack Haines</em><br>\nFounder / Chief Executive Officer<br>\nPhone:<br>\n816-323-0201 &lt;+1816-323-0201&gt;<br>\nEmail:<br>\n<a href=\"mailto:jack.haines@HealthcareIntegrations.com\" title=\"mailto:jack.haines@HealthcareIntegrations.com\">jack.haines@HealthcareIntegrations.com</a><br>\nWebsite:<br>\n<a href=\"https://www.healthcareintegrations.com\" target=\"_blank\" title=\"https://www.healthcareintegrations.com\">https://www.healthcareintegrations.com</a><br>\n[image: Schedule a Meeting] &lt;<a href=\"https://calendly.com/jackhaines\" target=\"_blank\" title=\"https://calendly.com/jackhaines\">https://calendly.com/jackhaines</a>&gt;</p>\n<div class=\"message_inline_image\"><a href=\"https://www.healthcareintegrations.com/images/logos/HealthcareIntegrationsEmail.png\" target=\"_blank\" title=\"https://www.healthcareintegrations.com/images/logos/HealthcareIntegrationsEmail.png\"><img src=\"https://www.healthcareintegrations.com/images/logos/HealthcareIntegrationsEmail.png\"></a></div><hr>\n<p>Secured by Paubox Encrypted Email - HITRUST CSF Certified<br>\n<a href=\"https://www.paubox.com\" target=\"_blank\" title=\"https://www.paubox.com\">https://www.paubox.com</a></p>\n<hr>",
+        "id": 183118610,
+        "sender_full_name": "Jack Haines",
+        "timestamp": 1576026029
+    },
+    {
+        "content": "<p>Hello all -- Just discovered this Zulip site. I have been using the FHIR one for quite a while. Now I know where to chat about not FHIR HL7!</p>",
+        "id": 187298488,
+        "sender_full_name": "Richard Kavanagh",
+        "timestamp": 1580760483
+    }
+]

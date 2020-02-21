@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>I've been asked why some guides have examples of offset using low = -1 and others low = 1 to indicate 1 hour before the event .</p>\n<p>-1 seems to me more logic :-), but the example in Datatype R1.1 indicates low = 1. (where DT R2 has the same example with low = -1).</p>\n<p>I was wondering if it was just a never fixed typo in DT R1.1, or there is a different approach between R1 and R2.</p>",
+        "id": 182740512,
+        "sender_full_name": "Giorgio Cangioli",
+        "timestamp": 1575622662
+    },
+    {
+        "content": "<p>...the funny thing is that the examples provided are always the same and they are  those reported in the datatype description.. .</p>",
+        "id": 182740880,
+        "sender_full_name": "Giorgio Cangioli",
+        "timestamp": 1575622972
+    },
+    {
+        "content": "<p>Which datatype?</p>",
+        "id": 182888563,
+        "sender_full_name": "Frank Oemig",
+        "timestamp": 1575803989
+    },
+    {
+        "content": "<p>Event-Related Interval of Time (EIVL) specializes SXCM.</p>\n<p>datatype R1.1 \"For example: if the specification is \"one hour before breakfast for 10 minutes\" the offset's low boundary is 1 h and the offset's width is 10 min (consequently the offset's high boundary is 50 min).\" </p>\n<p>Datatype R2 “For example: if the specification is \"one hour before breakfast for 10 minutes\" the offset's low boundary is -1 h and the offset's width is 10 min (consequently the offset's high boundary is -50 min).”</p>",
+        "id": 182907186,
+        "sender_full_name": "Giorgio Cangioli",
+        "timestamp": 1575836093
+    },
+    {
+        "content": "<p>it was deliberately changed as a clarification in R2</p>",
+        "id": 182923974,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1575866231
+    }
+]

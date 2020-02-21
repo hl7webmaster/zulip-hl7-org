@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>I misspelled a name on a stream just now (on the <a href=\"http://chat.fhir.org\" target=\"_blank\" title=\"http://chat.fhir.org\">chat.fhir.org</a> side), but I can't seem to find a way to correct it or even delete it and recreate it?  Is that possible?  The stream I created is \"genomics/commiters\" ( I missed the 2nd 't').  If someone else can rename or delete for me now, that would be great.  Thanks.</p>",
+        "id": 135116515,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1538585630
+    },
+    {
+        "content": "<p>I'd be very interested in the results of this.  Topics and streams have a way of permanently setting themselves in.</p>",
+        "id": 135116594,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1538585696
+    },
+    {
+        "content": "<p>I think an administrator can delete a stream</p>",
+        "id": 135116636,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1538585741
+    },
+    {
+        "content": "<p>I don't have <a href=\"http://chat.fhir.org\" target=\"_blank\" title=\"http://chat.fhir.org\">chat.fhir.org</a> admin credentials, but I see I can delete streams here.</p>",
+        "id": 135116644,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1538585755
+    },
+    {
+        "content": "<p>It's topics that seem to last forever. <span class=\"emoji emoji-1f642\" title=\"slight smile\">:slight_smile:</span></p>",
+        "id": 135116687,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1538585766
+    },
+    {
+        "content": "<p>I have seen in Zulip that you have a short period of time (like an hour) that has been configured to let you change topic names, but after that they are set.  But it doesn't seem there is the a similar grace period for streams.</p>",
+        "id": 135116697,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1538585781
+    },
+    {
+        "content": "<p>BTW - Grahame fixed it for me.</p>",
+        "id": 135127894,
+        "sender_full_name": "Kevin Power",
+        "timestamp": 1538595218
+    },
+    {
+        "content": "<p>I'm glad!  It must be an admin thing. Good to know.</p>",
+        "id": 135128068,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1538595432
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"101989\">@David Johnson</span> - you're an admin, you should have the power...</p>",
+        "id": 135131903,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1538598847
+    },
+    {
+        "content": "<p>on <a href=\"http://chat.hl7.org\" target=\"_blank\" title=\"http://chat.hl7.org\">chat.hl7.org</a> yeah,</p>",
+        "id": 135131914,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1538598866
+    },
+    {
+        "content": "<p>I don't think I have it on <a href=\"http://chat.fhir.org\" target=\"_blank\" title=\"http://chat.fhir.org\">chat.fhir.org</a> and that's cool.  I know you run a standalone server.</p>",
+        "id": 135131929,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1538598884
+    },
+    {
+        "content": "<p>Correct.  If you find that's causing problems, let us know and we can revisit.</p>",
+        "id": 135131956,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1538598920
+    },
+    {
+        "content": "<p>Thanks!</p>",
+        "id": 135131961,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1538598930
+    }
+]

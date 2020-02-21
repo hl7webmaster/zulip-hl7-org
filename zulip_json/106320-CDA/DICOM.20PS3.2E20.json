@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Hi all,<br>\nI saw that there is a Project under II (1230) for Endorsement of DICOM PS3.20 as the CDA Definition for Radiology Reports, which I appreciate as Intention to have a single Definition across standars.<br>\nHowever, when I look into DICOM I see that the template is evoking LOINC 87416-4 Diagnostic imaging report - recommended DICOM PS3.20 sections while de older HL7 Definition does 18748-4 Diagnostic imaging study.<br>\nAnd seems that there will be a Ballot reconcilliation  cycle, where These differences will be either reconcile or found not persuasive. However,  my concern is in regards to the International Patient Summary activities and templates. The IPS Project is still based on the HL7 Definition and not the DICOM one. Are there already synch / harmonization discussions in regards to this Project? Will this come natuarlly if the Endorsement happens? <br>\nthanks for reading my concerns :)</p>",
+        "id": 158104393,
+        "sender_full_name": "Diana_Ovelgoenne",
+        "timestamp": 1549964293
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"200823\">@Diana_Ovelgoenne</span> There is a long and twisted history of PS 1230, involving the CDA Basic Imaging Report, C-CDA, universal and US realms, meaningful use, HL7's approach to endorsements, and more. At the moment, the thought (as discussed at the last WGM, <a href=\"https://confluence.hl7.org/display/IMIN/2019-01+WGM#id-2019-01WGM-Minutes\" target=\"_blank\" title=\"https://confluence.hl7.org/display/IMIN/2019-01+WGM#id-2019-01WGM-Minutes\">minutes</a>) within II is that there won't be further (significant) updates to C-CDA, so we can't do anything with that. There is a hope to get the HL7 BIR retired/withdrawn, and replaced with a reference to PS3.20. The first step to accomplishing this is to update the PSS to reflect that. However, II doesn't have a champion at the moment to push the project forward.</p>\n<p><span class=\"user-mention\" data-user-id=\"106775\">@Brad Genereaux</span></p>",
+        "id": 158562633,
+        "sender_full_name": "Elliot Silver",
+        "timestamp": 1550176881
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"106775\">@Brad Genereaux</span> <span class=\"user-mention\" data-user-id=\"106765\">@Elliot Silver</span>  What do you Need from the \"Champion\" to help you push it Forward? I do believe that the Timing with the IPS is critical, otherwise we will start having more implementations with the old specification. If I can help, I will be glad to do so.</p>",
+        "id": 158601333,
+        "sender_full_name": "Diana_Ovelgoenne",
+        "timestamp": 1550222574
+    },
+    {
+        "content": "<p>I'll follow-up on email. The first step is to update the PSS with the current plan.</p>",
+        "id": 158635132,
+        "sender_full_name": "Elliot Silver",
+        "timestamp": 1550253846
+    }
+]

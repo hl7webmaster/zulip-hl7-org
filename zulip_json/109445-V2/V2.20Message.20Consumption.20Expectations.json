@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Hi All,  I'm curious what the expectations are for EHRs who receive Laboratory ORU messages. Does the V2 standard specify that the data in the message SHALL, SHOULD, or MAY be incorporated into the patient's chart--as in consumed directly into the database holding the data of the patient's chart, just as if it has been entered into the chart through the EHR UI?  What workflow expectations are set? and is there testing to confirm if EHRs are properly and fully consuming the data that comes in, for example, a Laboratory ORU message?</p>",
+        "id": 181637381,
+        "sender_full_name": "Lisa Nelson",
+        "timestamp": 1574429613
+    },
+    {
+        "content": "<p>In the lab world, the lab is ultimately responsible for how the EHR displays the lab results. This does make implementations complex but ultimately, the expectation is that the EHR will display the contents of the ORU message. As part of the LRI project 5+ years ago, I believe that the expectations were codified but ultimately not accepted into Meaningful Use regulation (Riki Merrick) I’m sure has details on that). I’m not sure if that has been officially published or not.</p>\n<p>We don’t have a repository of messages (although it’s on the v2 MG “to do” list) but because ORUs were part of certified EHR technology testing a number of messages were created for that. These are probably as close to gold standard as you can get. They are available from the NIST testing tool at: <a href=\"https://hl7v2-lab-testing.nist.gov/mu-lab/\" target=\"_blank\" title=\"https://hl7v2-lab-testing.nist.gov/mu-lab/\">https://hl7v2-lab-testing.nist.gov/mu-lab/</a> in the EHR Context-based Validation tab.</p>",
+        "id": 181638124,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1574430181
+    },
+    {
+        "content": "<p>Craig beat me to it.<br>\nYes - the EHR-S Functional requirements document has been published as STU (it expired and it is on my docket to request an extension for it) - this also describes how to handle data updates and what to do for error handling: <a href=\"http://www.hl7.org/implement/standards/product_brief.cfm?product_id=433\" target=\"_blank\" title=\"http://www.hl7.org/implement/standards/product_brief.cfm?product_id=433\">http://www.hl7.org/implement/standards/product_brief.cfm?product_id=433</a><br>\nIn the US each interface has to be verified by the lab, so the short answer is YES, all the data is integrated into the patient's record in the EHR of the ordering provider - there are no rules about copy to providers (though it would make sense to treat it the same way, provided the patient can be located).additional ORU example message can also be found for ELR on the context based validation tab in that NIST tool: <a href=\"https://hl7v2-elr-testing.nist.gov/mu-elr/\" target=\"_blank\" title=\"https://hl7v2-elr-testing.nist.gov/mu-elr/\">https://hl7v2-elr-testing.nist.gov/mu-elr/</a></p>",
+        "id": 181644125,
+        "sender_full_name": "Riki Merrick",
+        "timestamp": 1574434090
+    },
+    {
+        "content": "<p>I think there's a lack of clarity here: the v2 standard doesn't require this. LRI and/or national agreements might.</p>",
+        "id": 181747123,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1574575784
+    },
+    {
+        "content": "<p>I think in general, the v2 base standard tries to stay silent on receiver expectations (and as far as I know, this is by design). I think Riki and I were trying to describe the real world expectations of working with v2. We may have misinterpreted Lisa's question.</p>",
+        "id": 181822925,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1574689441
+    },
+    {
+        "content": "<p>I'm not so much saying that your interpretation was wrong as warning that it's potentially only correct in a particular context</p>",
+        "id": 181858568,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1574713010
+    },
+    {
+        "content": "<p>e.g. France takes this one step further: not only do labs have a desire to influence how results are shown, but once the lab results have been viewed a message is sent back to the lab to convey the fact that the lab results have been seen. That way they know that the lab values have not been ignored. <br>\nIn general in v2, we have server-side orchestration, so it's entirely up to the server to decide if, when and what to process when it comes to v2 message content. It's the nature of messaging that there are business/workflow expectations associated with a trigger event, but such expectations are heavily impacted by local legislation/customs/workflows, and need to be agreed upon by senders/recievers. As such it's difficult to make any sweeping statements about the processing of message content.</p>",
+        "id": 181985138,
+        "sender_full_name": "Rene Spronk",
+        "timestamp": 1574823406
+    }
+]

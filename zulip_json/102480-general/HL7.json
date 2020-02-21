@@ -1,0 +1,116 @@
+[
+    {
+        "content": "<p>Not sure if this is the right place to ask : I am looking for  a method to identify devices using HL7 traffic. Is there a way given HL7 messages by which I can identify the vendor and type of devices I have in my network (e.g. Medlink - Xray, Alaris - IV pump). Are there specific messages I should be looking at to achieve this? Are the PRT segment and OBX-18 the relevant sources of information?</p>",
+        "id": 129504840,
+        "sender_full_name": "arunraghuram",
+        "timestamp": 1531350564
+    },
+    {
+        "content": "<p>This is an interesting question.  I don't have the answer but I will see what I can do to help you find it.  Thanks for using <a href=\"http://chat.hl7.org\" target=\"_blank\" title=\"http://chat.hl7.org\">chat.hl7.org</a>!</p>",
+        "id": 129535287,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1531401677
+    },
+    {
+        "content": "<p>I know <span class=\"user-mention\" data-user-id=\"104288\">@John J Garguilo</span> is part of the Health Care Devices work group...he may be able to help or point in the right direction?</p>",
+        "id": 129535804,
+        "sender_full_name": "Anne Wizauer",
+        "timestamp": 1531402303
+    },
+    {
+        "content": "<p>Or <span class=\"user-mention\" data-user-id=\"117119\">@John Rhoads</span></p>",
+        "id": 129536159,
+        "sender_full_name": "Anne Wizauer",
+        "timestamp": 1531402758
+    },
+    {
+        "content": "<p>Thanks <span class=\"user-mention\" data-user-id=\"101989\">@David Johnson</span> , look forward to your response .  <span class=\"user-mention\" data-user-id=\"104238\">@Anne Wizauer</span> are   <span class=\"user-mention\" data-user-id=\"104288\">@John J Garguilo</span> / <span class=\"user-mention\" data-user-id=\"117119\">@John Rhoads</span>  active on here? or would you know the best way to reach them?</p>",
+        "id": 129546681,
+        "sender_full_name": "arunraghuram",
+        "timestamp": 1531413504
+    },
+    {
+        "content": "<p>It's highly likely that tagging them in your question auto-sends an email that will send them here.  Let's give them the opportunity to respond. <span class=\"emoji emoji-1f4f2\" title=\"calling\">:calling:</span></p>",
+        "id": 129550430,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1531417536
+    },
+    {
+        "content": "<p>If the HL7v2 messages are implemented according to the IHE PCD profile it'll relatively easy to identify the device. However, most devices don't communicate using HL7 v2, they use converters to transform their own data structures into HL7v2 (PCD describes this as well). Such conversions are mostly focused on the measurements themselves, not on the device which did the measuring. As such most messages probably won't identify the device at all - it can only be inferred from the type of measurements done.</p>",
+        "id": 129584962,
+        "sender_full_name": "Rene Spronk",
+        "timestamp": 1531465814
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"116494\">@Rene Spronk</span> , thanks for your informative response, I will definitely dig into this deeper. A couple of follow up questions, any help is appreciated: (a)If HL7v2 messages are implemented according to the IHE PCD profile on the device what level of granularity we can get on the device type by observing traffic? - e.g. can we specifically know it is an Alaris IV pump model 8100 or just that its an Alaris pump? or just know that its an IV pump and nothing else? and b) If the devices don't communicate with HL7v2 directly and utilize a converter, what level of granularity of device type can we hope to infer by the measurements alone?</p>",
+        "id": 129620706,
+        "sender_full_name": "arunraghuram",
+        "timestamp": 1531508269
+    },
+    {
+        "content": "<p>@Rene Spronk is certainly correct that devices do not typically communicate via HL7 directly (I know of only a few that do), but rather by a specialized protocol, either one of a few standards (as for example one of the IEEE 11073 Medical Device Communications protocol suites), or more commonly by a one-off proprietary protocol. In order to be of any use in a medical setting, this device protocol needs to be converted for interoperability, usually to HL7 V2. This is most often done by a \"gateway\" system, either available from the device vendor, an EMR vendor or from a third party (there are a number of companies specializing in this).<br>\nThe converted data stream may still not include the exact identifying information you are looking for. If the gateway is putting out HL7 V2 data in the IHE Patient Care Device profile (see details on the IHE PCD Technical Framework documents freely available on <a href=\"http://ihe.net\" target=\"_blank\" title=\"http://ihe.net\">ihe.net</a>), you should be able to find out what general kind of a device it is (in your example, say, a large-volume infusion pump) and information about its logical structure (channels and so on) and what data it is making available. You also should get a unique identifier for the individual device which can be correlated with an equipment database, if the institution has one, to get the manufacturer and model, but a \"user-friendly\" form of the manufacturer and model is not currently required to be present in the HL7 stream (this is changing but there will be a time lag in manufacturers implementing it). Feel free to ask specific questions in the IHE PCD technical committee email reflector <a href=\"mailto:ihepcdtech@googlegroups.com\" title=\"mailto:ihepcdtech@googlegroups.com\">ihepcdtech@googlegroups.com</a>. Many device manufacturers and gateway system vendors are there. <br>\nYou can often deduce a lot about the device just from what data it sends, but that it highly specific to the situation.</p>",
+        "id": 129634935,
+        "sender_full_name": "John Rhoads",
+        "timestamp": 1531522659
+    },
+    {
+        "content": "<p>Definitely. If you already know up front what devices exist in a given organisation, just looking at the data may be sufficient to deduce what piece of equipment generated it. But if you don't have a clue as to what equipment they have such a deduction process will be near to impossible unless the message actually carries the detailed information. In an HL7 context most EHRs don't really care what type/instance of equipement produced an item of data (a lab system might care, but a more general EHR doesn't), which is why this is omitted in most Hl7 v2 communications. IHE PCD (and IEEE 11073) is your best bet.</p>",
+        "id": 129649255,
+        "sender_full_name": "Rene Spronk",
+        "timestamp": 1531549244
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"117119\">@John Rhoads</span> <span class=\"user-mention\" data-user-id=\"116494\">@Rene Spronk</span> Thank you very much for your detailed response! let me do some further research on the things you suggested.</p>",
+        "id": 129783346,
+        "sender_full_name": "arunraghuram",
+        "timestamp": 1531785598
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"117119\">@John Rhoads</span> <span class=\"user-mention\" data-user-id=\"116494\">@Rene Spronk</span> , a couple of questions (a)John,  In your response, you mention that I should be able to get a unique identifier for the individual device which can be correlated with an equipment database. Are you referring to a MAC address or UDI number which is present in the HL7 traffic? Would you happen to know what segments carry these identifiers?  So far I have found the PRT segment and OBX-5 to be relevant. (b) I see that IHE PCD-15 (MEMDMC) seems to have the identifier, but the IHE product registry says that only 1 vendor has implemented this. Is this accurate?</p>",
+        "id": 130177570,
+        "sender_full_name": "arunraghuram",
+        "timestamp": 1532385021
+    },
+    {
+        "content": "<p>In addition to MEMDRC, which is not widely implemented yet, other IHE PCD profiles that contain observations in OBX segments such as DEC (Device Enterprise Communications), with the most widely implemented transaction, PCD-01, prescribe putting a unique device identifier in the message reporting observations. Most now put it in OBX-18 of a particular OBX segment (for details see vol.2 of the IHE PCD Technical Framework. The IEEE EUI-64, which has the (more or less) format of a IPV6 MAC address, is currently the preferred form, but in future implementations a PRT segment carrying an FDA Unique Device Identifier (UDI) is likely to supplant this.</p>",
+        "id": 130184291,
+        "sender_full_name": "John Rhoads",
+        "timestamp": 1532396372
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"117119\">@John Rhoads</span> Thanks for your detailed response! This is pretty helpful.</p>",
+        "id": 130238059,
+        "sender_full_name": "arunraghuram",
+        "timestamp": 1532466739
+    },
+    {
+        "content": "<p>Apologies if this isn't the best place to ask this, but:</p>\n<p>I'm looking at Care Plan <a href=\"http://confluence.hl7.org/pages/viewpage.action?pageId=21856369&amp;preview=/21856369/21856443/Care%20Plan%20Scenarios%2020180713%20v3.docx\" target=\"_blank\" title=\"http://confluence.hl7.org/pages/viewpage.action?pageId=21856369&amp;preview=/21856369/21856443/Care%20Plan%20Scenarios%2020180713%20v3.docx\">scenario</a> #1B for the C-CDA implementation-a-thon this week, which mentions: \"Create a Care Plan Document that has 1 Health Concern.\" It then goes on to say \"One of the Goals for addressing the second Health Concern also addresses the first Health Concern.\" So I'm confused about what this is supposed to be--how many Health Concerns should the Care Plan in this scenario have?</p>\n<p>Thanks for any help!</p>",
+        "id": 131054984,
+        "sender_full_name": "Matt Szczepankiewicz",
+        "timestamp": 1533659889
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"125123\">@Matt Szczepankiewicz</span>  Sorry for the confusion. The sentence should say, One of the Interventions for addressing the second Goal also addresses the first Goal.</p>",
+        "id": 131134232,
+        "sender_full_name": "Lisa Nelson",
+        "timestamp": 1533764439
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"120321\">@Lisa Nelson</span>   Okay. Thanks!</p>",
+        "id": 131144249,
+        "sender_full_name": "Matt Szczepankiewicz",
+        "timestamp": 1533779849
+    },
+    {
+        "content": "<p>FHIR Workshop at University of Washington in September: <a href=\"https://www.iths.org/blog/event/university-of-washington-fhir-workshop/\" target=\"_blank\" title=\"https://www.iths.org/blog/event/university-of-washington-fhir-workshop/\">https://www.iths.org/blog/event/university-of-washington-fhir-workshop/</a></p>",
+        "id": 132299269,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1534508336
+    },
+    {
+        "content": "<p>thanks, letting Mark know as he may wish to contact them about proper attribution of FHIR. I noticed that Stan Huff is involved.</p>",
+        "id": 132455725,
+        "sender_full_name": "Patricia Guerra",
+        "timestamp": 1534772465
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>We are trying to implement HL7 in preparation for sending information to NC HealthConnex. Is anyone familiar with how to build this file type or where we find information about building this file type?</p>",
+        "id": 133084433,
+        "sender_full_name": "Sarah Maiolo",
+        "timestamp": 1535661148
+    },
+    {
+        "content": "<p>Sarah, Thanks for bringing your question to <a href=\"http://chat.hl7.org\" target=\"_blank\" title=\"http://chat.hl7.org\">chat.hl7.org</a>!  If someone hasn't answered soon, I'll help find someone to address your question.</p>",
+        "id": 133084530,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1535661249
+    },
+    {
+        "content": "<p>Being located on the other side of the Atlantic I've never heard of them, but it would seem <a href=\"https://hiea.nc.gov/providers/how-connect\" target=\"_blank\" title=\"https://hiea.nc.gov/providers/how-connect\">https://hiea.nc.gov/providers/how-connect</a> contains sufficient information (e.g. in the onboarding document) as to what HL7 v2 message types they support, next to CCD/C-CCDA. I'm guessing you already have this information - so what's your question specifically?</p>",
+        "id": 133221788,
+        "sender_full_name": "Rene Spronk",
+        "timestamp": 1535908252
+    }
+]

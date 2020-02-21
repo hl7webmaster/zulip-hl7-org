@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>We have some testing, that requires us to know if the patient is of Ashkenazi or Sephardic Jewish heritage.  While these values are not currently part of the value set for patient Ethnic Group (HL70189), I think this would be the appropriate location.  Before I extend my local value set to include these as part of the Ethnic Group, I want to see if others agreed that would be the correct location for these values?  I can always run these as AOE questions, but if PID-22 just felt the appropriate location even though it is not yet part of the value set.  I value your thoughts.  Thanks!</p>",
+        "id": 162923619,
+        "sender_full_name": "David Burgess",
+        "timestamp": 1554825359
+    },
+    {
+        "content": "<p>In the USA the CDC Race and Ethnicity code system, which is used in many standards as THE source for concepts designated as   Ethnicity, considers only hispanic concepts to be a \"type of ethnicity.\" All of the many other cultural distinctions are considered \"Race\" types. You can see this by looking at the code system, <a href=\"https://vsac.nlm.nih.gov/context/cs/codesystem/CDCREC/version/1.2/code/1000-9/info\" target=\"_blank\" title=\"https://vsac.nlm.nih.gov/context/cs/codesystem/CDCREC/version/1.2/code/1000-9/info\">https://vsac.nlm.nih.gov/context/cs/codesystem/CDCREC/version/1.2/code/1000-9/info</a>. Equally perplexing, you will not find any mention of either of the two Jewish hereditary groups you mention anywhere in this code system. What to do? I'd say that given that in the US CDC says only Hispanic and Non-hispanic are ethnicities while everything else is a \"race.\" So if you follow the logic there, you should add the two you need to the Race component. But if you want to consider them ethnicities I certainly wouldn't argue. Since I'm not sure where others have traditionally put this for V2 messages, you might wait to see how others respond.</p>",
+        "id": 166048242,
+        "sender_full_name": "Rob McClure",
+        "timestamp": 1558313453
+    }
+]

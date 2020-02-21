@@ -1,0 +1,98 @@
+[
+    {
+        "content": "<p>Does anyone know if data from Electronic Visit Verification (EVV) can be sent over/with HL7?</p>",
+        "id": 129487843,
+        "sender_full_name": "Sarah Maiolo",
+        "timestamp": 1531332070
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"121394\">@MaryKay McDaniel</span></p>",
+        "id": 129489932,
+        "sender_full_name": "Anne Wizauer",
+        "timestamp": 1531334263
+    },
+    {
+        "content": "<p>Hi Sarah, <br>\nEVVs for things like home visits/home care?</p>",
+        "id": 129490063,
+        "sender_full_name": "MaryKay McDaniel",
+        "timestamp": 1531334373
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"121394\">@MaryKay McDaniel</span> Yes!</p>",
+        "id": 129490154,
+        "sender_full_name": "Sarah Maiolo",
+        "timestamp": 1531334416
+    },
+    {
+        "content": "<p>Are you looking for messages outside of FHIR? or was it just a general question asking if any of the HL7 product families could be used?  If just an overall general question - I'd suggest we move this to a chat on the FHIR Zulip. It may get us additional individuals deep in the \"messages\".</p>",
+        "id": 129490301,
+        "sender_full_name": "MaryKay McDaniel",
+        "timestamp": 1531334550
+    },
+    {
+        "content": "<p>Just a general question if any of the HL7 product families could be used to transmit that data. I'm not sure how to access the FHIR Zulip.</p>",
+        "id": 129490602,
+        "sender_full_name": "Sarah Maiolo",
+        "timestamp": 1531334819
+    },
+    {
+        "content": "<p>I can help with that.  In the same way that you made an account here at <a href=\"http://chat.hl7.org\" target=\"_blank\" title=\"http://chat.hl7.org\">chat.hl7.org</a>, there is a <a href=\"http://chat.fhir.org\" target=\"_blank\" title=\"http://chat.fhir.org\">chat.fhir.org</a> that you can visit at <a href=\"http://chat.fhir.org/\" target=\"_blank\" title=\"http://chat.fhir.org/\">http://chat.fhir.org/</a></p>",
+        "id": 129490736,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1531334895
+    },
+    {
+        "content": "<p>The account can also be set up for free and there are more users there that may be able to help with this question (especially if it is fhir-related)</p>",
+        "id": 129490744,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1531334923
+    },
+    {
+        "content": "<p>Thank you! I'll post my question there. I appreciate all the assistance!</p>",
+        "id": 129490990,
+        "sender_full_name": "Sarah Maiolo",
+        "timestamp": 1531335174
+    },
+    {
+        "content": "<p>Glad to help.  Please feel free to return any time.</p>",
+        "id": 129491003,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1531335191
+    },
+    {
+        "content": "<p>I also am a member of <a href=\"http://chat.fhir.org\" target=\"_blank\" title=\"http://chat.fhir.org\">chat.fhir.org</a> and will be able to help you navigate there as well.  They are both Zulip clients so it may seem a bit familiar.</p>",
+        "id": 129494397,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1531339031
+    },
+    {
+        "content": "<p>Thanks! I posted my question there but no one seems to be biting. Do I need to post it in a particular place?</p>",
+        "id": 129496149,
+        "sender_full_name": "Sarah Maiolo",
+        "timestamp": 1531340746
+    },
+    {
+        "content": "<p>Do you know which stream or topic you posted in?</p>",
+        "id": 129496843,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1531341066
+    },
+    {
+        "content": "<p>From the three streams listed I chose \"implementers\" and posted a new topic.</p>",
+        "id": 129496939,
+        "sender_full_name": "Sarah Maiolo",
+        "timestamp": 1531341147
+    },
+    {
+        "content": "<p>I see it in there now.  That's a good stream with lots of traffic.  You may want to just describe your situation, what it is you are trying to accomplish, and indicate that you are looking for information on either HL7 or FHIR.</p>",
+        "id": 129497127,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1531341328
+    },
+    {
+        "content": "<p>Thank you!</p>",
+        "id": 129497541,
+        "sender_full_name": "Sarah Maiolo",
+        "timestamp": 1531341711
+    }
+]

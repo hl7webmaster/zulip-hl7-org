@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Hi all - trial message.  Where can you find the current schema and schematron for CCDA documents?</p>",
+        "id": 179586083,
+        "sender_full_name": "Linda Michaelsen",
+        "timestamp": 1572564398
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"120321\">@Lisa Nelson</span></p>",
+        "id": 179587607,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1572566219
+    },
+    {
+        "content": "<p>I may have answered my own question at least part of it - <a href=\"https://confluence.hl7.org/display/SD/CDA+Extensions\" target=\"_blank\" title=\"https://confluence.hl7.org/display/SD/CDA+Extensions\">https://confluence.hl7.org/display/SD/CDA+Extensions</a></p>",
+        "id": 179667341,
+        "sender_full_name": "Linda Michaelsen",
+        "timestamp": 1572643759
+    },
+    {
+        "content": "<p>and the schematron is in the latest errata package.</p>",
+        "id": 179667979,
+        "sender_full_name": "Linda Michaelsen",
+        "timestamp": 1572644399
+    }
+]

@@ -1,0 +1,53 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/102482-zulip/topic/Problems.20to.20Get.20Data.20using.20Tesers.20on.20nHapi.20hl7.html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102482-zulip/index.html">zulip</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102482-zulip/topic/Problems.20to.20Get.20Data.20using.20Tesers.20on.20nHapi.20hl7.html">Problems to Get Data using Tesers on nHapi hl7</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="168797580"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102482-zulip/topic/Problems%20to%20Get%20Data%20using%20Tesers%20on%20nHapi%20hl7/near/168797580" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Fruei <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102482-zulip/topic/Problems.20to.20Get.20Data.20using.20Tesers.20on.20nHapi.20hl7.html#168797580">(Jun 23 2019 at 15:23)</a>:</h4>
+<p>Hello again dear community, i am using " Tersers " to get data from an hl7 v2 messeage, its a ADT_A08 messeage.</p>
+<p>Well the thing is that, im trying to get the PatientName with this: string test = terser.Get("PID-5-1"); and that return me nothing, instead if i use the same but changing the command for something like "MSH-16-2" i dont remember, but its work, why it still happend me that? i need to use things like PID-5-2 or EVN-2 , that commands does not work at all. The same happens when I use "MSH-152-2"; the return is the name of a medication, but that is typical of one of my hl7-v2 messages, but I would have to use "RXE-2-1" to get the same data. I apologize for my english , im spanish-language native.</p>
+<p>using NHapi.Base.Model;<br>
+using NHapi.Base.Util;<br>
+using NHapi.Base.Parser;<br>
+using System.Diagnostics;<br>
+using NHapi.Model.V23.Message;<br>
+using System.IO;</p>
+<p>public void someMethod()<br>
+{  <br>
+        string msg = txtHL7m.Text;</p>
+<div class="codehilite"><pre><span></span>    PipeParser pParser = new PipeParser();
+    var iMesseage = pParser.Parse(msg, &quot;2.3&quot;);
+
+    try
+    {
+        var terser = new Terser(iMesseage);
+        string test = terser.Get(txtTerserExpression.Text);
+        txtTerserResults.Text = test;
+    }
+    catch
+    {
+        Console.WriteLine(&quot;ERROR&quot;);
+    }
+</pre></div>
+
+
+<p>}</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>

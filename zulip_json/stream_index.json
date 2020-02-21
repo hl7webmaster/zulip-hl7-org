@@ -1,0 +1,889 @@
+{
+    "streams": {
+        "ARB": {
+            "id": 110825,
+            "latest_id": 121399886,
+            "topic_data": {
+                "hello": {
+                    "latest_date": 1516655015,
+                    "size": 2
+                }
+            }
+        },
+        "Attachments": {
+            "id": 110832,
+            "latest_id": 122748305,
+            "topic_data": {
+                "hello": {
+                    "latest_date": 1519146946,
+                    "size": 4
+                }
+            }
+        },
+        "CBCP": {
+            "id": 123796,
+            "latest_id": 126582924,
+            "topic_data": {
+                "hello": {
+                    "latest_date": 1526375566,
+                    "size": 1
+                }
+            }
+        },
+        "CDA": {
+            "id": 106320,
+            "latest_id": 187378202,
+            "topic_data": {
+                "(no topic)": {
+                    "latest_date": 1549493396,
+                    "size": 2
+                },
+                "C-CDA IAT": {
+                    "latest_date": 1552263513,
+                    "size": 43
+                },
+                "C-CDA IAT Consumers": {
+                    "latest_date": 1533186762,
+                    "size": 1
+                },
+                "Current CCDA schema": {
+                    "latest_date": 1572644399,
+                    "size": 4
+                },
+                "DICOM PS3.20": {
+                    "latest_date": 1550253846,
+                    "size": 4
+                },
+                "HIMSS roundtable on attachments": {
+                    "latest_date": 1517015090,
+                    "size": 2
+                },
+                "Icon": {
+                    "latest_date": 1528719372,
+                    "size": 2
+                },
+                "Looking for document version": {
+                    "latest_date": 1519140732,
+                    "size": 1
+                },
+                "Member Assistance": {
+                    "latest_date": 1573151843,
+                    "size": 10
+                },
+                "PQ Data Type": {
+                    "latest_date": 1547418602,
+                    "size": 1
+                },
+                "PriorityCode in Diagnoses related to Encounters": {
+                    "latest_date": 1564415004,
+                    "size": 1
+                },
+                "SSN Encryption in CDA": {
+                    "latest_date": 1563958710,
+                    "size": 1
+                },
+                "Single Medication Administration": {
+                    "latest_date": 1552652952,
+                    "size": 3
+                },
+                "Telehealth": {
+                    "latest_date": 1556044231,
+                    "size": 1
+                },
+                "Updated Encounter Summary scenario to come...": {
+                    "latest_date": 1532721847,
+                    "size": 1
+                },
+                "Validation CDA": {
+                    "latest_date": 1577108036,
+                    "size": 5
+                },
+                "encounter links and C-CDA": {
+                    "latest_date": 1580836616,
+                    "size": 2
+                },
+                "hello": {
+                    "latest_date": 1511898917,
+                    "size": 1
+                },
+                "offset in Event-Related Interval of Time (EIVL)": {
+                    "latest_date": 1575866231,
+                    "size": 5
+                }
+            }
+        },
+        "CDA German (d-a-ch)": {
+            "id": 216082,
+            "latest_id": 182458210,
+            "topic_data": {
+                "eRezept": {
+                    "latest_date": 1575386154,
+                    "size": 1
+                },
+                "stream events": {
+                    "latest_date": 1575385970,
+                    "size": 1
+                }
+            }
+        },
+        "CG": {
+            "id": 110823,
+            "latest_id": 122410666,
+            "topic_data": {
+                "2018 WGM New Orleans minutes": {
+                    "latest_date": 1517351702,
+                    "size": 3
+                },
+                "201801 Connectathon": {
+                    "latest_date": 1517162915,
+                    "size": 7
+                },
+                "Proposed Observation change": {
+                    "latest_date": 1518549376,
+                    "size": 1
+                },
+                "fhir registry": {
+                    "latest_date": 1517352785,
+                    "size": 2
+                },
+                "hello": {
+                    "latest_date": 1516808916,
+                    "size": 10
+                }
+            }
+        },
+        "Confluence Pilot": {
+            "id": 139854,
+            "latest_id": 134243483,
+            "topic_data": {
+                "Blueprint": {
+                    "latest_date": 1535546393,
+                    "size": 2
+                },
+                "hello": {
+                    "latest_date": 1537373133,
+                    "size": 5
+                },
+                "pss automation": {
+                    "latest_date": 1536178622,
+                    "size": 4
+                }
+            }
+        },
+        "Conformance": {
+            "id": 217410,
+            "latest_id": 183662374,
+            "topic_data": {
+                "stream events": {
+                    "latest_date": 1576598719,
+                    "size": 1
+                }
+            }
+        },
+        "DaVinci": {
+            "id": 127872,
+            "latest_id": 183860597,
+            "topic_data": {
+                "Please visit chat.fhir.org!": {
+                    "latest_date": 1576772403,
+                    "size": 1
+                },
+                "hello": {
+                    "latest_date": 1529692224,
+                    "size": 1
+                }
+            }
+        },
+        "EHR": {
+            "id": 222576,
+            "latest_id": 187519655,
+            "topic_data": {
+                "Reducing Clinician Burden": {
+                    "latest_date": 1580963859,
+                    "size": 2
+                },
+                "stream events": {
+                    "latest_date": 1580963708,
+                    "size": 1
+                }
+            }
+        },
+        "Emergency Care": {
+            "id": 111369,
+            "latest_id": 123661840,
+            "topic_data": {
+                "Looking for document version": {
+                    "latest_date": 1520959641,
+                    "size": 6
+                },
+                "hello": {
+                    "latest_date": 1517243529,
+                    "size": 2
+                }
+            }
+        },
+        "Gravity": {
+            "id": 206774,
+            "latest_id": 173560560,
+            "topic_data": {
+                "stream events": {
+                    "latest_date": 1566234439,
+                    "size": 1
+                }
+            }
+        },
+        "HL7 implementation": {
+            "id": 134904,
+            "latest_id": 187182947,
+            "topic_data": {
+                "(no topic)": {
+                    "latest_date": 1561388990,
+                    "size": 1
+                },
+                "CDA Usage COMP or DRIV?": {
+                    "latest_date": 1549096448,
+                    "size": 1
+                },
+                "FDA Approval": {
+                    "latest_date": 1568476277,
+                    "size": 1
+                },
+                "HL7 C# library": {
+                    "latest_date": 1576705497,
+                    "size": 2
+                },
+                "HL7 standard": {
+                    "latest_date": 1533234600,
+                    "size": 5
+                },
+                "Large File Question": {
+                    "latest_date": 1555597918,
+                    "size": 4
+                },
+                "NC HealthConnex": {
+                    "latest_date": 1535908252,
+                    "size": 3
+                },
+                "NHapi": {
+                    "latest_date": 1555602891,
+                    "size": 1
+                },
+                "OTA (Opioid Treatment Agreement)": {
+                    "latest_date": 1554480808,
+                    "size": 1
+                },
+                "Python / Spark": {
+                    "latest_date": 1580603468,
+                    "size": 2
+                },
+                "SSN Encryption in HL7 CDA": {
+                    "latest_date": 1564193702,
+                    "size": 2
+                },
+                "hello": {
+                    "latest_date": 1533111778,
+                    "size": 1
+                }
+            }
+        },
+        "Health Care Devices": {
+            "id": 123948,
+            "latest_id": 126644205,
+            "topic_data": {
+                "hello": {
+                    "latest_date": 1526476195,
+                    "size": 1
+                }
+            }
+        },
+        "Imaging Integration": {
+            "id": 111368,
+            "latest_id": 121741161,
+            "topic_data": {
+                "hello": {
+                    "latest_date": 1517243513,
+                    "size": 2
+                }
+            }
+        },
+        "InM": {
+            "id": 110824,
+            "latest_id": 121394376,
+            "topic_data": {
+                "hello": {
+                    "latest_date": 1516646936,
+                    "size": 1
+                }
+            }
+        },
+        "JiraCon": {
+            "id": 111454,
+            "latest_id": 187005243,
+            "topic_data": {
+                "Account update": {
+                    "latest_date": 1542388597,
+                    "size": 4
+                },
+                "Can't login to Confluence": {
+                    "latest_date": 1560201145,
+                    "size": 11
+                },
+                "Changed Templates": {
+                    "latest_date": 1550695151,
+                    "size": 21
+                },
+                "Confluence Issues": {
+                    "latest_date": 1580402585,
+                    "size": 45
+                },
+                "Creating Meeting Notes": {
+                    "latest_date": 1535489409,
+                    "size": 5
+                },
+                "Guidelines and Best Practices": {
+                    "latest_date": 1536670942,
+                    "size": 85
+                },
+                "JIRA Issues": {
+                    "latest_date": 1527866577,
+                    "size": 10
+                },
+                "hello": {
+                    "latest_date": 1517326684,
+                    "size": 1
+                },
+                "jira references in confluence": {
+                    "latest_date": 1575915335,
+                    "size": 6
+                }
+            }
+        },
+        "Orders and Observations": {
+            "id": 111455,
+            "latest_id": 188668267,
+            "topic_data": {
+                "Project 1370": {
+                    "latest_date": 1529356284,
+                    "size": 1
+                },
+                "Using Procedure Resource for Specimen Activities": {
+                    "latest_date": 1571248801,
+                    "size": 3
+                },
+                "V2 price info question": {
+                    "latest_date": 1582226058,
+                    "size": 2
+                },
+                "WIKI update": {
+                    "latest_date": 1565382180,
+                    "size": 4
+                },
+                "hello": {
+                    "latest_date": 1517341462,
+                    "size": 3
+                }
+            }
+        },
+        "Pharmacy": {
+            "id": 112085,
+            "latest_id": 122195869,
+            "topic_data": {
+                "hello": {
+                    "latest_date": 1518115112,
+                    "size": 1
+                }
+            }
+        },
+        "Product Mgmt Council": {
+            "id": 144438,
+            "latest_id": 135104165,
+            "topic_data": {
+                "hello": {
+                    "latest_date": 1538574416,
+                    "size": 4
+                }
+            }
+        },
+        "Public Health": {
+            "id": 220681,
+            "latest_id": 186104267,
+            "topic_data": {
+                "Interoperability success": {
+                    "latest_date": 1579528994,
+                    "size": 2
+                },
+                "deleted": {
+                    "latest_date": 1579528944,
+                    "size": 1
+                },
+                "stream events": {
+                    "latest_date": 1579528747,
+                    "size": 1
+                }
+            }
+        },
+        "Publishing": {
+            "id": 106321,
+            "latest_id": 121738398,
+            "topic_data": {
+                "V2 Implementation Guide Tooling": {
+                    "latest_date": 1512148442,
+                    "size": 1
+                },
+                "V2.9": {
+                    "latest_date": 1511967623,
+                    "size": 1
+                },
+                "WGM attendance": {
+                    "latest_date": 1517238855,
+                    "size": 1
+                },
+                "hello": {
+                    "latest_date": 1511899086,
+                    "size": 1
+                }
+            }
+        },
+        "RIM": {
+            "id": 192140,
+            "latest_id": 161182789,
+            "topic_data": {
+                "hello": {
+                    "latest_date": 1553023979,
+                    "size": 3
+                }
+            }
+        },
+        "Security": {
+            "id": 123816,
+            "latest_id": 126589596,
+            "topic_data": {
+                "hello": {
+                    "latest_date": 1526388110,
+                    "size": 1
+                }
+            }
+        },
+        "Social": {
+            "id": 110652,
+            "latest_id": 188434912,
+            "topic_data": {
+                "Articles": {
+                    "latest_date": 1579748831,
+                    "size": 6
+                },
+                "Open Position at HL7": {
+                    "latest_date": 1571358988,
+                    "size": 1
+                },
+                "Redox Patent": {
+                    "latest_date": 1536213514,
+                    "size": 6
+                },
+                "hello": {
+                    "latest_date": 1526389344,
+                    "size": 14
+                },
+                "signups": {
+                    "latest_date": 1582017914,
+                    "size": 418
+                }
+            }
+        },
+        "Support": {
+            "id": 127794,
+            "latest_id": 180525379,
+            "topic_data": {
+                "Confluence": {
+                    "latest_date": 1535110410,
+                    "size": 11
+                },
+                "Enterprise Architect license?": {
+                    "latest_date": 1538404076,
+                    "size": 5
+                },
+                "GitHub": {
+                    "latest_date": 1529947206,
+                    "size": 1
+                },
+                "JIRA": {
+                    "latest_date": 1529947191,
+                    "size": 1
+                },
+                "cdasearch.hl7.org": {
+                    "latest_date": 1557170639,
+                    "size": 10
+                },
+                "hello": {
+                    "latest_date": 1529631654,
+                    "size": 1
+                },
+                "hl7.org login is down?": {
+                    "latest_date": 1573571235,
+                    "size": 2
+                }
+            }
+        },
+        "V2": {
+            "id": 109445,
+            "latest_id": 187814203,
+            "topic_data": {
+                "Canonical V2": {
+                    "latest_date": 1526853210,
+                    "size": 3
+                },
+                "FHIRPath on v2": {
+                    "latest_date": 1515366112,
+                    "size": 5
+                },
+                "Hello": {
+                    "latest_date": 1529170320,
+                    "size": 16
+                },
+                "Jan 2020 ballot": {
+                    "latest_date": 1576597657,
+                    "size": 1
+                },
+                "New V2 Content": {
+                    "latest_date": 1578073637,
+                    "size": 4
+                },
+                "Signature as part of v2 message": {
+                    "latest_date": 1581340941,
+                    "size": 12
+                },
+                "V2 Message Consumption Expectations": {
+                    "latest_date": 1574823406,
+                    "size": 7
+                },
+                "anonymization/deidentfication of v2 messages?": {
+                    "latest_date": 1541076604,
+                    "size": 8
+                },
+                "online verification of Insurance Information": {
+                    "latest_date": 1551167431,
+                    "size": 1
+                },
+                "stream events": {
+                    "latest_date": 1574276001,
+                    "size": 2
+                },
+                "v2 http spec": {
+                    "latest_date": 1515059621,
+                    "size": 1
+                }
+            }
+        },
+        "V2 German (d-a-ch)": {
+            "id": 216081,
+            "latest_id": 183789226,
+            "topic_data": {
+                "VSDM Codes": {
+                    "latest_date": 1576702423,
+                    "size": 3
+                },
+                "stream events": {
+                    "latest_date": 1575803900,
+                    "size": 3
+                }
+            }
+        },
+        "Vocabulary": {
+            "id": 144318,
+            "latest_id": 166048242,
+            "topic_data": {
+                "Ethnicity": {
+                    "latest_date": 1558313453,
+                    "size": 2
+                },
+                "hello": {
+                    "latest_date": 1538488104,
+                    "size": 1
+                }
+            }
+        },
+        "Work Opportunities": {
+            "id": 215613,
+            "latest_id": 181965984,
+            "topic_data": {
+                "stream events": {
+                    "latest_date": 1574803691,
+                    "size": 2
+                }
+            }
+        },
+        "announce": {
+            "id": 102479,
+            "latest_id": 187519570,
+            "topic_data": {
+                "Confluence/Jira": {
+                    "latest_date": 1566921829,
+                    "size": 3
+                },
+                "FDA Approval": {
+                    "latest_date": 1573670125,
+                    "size": 2
+                },
+                "Free HL7 Event for Students in Atlanta": {
+                    "latest_date": 1568127984,
+                    "size": 1
+                },
+                "Interface Specification Document": {
+                    "latest_date": 1576002904,
+                    "size": 2
+                },
+                "Mirth Connect": {
+                    "latest_date": 1561384599,
+                    "size": 1
+                },
+                "New users": {
+                    "latest_date": 1537472869,
+                    "size": 11
+                },
+                "Streams": {
+                    "latest_date": 1553009135,
+                    "size": 21
+                },
+                "Website Updates": {
+                    "latest_date": 1578071585,
+                    "size": 5
+                },
+                "new streams": {
+                    "latest_date": 1580963708,
+                    "size": 5
+                },
+                "signups": {
+                    "latest_date": 1516912233,
+                    "size": 69
+                },
+                "templates repository": {
+                    "latest_date": 1552316056,
+                    "size": 2
+                },
+                "welcome": {
+                    "latest_date": 1505941473,
+                    "size": 2
+                }
+            }
+        },
+        "general": {
+            "id": 102480,
+            "latest_id": 188648356,
+            "topic_data": {
+                "Apple": {
+                    "latest_date": 1528303505,
+                    "size": 3
+                },
+                "C-CDA": {
+                    "latest_date": 1580833688,
+                    "size": 2
+                },
+                "CDA is ... ?": {
+                    "latest_date": 1576080887,
+                    "size": 7
+                },
+                "Deepak vs Tupac": {
+                    "latest_date": 1524075418,
+                    "size": 6
+                },
+                "Final addendum": {
+                    "latest_date": 1548112374,
+                    "size": 1
+                },
+                "GOM": {
+                    "latest_date": 1575928745,
+                    "size": 3
+                },
+                "Group Medical Practice": {
+                    "latest_date": 1558016191,
+                    "size": 8
+                },
+                "HL7": {
+                    "latest_date": 1534772465,
+                    "size": 19
+                },
+                "HL7 & EVV": {
+                    "latest_date": 1531341711,
+                    "size": 16
+                },
+                "HL7 & NC HealthConnex": {
+                    "latest_date": 1535383024,
+                    "size": 1
+                },
+                "HL7 C# library": {
+                    "latest_date": 1576685302,
+                    "size": 1
+                },
+                "HL7 FHIR certification Study guide": {
+                    "latest_date": 1579729127,
+                    "size": 3
+                },
+                "HL7 Fundamentals": {
+                    "latest_date": 1580835926,
+                    "size": 1
+                },
+                "HL7 Integration with Java": {
+                    "latest_date": 1544565893,
+                    "size": 2
+                },
+                "HL7 Interrogative Query / Response  Radiology Order From HIS": {
+                    "latest_date": 1551856579,
+                    "size": 20
+                },
+                "HL7 V3 templates repository": {
+                    "latest_date": 1552631398,
+                    "size": 4
+                },
+                "HL7 data sharing options Healthcare Systems choose": {
+                    "latest_date": 1545967852,
+                    "size": 2
+                },
+                "HL7 published references": {
+                    "latest_date": 1544721142,
+                    "size": 2
+                },
+                "HL7-INTERPAS": {
+                    "latest_date": 1580566755,
+                    "size": 3
+                },
+                "HL7.org down?": {
+                    "latest_date": 1525695766,
+                    "size": 4
+                },
+                "IT": {
+                    "latest_date": 1512603117,
+                    "size": 38
+                },
+                "Immunization Messages": {
+                    "latest_date": 1567494983,
+                    "size": 6
+                },
+                "MLLP Protocol Violation": {
+                    "latest_date": 1562698680,
+                    "size": 6
+                },
+                "OBR-26 and OBR-29": {
+                    "latest_date": 1579549704,
+                    "size": 4
+                },
+                "ORM^O01 Medications": {
+                    "latest_date": 1582212900,
+                    "size": 5
+                },
+                "ORM^O01 Price": {
+                    "latest_date": 1579296155,
+                    "size": 3
+                },
+                "ORU^R01 messages": {
+                    "latest_date": 1581002267,
+                    "size": 16
+                },
+                "QRDA III Stylesheet": {
+                    "latest_date": 1552327611,
+                    "size": 1
+                },
+                "RIM": {
+                    "latest_date": 1553671944,
+                    "size": 10
+                },
+                "Tell people about this": {
+                    "latest_date": 1557152125,
+                    "size": 1
+                },
+                "Website Migration": {
+                    "latest_date": 1575320767,
+                    "size": 19
+                },
+                "What's Next?": {
+                    "latest_date": 1528233730,
+                    "size": 1
+                },
+                "Work Group Meeting Request": {
+                    "latest_date": 1525358022,
+                    "size": 5
+                },
+                "confluence transition deadlines": {
+                    "latest_date": 1543859981,
+                    "size": 6
+                },
+                "database": {
+                    "latest_date": 1531770638,
+                    "size": 1
+                },
+                "encounter number": {
+                    "latest_date": 1581368298,
+                    "size": 9
+                },
+                "gForge to JIRA migration": {
+                    "latest_date": 1571752687,
+                    "size": 5
+                },
+                "genetic test results": {
+                    "latest_date": 1576769638,
+                    "size": 3
+                },
+                "pre-authorization (Insurance)": {
+                    "latest_date": 1558188750,
+                    "size": 7
+                },
+                "welcome": {
+                    "latest_date": 1510586737,
+                    "size": 5
+                }
+            }
+        },
+        "new members": {
+            "id": 102481,
+            "latest_id": 187298488,
+            "topic_data": {
+                "Create HL7 Account": {
+                    "latest_date": 1578068312,
+                    "size": 3
+                },
+                "Glad to be here": {
+                    "latest_date": 1580760483,
+                    "size": 9
+                },
+                "IHE vs FHIR": {
+                    "latest_date": 1576852830,
+                    "size": 4
+                },
+                "Valdery Moura Junior": {
+                    "latest_date": 1561658623,
+                    "size": 1
+                },
+                "Why HL7 is use": {
+                    "latest_date": 1568511871,
+                    "size": 3
+                },
+                "onboarding": {
+                    "latest_date": 1565083177,
+                    "size": 15
+                }
+            }
+        },
+        "zulip": {
+            "id": 102482,
+            "latest_id": 168797580,
+            "topic_data": {
+                "Delete a stream?": {
+                    "latest_date": 1538598930,
+                    "size": 13
+                },
+                "Problems to Get Data using Tesers on nHapi hl7": {
+                    "latest_date": 1561303421,
+                    "size": 1
+                },
+                "second topic": {
+                    "latest_date": 1512599405,
+                    "size": 5
+                },
+                "topic demonstration": {
+                    "latest_date": 1505763586,
+                    "size": 2
+                }
+            }
+        }
+    },
+    "time": 1582298606.4851873
+}

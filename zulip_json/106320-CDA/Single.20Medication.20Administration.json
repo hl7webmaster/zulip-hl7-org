@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Hi all<br>\nThere is an old HL7 Helpdesk question that asks how to represent this is in CDA.<br>\nWe are turning some of the helpdesk answers into FAQs. <br>\nIs this the best way to record that a medication was given once please?<br>\nIt covers a whole day presumably because the exact time is unknown.<br>\nAlso if there is already some better example or reference for this let me know and I will use that instead.</p>\n<p>&lt;substanceAdministration classCode=\"SBADM\" moodCode=\"EVN\"&gt;<br>\n    &lt;text&gt;Drug taken once&lt;/text&gt;<br>\n    &lt;statusCode code=\"completed\"/&gt;<br>\n    &lt;effectiveTime xsi:type=\"IVL_TS\"&gt;<br>\n        &lt;low value=\"20140206\"/&gt;<br>\n        &lt;high value=\"20140207\" inclusive=\"false\"/&gt;<br>\n    &lt;/effectiveTime&gt;<br>\n    &lt;effectiveTime xsi:type=\"PIVL_TS\" institutionSpecified=\"true\" operator=\"A\"&gt;<br>\n        &lt;period value=\"24\" unit=\"h\"/&gt;<br>\n    &lt;/effectiveTime&gt;<br>\n    &lt;repeatNumber value=\"1\"/&gt;<br>\n    &lt;!-- the actual drug goes here --&gt;<br>\n&lt;/substanceAdministration&gt;<br>\nThanks<br>\nRik</p>",
+        "id": 160869693,
+        "sender_full_name": "Lisa Nelson",
+        "timestamp": 1552652830
+    },
+    {
+        "content": "<p>I’ve found this example:</p>\n<p><a href=\"http://cdasearch.hl7.org/examples/view/Medications/Single%20administration%20of%20medication\" target=\"_blank\" title=\"http://cdasearch.hl7.org/examples/view/Medications/Single%20administration%20of%20medication\">http://cdasearch.hl7.org/examples/view/Medications/Single%20administration%20of%20medication</a></p>\n<p>It’s a lot simpler with just a single effectiveTime with the time of the administration. </p>\n<p>Is that the preferred way to show a one time administration?</p>\n<p>Rik</p>",
+        "id": 160869774,
+        "sender_full_name": "Lisa Nelson",
+        "timestamp": 1552652917
+    },
+    {
+        "content": "<p>Rik,</p>\n<p>I would recommend an example that has been vetted through the CDA Examples Task Force over one that has not.</p>\n<p>I will point out three things about this sample:<br>\n1.  The comment is a good fit for the use case you are looking to address:<br>\n&lt;!-- This medication use case is a medication administered a single time in the past. If it to be administered use moodCode = \"INT\". If an ordered drug then use moodCode = \"RQO\" --&gt;</p>\n<p>2.  There are complexities noted here:<br>\n&lt;!-- Dependencies exist between moodCode, statusCode and effectiveTime  </p>\n<p>3.  The CDA Examples Task Force spends a fair amount of energy debating the accurate human readable text that would be derived from the structured entry information (note the assertion of &lt;entry typeCode=”DRIV”&gt;<br>\nThe issue of whether statusCode is “clinical information” or “machine state of the entry” continues to be debated.  If statusCode is not “clinical information”, then it should not be presented in the text element for the entry.  The data in statusCode would drive machine processing behavior, and would not be “human readable” information.  Note also the proper dereferencing into the narrative text by the entry.text element.</p>",
+        "id": 160869807,
+        "sender_full_name": "Lisa Nelson",
+        "timestamp": 1552652952
+    }
+]

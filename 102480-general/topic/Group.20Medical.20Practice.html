@@ -1,0 +1,68 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/102480-general/topic/Group.20Medical.20Practice.html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Group.20Medical.20Practice.html">Group Medical Practice</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="165333720"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/Group%20Medical%20Practice/near/165333720" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Shital Garad <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Group.20Medical.20Practice.html#165333720">(May 10 2019 at 12:59)</a>:</h4>
+<p>Hello All, I have a question about HL7 segment and field. If we want to send or receive Group Medical Practice information Inbound or outbound, in an ADT message, which Field is allotted for this?</p>
+
+
+
+<a name="165409193"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/Group%20Medical%20Practice/near/165409193" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> David Pyke <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Group.20Medical.20Practice.html#165409193">(May 11 2019 at 12:23)</a>:</h4>
+<p>Can you be a little more specific?  What about  Group Medical Practice information are you interested in passing?</p>
+
+
+
+<a name="165810418"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/Group%20Medical%20Practice/near/165810418" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Shital Garad <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Group.20Medical.20Practice.html#165810418">(May 16 2019 at 13:40)</a>:</h4>
+<p>Group of doctors practice together at certain locations - when patient is admitted to a hospital and being treated by one of the doctors - we capture which group practice that doctor belongs to. I want to send this information outbound</p>
+
+
+
+<a name="165813079"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/Group%20Medical%20Practice/near/165813079" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> David Pyke <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Group.20Medical.20Practice.html#165813079">(May 16 2019 at 14:09)</a>:</h4>
+<p>That's not a standard field.  You will need to talk to the systems you will be exchanging information with and work out policy for this.</p>
+
+
+
+<a name="165813221"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/Group%20Medical%20Practice/near/165813221" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Shital Garad <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Group.20Medical.20Practice.html#165813221">(May 16 2019 at 14:10)</a>:</h4>
+<p><span class="user-mention" data-user-id="116975">@David Pyke</span>  - So, we should go for Z segment - is that right?</p>
+
+
+
+<a name="165813264"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/Group%20Medical%20Practice/near/165813264" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> David Pyke <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Group.20Medical.20Practice.html#165813264">(May 16 2019 at 14:11)</a>:</h4>
+<p>Possibly.  However, that is a policy decision and needs to be made with all parties</p>
+
+
+
+<a name="165813437"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/Group%20Medical%20Practice/near/165813437" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Shital Garad <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Group.20Medical.20Practice.html#165813437">(May 16 2019 at 14:12)</a>:</h4>
+<p>right, that can be taken care - but before doing that, i was just confirming that there is no dedicated field in HL7 standard..</p>
+
+
+
+<a name="165813822"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/Group%20Medical%20Practice/near/165813822" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Shital Garad <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Group.20Medical.20Practice.html#165813822">(May 16 2019 at 14:16)</a>:</h4>
+<p>So, my take away from this conversation - HL7 standards do not have field to send "Group Practice Info" as of now... Thanks a lot David! :) this is helpful..</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>

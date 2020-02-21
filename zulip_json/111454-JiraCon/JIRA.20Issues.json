@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>JIRA was down this morning and required a restart.  I'm working with Atlassian having restarted the service to determine root cause analysis</p>",
+        "id": 126318875,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1525878648
+    },
+    {
+        "content": "<p>we are seeing failure on our integrity checker.  I have opened a case with Atlassian.</p>",
+        "id": 127364068,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1527776151
+    },
+    {
+        "content": "<p>I'm running individual integrity checks. Workflow Integrity may be where the issue i</p>",
+        "id": 127365213,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1527777420
+    },
+    {
+        "content": "<p>Was able to find the fix</p>",
+        "id": 127365457,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1527777706
+    },
+    {
+        "content": "<p>rebuilding indexes with a lock, uptime robot has reported jira is down due to slow response</p>",
+        "id": 127365551,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1527777819
+    },
+    {
+        "content": "<p>The indexing was failing</p>",
+        "id": 127365633,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1527777885
+    },
+    {
+        "content": "<p>but now it passed after the integrity fix</p>",
+        "id": 127365635,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1527777892
+    },
+    {
+        "content": "<p>and uptimerobot is reporting that <a href=\"http://jira.hl7.org\" target=\"_blank\" title=\"http://jira.hl7.org\">jira.hl7.org</a> is up</p>",
+        "id": 127365643,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1527777904
+    },
+    {
+        "content": "<p>I've gotten responses that the Integrity check was failing due to a null value in some workflows.  I was able to use the intergrity checker to fix the null values.  This is a common occurrence</p>",
+        "id": 127421452,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1527866537
+    },
+    {
+        "content": "<p>I have added the integrity checker to our daily routine.  This was being done once a week, but because of the error we will increase our reviews.</p>",
+        "id": 127421482,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1527866577
+    }
+]

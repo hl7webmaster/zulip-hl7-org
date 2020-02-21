@@ -1,0 +1,81 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/102480-general/topic/encounter.20number.html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/encounter.20number.html">encounter number</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="165802261"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/encounter%20number/near/165802261" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> hisham alrashdan <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/encounter.20number.html#165802261">(May 16 2019 at 11:52)</a>:</h4>
+<p>Hello <br>
+I want to receive the encounter number from any HIS to my software because I want to do some services and billings depending on this number. <br>
+my question is in which segment and field this encounter value should be regarding on the HL7 standard version 2.3 ?!</p>
+
+
+
+<a name="165809377"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/encounter%20number/near/165809377" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> David Pyke <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/encounter.20number.html#165809377">(May 16 2019 at 13:28)</a>:</h4>
+<p>Encounter information in usually in the PV1 segment and MAY be in Field 19 "Visit Number"  However, different EHR systems may not complete this information or may use it differently.  It is best if you discuss it with the organization you'll be getting information from to find out what they will be sending</p>
+
+
+
+<a name="165810546"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/encounter%20number/near/165810546" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> hisham alrashdan <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/encounter.20number.html#165810546">(May 16 2019 at 13:41)</a>:</h4>
+<p>Thanks and what about the insurance plans ?!</p>
+
+
+
+<a name="165810980"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/encounter%20number/near/165810980" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> hisham alrashdan <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/encounter.20number.html#165810980">(May 16 2019 at 13:46)</a>:</h4>
+<p>because I have a billing table in my application and I want to fill it with the following information using the HL7 standard Message: <br>
+encounter number, <br>
+insurance plans,<br>
+ fees schedules <br>
+diagnosis codes</p>
+
+
+
+<a name="165813001"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/encounter%20number/near/165813001" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> David Pyke <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/encounter.20number.html#165813001">(May 16 2019 at 14:08)</a>:</h4>
+<p>All insurance information will be in IN1 segments. It sounds like you're just starting out with HL7 v2 messages.  You will want to do some research and perhaps download the specifications.</p>
+
+
+
+<a name="165872984"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/encounter%20number/near/165872984" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> hisham alrashdan <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/encounter.20number.html#165872984">(May 17 2019 at 05:02)</a>:</h4>
+<p><span class="user-mention" data-user-id="116975">@David Pyke</span>   thanks David, I already read the standard but because this is the first time for implementing it  I feel afraid from doing mistakes, for this reason, I always prefer first  to ask expert persons like you and the others in this wonderful chat community</p>
+
+
+
+<a name="179990755"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/encounter%20number/near/179990755" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Julie Paulson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/encounter.20number.html#179990755">(Nov 05 2019 at 23:58)</a>:</h4>
+<p>We use the PID-18 field as our encounter number</p>
+
+
+
+<a name="187838213"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/encounter%20number/near/187838213" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Julie Paulson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/encounter.20number.html#187838213">(Feb 10 2020 at 17:39)</a>:</h4>
+<p>I am trying to better understand the HL7 messages we are receiving from an external EHR system so we can insert better into our datawarehouse.  Concerning Encounter ID's - do most EHR systems not use Encounter Numbers to identify and correlate same encounter messages?  The system we receive from does not populate PV1-19(Visit Number).  They suggested using PID-18 as an encounter ID but that  field only seems to be populated about 50% of the time.  How do others correlate their messages?  HOw do you list all the things that happened to a patient for each of their Encounters?  Is it more of  unique patient/facility/encounter date ?</p>
+
+
+
+<a name="187857295"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/encounter%20number/near/187857295" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Craig Newman <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/encounter.20number.html#187857295">(Feb 10 2020 at 20:58)</a>:</h4>
+<p>Even though PID-18 and PV1-19 are conceptually different, I've seen a lot of different systems use them interchangeably (or at least have configurations that allow either to be used). I think most EHRs can populate the field when sending an order message to a filler system. One scenario where a visit ID (in either field) may not be present is when there is no electronic order (the patient shows up to the lab with a paper requisition and there is no visit number on it or it doesn't get manually entered into the filler system). Or I suppose it could be a case where a "future" order was placed as part of an office visit on Monday but the patient is supposed to go to the lab later in the week. If they go to the lab on Friday, the order may not actually get associated with the office visit on Monday because the specimen is being drawn on Friday. It's probably worth asking the source of your data why so many of the results don't have a visit ID.</p>
+<p>How you handle results with a visit ID is more up to you. I know some systems that will try to match based on the patient and date to an existing encounter. Or sometimes, they'll just create a new encounter for the patient that doesn't really correspond to any real visit (often they'll put multiple results on this one new encounter). This may be helpful in the case of the future order above where there is a gap in time between when the order was signed (Monday) and when it was executed (Friday) because often it's the date the test was performed (Friday) which providers are more interested (sometimes orders are placed months in advance).</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>

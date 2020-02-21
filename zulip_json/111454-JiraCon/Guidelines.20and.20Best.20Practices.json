@@ -1,0 +1,512 @@
+[
+    {
+        "content": "<p>A set of guidelines on how to use templates, such as decision logs, will be prepared and made available for new workgroups prior to the Cologne WGM.</p>",
+        "id": 122402436,
+        "sender_full_name": "Wayne Kubick",
+        "timestamp": 1518536110
+    },
+    {
+        "content": "<p>Does anyone have any suggestions on best practices for doing meeting minutes?</p>",
+        "id": 126643687,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1526475394
+    },
+    {
+        "content": "<p>This is specific to Confluence</p>",
+        "id": 126643790,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1526475527
+    },
+    {
+        "content": "<p>I've seen some good examples, but I want to make sure before I start answering people's questions.</p>",
+        "id": 126643798,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1526475542
+    },
+    {
+        "content": "<p>I understand that minutes can be hard to manage in the confluence page tree as they accumulate</p>",
+        "id": 126643815,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1526475570
+    },
+    {
+        "content": "<p>I like the table-based stuff that OO is doing here: <a href=\"http://confluence.hl7.org/display/OO/OO+Meeting+Minutes\" target=\"_blank\" title=\"http://confluence.hl7.org/display/OO/OO+Meeting+Minutes\">http://confluence.hl7.org/display/OO/OO+Meeting+Minutes</a></p>",
+        "id": 126643875,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1526475639
+    },
+    {
+        "content": "<p>But still need to figure out that page tree</p>",
+        "id": 126643877,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1526475645
+    },
+    {
+        "content": "<p>As for the fields that should be in a Minutes template, we do have a Minutes template in MS Word at <a href=\"http://HL7.org\" target=\"_blank\" title=\"http://HL7.org\">HL7.org</a> &gt; Resources &gt; Templates</p>",
+        "id": 126643880,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1526475655
+    },
+    {
+        "content": "<p>Thanks Dave!  I think the actual minutes are looking good for people, and the templates are great to have, but it's that page tree and management of the bulk that comes over time that gets teejus.</p>",
+        "id": 126643905,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1526475703
+    },
+    {
+        "content": "<p>Teejus.  Wow.</p>",
+        "id": 126643910,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1526475714
+    },
+    {
+        "content": "<p>/me is midwestern.</p>",
+        "id": 126643913,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1526475719
+    },
+    {
+        "content": "<p>One thing you can do is create an archive within the page tree.  This is what the PH Work Group has done with our meeting notes.</p>",
+        "id": 127048475,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1527194310
+    },
+    {
+        "content": "<p>I see it there.  I like it!</p>",
+        "id": 127081589,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1527255216
+    },
+    {
+        "content": "<p>Let's use this to discuss account creation</p>",
+        "id": 133675948,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536600360
+    },
+    {
+        "content": "<p>I can either stop open account creation, or create a new group which new users are assigned by default which only has view permissions, then as users need access they may submit to be added to jira-core-users.  the second option has less overhead per new user.</p>",
+        "id": 133676625,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1536601013
+    },
+    {
+        "content": "<p>I like the second option.  That means all new accounts are handled quickly, and the gatekeeping is to jira-core-users</p>",
+        "id": 133676664,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536601065
+    },
+    {
+        "content": "<p>applying that now.</p>",
+        "id": 133676771,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1536601166
+    },
+    {
+        "content": "<p>The only reason for users to request an account is because they want write access - everyone gets read access if they're a member of the public</p>",
+        "id": 133677433,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536601781
+    },
+    {
+        "content": "<p>So everyone asking for an account needs to be immediately put in the review queue for a proper account</p>",
+        "id": 133677523,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536601830
+    },
+    {
+        "content": "<p>okay, that works under what Josh is doing now</p>",
+        "id": 133677543,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536601852
+    },
+    {
+        "content": "<p>The question is: how do you get enough information to allow you to evaluate someone's request</p>",
+        "id": 133677567,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536601866
+    },
+    {
+        "content": "<p>He is making a base-user account that new users will be immediately assigned to.</p>",
+        "id": 133677579,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536601873
+    },
+    {
+        "content": "<p>Would it work better to have a \"public\" Jira tracker people can request ids from that we can then evaluate (preferably automatically) to grant access?</p>",
+        "id": 133677616,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536601916
+    },
+    {
+        "content": "<p>It seems th</p>",
+        "id": 133677734,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536601997
+    },
+    {
+        "content": "<p>Right but the base user account will be useless</p>",
+        "id": 133677742,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602010
+    },
+    {
+        "content": "<p>ere are two issues we are dealing with, and one is confluence based and one is jira based</p>",
+        "id": 133677744,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602013
+    },
+    {
+        "content": "<p>okay,</p>",
+        "id": 133677746,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602019
+    },
+    {
+        "content": "<p>I don't know the business rules well enough to determine h</p>",
+        "id": 133677758,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602034
+    },
+    {
+        "content": "<p>ow this should be setup for both systems.  But we must turn off jira-core-user edit access in confluence</p>",
+        "id": 133677815,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602060
+    },
+    {
+        "content": "<p>if we want to keep the jira-core-user as the base account, that's okay, as long as they cannot create any content in confluence</p>",
+        "id": 133677830,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602082
+    },
+    {
+        "content": "<p>The general public has full read access to everything relevant without a logon.  (Or at least they should - if not, we need to fix that.)  So the only reason to request a logon is because you want to create and update stuff.</p>",
+        "id": 133677834,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602090
+    },
+    {
+        "content": "<p>We don't want spammers to have the right to create or update stuff on Jira or Confluence</p>",
+        "id": 133677856,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602115
+    },
+    {
+        "content": "<p>the general public does have full read access</p>",
+        "id": 133677864,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1536602124
+    },
+    {
+        "content": "<p>So the question is: What is our process for keeping spammers out?</p>",
+        "id": 133677865,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602128
+    },
+    {
+        "content": "<p>hold on</p>",
+        "id": 133677872,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602134
+    },
+    {
+        "content": "<p>because spammers have the right to create and update stuff in confluence with the jira-core-users account in confluence</p>",
+        "id": 133677881,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602156
+    },
+    {
+        "content": "<p>jira-core-users have the right to create spam tracker items and comments in Jira too</p>",
+        "id": 133677946,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602186
+    },
+    {
+        "content": "<p>so what you're saying about 'we need to fix that' is immediately valid in confluence</p>",
+        "id": 133677947,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602188
+    },
+    {
+        "content": "<p>do you want them to?</p>",
+        "id": 133677950,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602197
+    },
+    {
+        "content": "<p>because i don't :-)</p>",
+        "id": 133677957,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602209
+    },
+    {
+        "content": "<p>The ideal solution is: User self registers and gets basic write access to Jira and Confluence after an automated evaluation determines that they're legit and, on occasion, passes 'questionnable' registrations on for human review.</p>",
+        "id": 133677986,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602246
+    },
+    {
+        "content": "<p>The issue with emailing the webmaster is that it creates a delay and creates extra workload for the two of you.</p>",
+        "id": 133678055,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602295
+    },
+    {
+        "content": "<p>Lloyd, that sounds like anonymous write access to me.</p>",
+        "id": 133678063,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602302
+    },
+    {
+        "content": "<p>We could give anonymous write access to a single project that doesn't allow anonymous read</p>",
+        "id": 133678097,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602344
+    },
+    {
+        "content": "<p>That project could be used for registration submissions</p>",
+        "id": 133678106,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602355
+    },
+    {
+        "content": "<p>It could enforce username and proper name policies</p>",
+        "id": 133678118,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602374
+    },
+    {
+        "content": "<p>what group would that belong to?</p>",
+        "id": 133678123,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602378
+    },
+    {
+        "content": "<p>public</p>",
+        "id": 133678132,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602384
+    },
+    {
+        "content": "<p>(for write)</p>",
+        "id": 133678142,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602392
+    },
+    {
+        "content": "<p>so, a new group called public, that all new accounts are assigned to, that can create a tracker, and has basic view access in confluence?</p>",
+        "id": 133678218,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602414
+    },
+    {
+        "content": "<p>no</p>",
+        "id": 133678223,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602419
+    },
+    {
+        "content": "<p>No group</p>",
+        "id": 133678227,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602421
+    },
+    {
+        "content": "<p>each</p>",
+        "id": 133678234,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602430
+    },
+    {
+        "content": "<p>\"public\" is something you can grant permsisions to directly</p>",
+        "id": 133678243,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602438
+    },
+    {
+        "content": "<p>account has to be assigned agroup on account creation</p>",
+        "id": 133678244,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602438
+    },
+    {
+        "content": "<p>Public already has basic view access in confluence and Jira</p>",
+        "id": 133678273,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602461
+    },
+    {
+        "content": "<p>let's not talk about Public as though it's a group then, that is anonymous, right?</p>",
+        "id": 133678294,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602482
+    },
+    {
+        "content": "<p>They'd submit to the tracker.  The tracker's automated process would then create an account under jira-core-user.</p>",
+        "id": 133678311,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602503
+    },
+    {
+        "content": "<p>the question is what group are new accounts associated with, because there HAS to be one.</p>",
+        "id": 133678317,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602506
+    },
+    {
+        "content": "<p>I don't remember the name of the permission label.  It could be anonymous.  I thought it was public.</p>",
+        "id": 133678329,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602521
+    },
+    {
+        "content": "<p>the permission label is most likely anonymous.</p>",
+        "id": 133678392,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602549
+    },
+    {
+        "content": "<p>the real meat here for me is not what is displayed when you don't have an account, it is what group are new accounts assigned to.</p>",
+        "id": 133678409,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602576
+    },
+    {
+        "content": "<p>ok.  (startiung to chair a call, back in a bit)</p>",
+        "id": 133678416,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602583
+    },
+    {
+        "content": "<p>cool, we'll keep this open</p>",
+        "id": 133678421,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602593
+    },
+    {
+        "content": "<p>If the standard Confluence account creation mechanism isn't enough, then we replace it with our own.  Once a user is \"successful\" they should end up in jira-core with basic write access to everything.</p>",
+        "id": 133678453,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536602630
+    },
+    {
+        "content": "<p>My suggesting is to handle write access to Jira and Confluence separately.  Just because someone is able to create tracker items should not mean that they are automatically able to create/edit pages in Confluence.</p>",
+        "id": 133678528,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1536602678
+    },
+    {
+        "content": "<p>well, let's make sure we don't call it the confluence account creation.  It is the Atlassian account creation and immediately applies to both systems.</p>",
+        "id": 133678532,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602680
+    },
+    {
+        "content": "<p>Does that make sense?  Account creation for both Confluence and Jira are done when the user signs up for Jira.</p>",
+        "id": 133678705,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536602852
+    },
+    {
+        "content": "<p>From my perspective, it makes sense to grant access to Jira and Confluence at the same time (if user counts are not an issue).  However, I do feel that base-level Confluence access should not include the ability to create spaces or update existing spaces/pages...that should come afterwards unless you are capturing that information at account creation along with the appropriate signoff from the Space owner/administrator</p>",
+        "id": 133679338,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1536603486
+    },
+    {
+        "content": "<p>We want all Confluence users to be able to do things like mark their attendance at meetings - which means update page privileges.</p>",
+        "id": 133684284,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536608629
+    },
+    {
+        "content": "<p>This is a high-level discussion so I feel it is safe to say that that is not the best use of Confluence.</p>",
+        "id": 133685477,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536609875
+    },
+    {
+        "content": "<p>Must away, I'll read up responses later.</p>",
+        "id": 133685821,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1536610244
+    },
+    {
+        "content": "<p>I'm fine with not capturing attendees in Confluence.  I expect FHIR-I will continue to use a Google Doc - at least until there's a version of Confluence that won't have collision issues.  And if that were the case, then we could restrict editing Confluence pages to \"HL7 Trusted Users\" - the same people who can triage trackers</p>",
+        "id": 133685945,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536610403
+    },
+    {
+        "content": "<p>This is not how all work groups work with Confluence, so we should not assume that this is the approach that all would want.  For example, the Public Health work group has the scribe of the session (who already has write access) take attendance</p>",
+        "id": 133686693,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1536611120
+    },
+    {
+        "content": "<p>I was just reflecting the decision from the Jira/Confluence calls that we wanted everyone to have write access to Confluence.</p>",
+        "id": 133689287,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536613805
+    },
+    {
+        "content": "<p>On the wiki we use captcha sparingly when we want to ensure it is at least a real person - would that work in the user self registration page?</p>",
+        "id": 133692280,
+        "sender_full_name": "Lorraine Constable",
+        "timestamp": 1536616816
+    },
+    {
+        "content": "<p>In terms of preventing spammers, if we can check emails against the listserves, <a href=\"http://chat.fhir.org\" target=\"_blank\" title=\"http://chat.fhir.org\">chat.fhir.org</a>, <a href=\"http://hl7.fhir.org\" target=\"_blank\" title=\"http://hl7.fhir.org\">hl7.fhir.org</a> and the membership database, anyone who's on one of them can presumably be approved.</p>",
+        "id": 133692291,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536616832
+    },
+    {
+        "content": "<p>anonymous is the label for allowing public read access (or whatever public access you wish). I just turned anonymous read on in the Jiracon space yesterday, as it wasn't already</p>",
+        "id": 133692412,
+        "sender_full_name": "Lorraine Constable",
+        "timestamp": 1536616929
+    },
+    {
+        "content": "<p>How effective is captcha in keeping out spammers?  The alternative is for the submission form to ask for an email of someone who vouches for them (said email needing to be in one of those lists) and we can then auto-fire off an email to the \"sponsor\" and approve the request when we get a response back.</p>",
+        "id": 133692414,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536616931
+    },
+    {
+        "content": "<p>when we brought it in, captcha definitely slowed the crap we were getting on the wiki, particularly around external links (which is why that is the only place we are still using it). Does not guarantee you are not a spammer, but does confirm you are a person rather than a bot</p>",
+        "id": 133692618,
+        "sender_full_name": "Lorraine Constable",
+        "timestamp": 1536617157
+    },
+    {
+        "content": "<p>This topic should go on EST's agenda for this week as well</p>",
+        "id": 133692693,
+        "sender_full_name": "Lorraine Constable",
+        "timestamp": 1536617209
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"104293\">@Joginder Madra</span>  - granting logon access at the same time does not necessarily mean the permissions need to be configured the same for both. One of our guiding principles had been that we want at a minimum the access we have on the current wiki - any logged in user can create a page in the wiki. And, for both attendance logging and for discussion items, many groups have open entry on the page. Does not mean everyone has to</p>",
+        "id": 133692925,
+        "sender_full_name": "Lorraine Constable",
+        "timestamp": 1536617512
+    },
+    {
+        "content": "<p>Using the \"what do we do on the wiki\" test - we turned off the ability to create an account on your own there, and an administrator needs to create. It seems that response has been fairly quick. What is the realistic overhead? I suspect the bulk of the account creation will be when we first do a Jira ballot, but hopefully many stakeholders are already on line by then. </p>\n<p>Or do we proactively create a log in for all members who have the right to submit ballot comments?</p>",
+        "id": 133693208,
+        "sender_full_name": "Lorraine Constable",
+        "timestamp": 1536617772
+    },
+    {
+        "content": "<p>The main reason for super-fast approval is if we want people to self-register in meeting minutes.  Other use-cases, waiting for a few hours (or even a few days) isn't the end of the world.  When we import people from the ballot signup process, we'll generate users for the new email addresses.</p>",
+        "id": 133693816,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1536618455
+    },
+    {
+        "content": "<p>i second that notion</p>",
+        "id": 133730223,
+        "sender_full_name": "Joshua Procious",
+        "timestamp": 1536670942
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>This is a message on stream <code>announce</code> with the topic <code>welcome</code>. We'll use this stream for system-generated notifications.</p>",
+        "id": 116027825,
+        "sender_full_name": "Welcome Bot",
+        "timestamp": 1505763586
+    },
+    {
+        "content": "<p>Announcing.</p>",
+        "id": 116116896,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1505941473
+    }
+]

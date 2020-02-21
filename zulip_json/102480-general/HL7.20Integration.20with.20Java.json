@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>How can Integrate HL7 into my java application to decode HL7 messages ? Is there an HL7 API or what is the procedure ?</p>",
+        "id": 151484278,
+        "sender_full_name": "Battestia Cole",
+        "timestamp": 1544565743
+    },
+    {
+        "content": "<p>You might take a look at the HAPI interface - <a href=\"https://hapifhir.github.io/hapi-hl7v2/\" target=\"_blank\" title=\"https://hapifhir.github.io/hapi-hl7v2/\">https://hapifhir.github.io/hapi-hl7v2/</a></p>",
+        "id": 151484439,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1544565893
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>I’m working on a project about providers reporting birth defect incidents to a jurisdictional public health system. As part of this, I’m wondering if EHRs are doing much with genetic test results (things like karyotype, single gene sequencing, large scale (whole genome or whole exome) sequencing, micro-array, etc). I’m assuming that at a high-level, there is still a summary ‘result’ and the typical normal/abnormal flag but are other types of discrete data being captured too? The discrete results are likely to be very complex and varied depending on the type of test, so I'm wondering how much of that actually gets into the EHR. Any insight would be appreciated. Thanks.</p>",
+        "id": 183772850,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1576691366
+    },
+    {
+        "content": "<p>I reckon you'd get an answer on the genomics channel over on <a href=\"http://chat.fhir.org\" target=\"_blank\" title=\"http://chat.fhir.org\">chat.fhir.org</a></p>",
+        "id": 183824685,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1576743426
+    },
+    {
+        "content": "<p>It's not a FHIR specific question but I can post something there referencing this thread. Thanks.</p>",
+        "id": 183855891,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1576769638
+    }
+]

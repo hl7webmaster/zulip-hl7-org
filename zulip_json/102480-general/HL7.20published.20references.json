@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>I need to make reference to HL7 as part of a manuscript in which I describe having a software program create an HL7 message with patient information that is then sent to an electronic health record.</p>\n<p>Can anyone recommend any published HL7 references describing HL7 background/foundation or its general use in healthcare that would serve as an appropriate reference for a journal manuscript?  I would like to reference 1-2 articles that provide an overview of HL7 for that purpose, but it's hard finding one that is really just an overview of HL7 with its past and current use.</p>",
+        "id": 151483101,
+        "sender_full_name": "Fahd ahmad",
+        "timestamp": 1544564856
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"148855\">@Fahd ahmad</span> You can use any material from the website and just state that the information was obtained from <a href=\"http://HL7.org\" target=\"_blank\" title=\"http://HL7.org\">HL7.org</a>.  There are a lot of trade journals that write about HL7 but that may not suit your needs.  Also, there are HL7 books available through the store (links to Amazon).  For a general introduction to HL7, you may try <a href=\"http://www.hl7.org/newsroom/HL7backgrounderbrief.cfm\" target=\"_blank\" title=\"http://www.hl7.org/newsroom/HL7backgrounderbrief.cfm\">http://www.hl7.org/newsroom/HL7backgrounderbrief.cfm</a>.</p>",
+        "id": 151623077,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1544721142
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>This is a message in a second topic.</p>\n<p>Topics are similar to email subjects, in that each conversation should get its own topic. Keep them short, though; one or two words will do it!</p>",
+        "id": 116027831,
+        "sender_full_name": "Welcome Bot",
+        "timestamp": 1505763586
+    },
+    {
+        "content": "<p>we should customise the registration page with a reference to HL7 community rules (GOM, at a minimum)</p>",
+        "id": 119423191,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1512599282
+    },
+    {
+        "content": "<p>Is that something that zulip does or is that within our control?</p>",
+        "id": 119423244,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1512599355
+    },
+    {
+        "content": "<p>I'd be happy to follow through with Tim Abbott either way.</p>",
+        "id": 119423250,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1512599369
+    },
+    {
+        "content": "<p>we can configure that on the administrator page</p>",
+        "id": 119423302,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1512599405
+    }
+]

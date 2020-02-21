@@ -1,0 +1,88 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/102480-general/topic/MLLP.20Protocol.20Violation.html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/MLLP.20Protocol.20Violation.html">MLLP Protocol Violation</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="170445673"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/MLLP%20Protocol%20Violation/near/170445673" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Ma Sk <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/MLLP.20Protocol.20Violation.html#170445673">(Jul 09 2019 at 11:49)</a>:</h4>
+<p>Hey guys,</p>
+<p>i hope i am posting this in the correct stream.</p>
+<p>I have a problem with sending an ORU message to my hapi fhir  jpa server.<br>
+I tried the same with the HAPI testpanel and it worked there, but now i installed my "own" server via docker and i get a compiler error.<br>
+The port is definitely listening and my firewall shouldn´t make problems. I can access localhost:8080 in my browser.</p>
+<p>13:26:29.471 [hapi-worker-1] DEBUG ca.uhn.hl7v2.concurrent.Service - Prepare to stop thread Receiver<br>
+13:26:29.474 [hapi-worker-1] ERROR ca.uhn.hl7v2.app.Receiver - Unexpected error, closing connection from 127.0.0.1:8080 - <br>
+ca.uhn.hl7v2.llp.LLPException: MLLP protocol violation - Expected byte '11' in state START but was '72'<br>
+    at ca.uhn.hl7v2.llp.MllpDecoderState.read(MllpDecoderState.java:137)<br>
+    at ca.uhn.hl7v2.llp.MllpDecoder.getMessage(MllpDecoder.java:63)<br>
+    at ca.uhn.hl7v2.llp.Hl7DecoderReader.getMessage(Hl7DecoderReader.java:84)<br>
+    at ca.uhn.hl7v2.llp.MinLLPReader.getMessage(MinLLPReader.java:33)<br>
+    at ca.uhn.hl7v2.app.Receiver.handle(Receiver.java:63)<br>
+    at ca.uhn.hl7v2.concurrent.Service.run(Service.java:205)<br>
+    at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)<br>
+    at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+    at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+    at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+    at java.base/java.lang.Thread.run(Thread.java:835)<br>
+13:26:29.474 [hapi-worker-1] DEBUG ca.uhn.hl7v2.concurrent.Service - Thread Receiver leaving main loop<br>
+ca.uhn.hl7v2.HL7Exception: Timeout waiting for response to message with control ID 7801<br>
+    at ca.uhn.hl7v2.app.ActiveInitiator.sendAndReceive(ActiveInitiator.java:153)</p>
+<p>Does anybody know what "Expected byte '11' in state START but was '72'" means?</p>
+<p>Thanks in advance</p>
+
+
+
+<a name="170452220"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/MLLP%20Protocol%20Violation/near/170452220" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> David Pyke <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/MLLP.20Protocol.20Violation.html#170452220">(Jul 09 2019 at 13:21)</a>:</h4>
+<p>You're better to ask questions about FHIR in <a href="http://chat.fhir.org" target="_blank" title="http://chat.fhir.org">chat.fhir.org</a>.  There's a lot more people there that can help you</p>
+
+
+
+<a name="170452231"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/MLLP%20Protocol%20Violation/near/170452231" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> David Pyke <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/MLLP.20Protocol.20Violation.html#170452231">(Jul 09 2019 at 13:21)</a>:</h4>
+<p>You can ask in the Implementers channel there</p>
+
+
+
+<a name="170457695"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/MLLP%20Protocol%20Violation/near/170457695" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Ma Sk <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/MLLP.20Protocol.20Violation.html#170457695">(Jul 09 2019 at 14:25)</a>:</h4>
+<blockquote>
+<p>You're better to ask questions about FHIR in <a href="http://chat.fhir.org" target="_blank" title="http://chat.fhir.org">chat.fhir.org</a>.  There's a lot more people there that can help you</p>
+</blockquote>
+<p>ok. thank you</p>
+
+
+
+<a name="170467420"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/MLLP%20Protocol%20Violation/near/170467420" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Rene Spronk <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/MLLP.20Protocol.20Violation.html#170467420">(Jul 09 2019 at 16:15)</a>:</h4>
+<p>Instead of ASCII 11 it received ASCII 72 (H). My guess ;-) .. but that doesn't explain anything as to why this is happening.</p>
+
+
+
+<a name="170480806"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/MLLP%20Protocol%20Violation/near/170480806" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Ma Sk <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/MLLP.20Protocol.20Violation.html#170480806">(Jul 09 2019 at 18:58)</a>:</h4>
+<blockquote>
+<p>Instead of ASCII 11 it received ASCII 72 (H). My guess ;-) .. but that doesn't explain anything as to why this is happening.</p>
+</blockquote>
+<p>Thanks for your answer. <br>
+I debbuged my code and found an array with exactly 72 values at the error line, but i don´t know what these values are.</p>
+<p><a href="/user_uploads/1284/ZJKXRC54rUWtmF6AGi-G7plQ/dfdfdfdfee.PNG" target="_blank" title="dfdfdfdfee.PNG">dfdfdfdfee.PNG</a> </p>
+<div class="message_inline_image"><a href="/user_uploads/1284/ZJKXRC54rUWtmF6AGi-G7plQ/dfdfdfdfee.PNG" target="_blank" title="dfdfdfdfee.PNG"><img src="/user_uploads/1284/ZJKXRC54rUWtmF6AGi-G7plQ/dfdfdfdfee.PNG"></a></div><p>maybe this makes things clearer?</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>

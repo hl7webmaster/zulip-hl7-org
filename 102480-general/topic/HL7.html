@@ -1,0 +1,138 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/102480-general/topic/HL7.html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html">HL7</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="129504840"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/129504840" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> arunraghuram <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#129504840">(Jul 11 2018 at 23:09)</a>:</h4>
+<p>Not sure if this is the right place to ask : I am looking for  a method to identify devices using HL7 traffic. Is there a way given HL7 messages by which I can identify the vendor and type of devices I have in my network (e.g. Medlink - Xray, Alaris - IV pump). Are there specific messages I should be looking at to achieve this? Are the PRT segment and OBX-18 the relevant sources of information?</p>
+
+
+
+<a name="129535287"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/129535287" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> David Johnson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#129535287">(Jul 12 2018 at 13:21)</a>:</h4>
+<p>This is an interesting question.  I don't have the answer but I will see what I can do to help you find it.  Thanks for using <a href="http://chat.hl7.org" target="_blank" title="http://chat.hl7.org">chat.hl7.org</a>!</p>
+
+
+
+<a name="129535804"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/129535804" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Anne Wizauer <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#129535804">(Jul 12 2018 at 13:31)</a>:</h4>
+<p>I know <span class="user-mention" data-user-id="104288">@John J Garguilo</span> is part of the Health Care Devices work group...he may be able to help or point in the right direction?</p>
+
+
+
+<a name="129536159"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/129536159" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Anne Wizauer <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#129536159">(Jul 12 2018 at 13:39)</a>:</h4>
+<p>Or <span class="user-mention" data-user-id="117119">@John Rhoads</span></p>
+
+
+
+<a name="129546681"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/129546681" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> arunraghuram <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#129546681">(Jul 12 2018 at 16:38)</a>:</h4>
+<p>Thanks <span class="user-mention" data-user-id="101989">@David Johnson</span> , look forward to your response .  <span class="user-mention" data-user-id="104238">@Anne Wizauer</span> are   <span class="user-mention" data-user-id="104288">@John J Garguilo</span> / <span class="user-mention" data-user-id="117119">@John Rhoads</span>  active on here? or would you know the best way to reach them?</p>
+
+
+
+<a name="129550430"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/129550430" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> David Johnson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#129550430">(Jul 12 2018 at 17:45)</a>:</h4>
+<p>It's highly likely that tagging them in your question auto-sends an email that will send them here.  Let's give them the opportunity to respond. <span class="emoji emoji-1f4f2" title="calling">:calling:</span></p>
+
+
+
+<a name="129584962"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/129584962" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Rene Spronk <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#129584962">(Jul 13 2018 at 07:10)</a>:</h4>
+<p>If the HL7v2 messages are implemented according to the IHE PCD profile it'll relatively easy to identify the device. However, most devices don't communicate using HL7 v2, they use converters to transform their own data structures into HL7v2 (PCD describes this as well). Such conversions are mostly focused on the measurements themselves, not on the device which did the measuring. As such most messages probably won't identify the device at all - it can only be inferred from the type of measurements done.</p>
+
+
+
+<a name="129620706"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/129620706" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> arunraghuram <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#129620706">(Jul 13 2018 at 18:57)</a>:</h4>
+<p><span class="user-mention" data-user-id="116494">@Rene Spronk</span> , thanks for your informative response, I will definitely dig into this deeper. A couple of follow up questions, any help is appreciated: (a)If HL7v2 messages are implemented according to the IHE PCD profile on the device what level of granularity we can get on the device type by observing traffic? - e.g. can we specifically know it is an Alaris IV pump model 8100 or just that its an Alaris pump? or just know that its an IV pump and nothing else? and b) If the devices don't communicate with HL7v2 directly and utilize a converter, what level of granularity of device type can we hope to infer by the measurements alone?</p>
+
+
+
+<a name="129634935"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/129634935" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> John Rhoads <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#129634935">(Jul 13 2018 at 22:57)</a>:</h4>
+<p>@Rene Spronk is certainly correct that devices do not typically communicate via HL7 directly (I know of only a few that do), but rather by a specialized protocol, either one of a few standards (as for example one of the IEEE 11073 Medical Device Communications protocol suites), or more commonly by a one-off proprietary protocol. In order to be of any use in a medical setting, this device protocol needs to be converted for interoperability, usually to HL7 V2. This is most often done by a "gateway" system, either available from the device vendor, an EMR vendor or from a third party (there are a number of companies specializing in this).<br>
+The converted data stream may still not include the exact identifying information you are looking for. If the gateway is putting out HL7 V2 data in the IHE Patient Care Device profile (see details on the IHE PCD Technical Framework documents freely available on <a href="http://ihe.net" target="_blank" title="http://ihe.net">ihe.net</a>), you should be able to find out what general kind of a device it is (in your example, say, a large-volume infusion pump) and information about its logical structure (channels and so on) and what data it is making available. You also should get a unique identifier for the individual device which can be correlated with an equipment database, if the institution has one, to get the manufacturer and model, but a "user-friendly" form of the manufacturer and model is not currently required to be present in the HL7 stream (this is changing but there will be a time lag in manufacturers implementing it). Feel free to ask specific questions in the IHE PCD technical committee email reflector <a href="mailto:ihepcdtech@googlegroups.com" title="mailto:ihepcdtech@googlegroups.com">ihepcdtech@googlegroups.com</a>. Many device manufacturers and gateway system vendors are there. <br>
+You can often deduce a lot about the device just from what data it sends, but that it highly specific to the situation.</p>
+
+
+
+<a name="129649255"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/129649255" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Rene Spronk <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#129649255">(Jul 14 2018 at 06:20)</a>:</h4>
+<p>Definitely. If you already know up front what devices exist in a given organisation, just looking at the data may be sufficient to deduce what piece of equipment generated it. But if you don't have a clue as to what equipment they have such a deduction process will be near to impossible unless the message actually carries the detailed information. In an HL7 context most EHRs don't really care what type/instance of equipement produced an item of data (a lab system might care, but a more general EHR doesn't), which is why this is omitted in most Hl7 v2 communications. IHE PCD (and IEEE 11073) is your best bet.</p>
+
+
+
+<a name="129783346"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/129783346" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> arunraghuram <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#129783346">(Jul 16 2018 at 23:59)</a>:</h4>
+<p><span class="user-mention" data-user-id="117119">@John Rhoads</span> <span class="user-mention" data-user-id="116494">@Rene Spronk</span> Thank you very much for your detailed response! let me do some further research on the things you suggested.</p>
+
+
+
+<a name="130177570"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/130177570" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> arunraghuram <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#130177570">(Jul 23 2018 at 22:30)</a>:</h4>
+<p><span class="user-mention" data-user-id="117119">@John Rhoads</span> <span class="user-mention" data-user-id="116494">@Rene Spronk</span> , a couple of questions (a)John,  In your response, you mention that I should be able to get a unique identifier for the individual device which can be correlated with an equipment database. Are you referring to a MAC address or UDI number which is present in the HL7 traffic? Would you happen to know what segments carry these identifiers?  So far I have found the PRT segment and OBX-5 to be relevant. (b) I see that IHE PCD-15 (MEMDMC) seems to have the identifier, but the IHE product registry says that only 1 vendor has implemented this. Is this accurate?</p>
+
+
+
+<a name="130184291"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/130184291" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> John Rhoads <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#130184291">(Jul 24 2018 at 01:39)</a>:</h4>
+<p>In addition to MEMDRC, which is not widely implemented yet, other IHE PCD profiles that contain observations in OBX segments such as DEC (Device Enterprise Communications), with the most widely implemented transaction, PCD-01, prescribe putting a unique device identifier in the message reporting observations. Most now put it in OBX-18 of a particular OBX segment (for details see vol.2 of the IHE PCD Technical Framework. The IEEE EUI-64, which has the (more or less) format of a IPV6 MAC address, is currently the preferred form, but in future implementations a PRT segment carrying an FDA Unique Device Identifier (UDI) is likely to supplant this.</p>
+
+
+
+<a name="130238059"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/130238059" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> arunraghuram <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#130238059">(Jul 24 2018 at 21:12)</a>:</h4>
+<p><span class="user-mention" data-user-id="117119">@John Rhoads</span> Thanks for your detailed response! This is pretty helpful.</p>
+
+
+
+<a name="131054984"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/131054984" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Matt Szczepankiewicz <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#131054984">(Aug 07 2018 at 16:38)</a>:</h4>
+<p>Apologies if this isn't the best place to ask this, but:</p>
+<p>I'm looking at Care Plan <a href="http://confluence.hl7.org/pages/viewpage.action?pageId=21856369&amp;preview=/21856369/21856443/Care%20Plan%20Scenarios%2020180713%20v3.docx" target="_blank" title="http://confluence.hl7.org/pages/viewpage.action?pageId=21856369&amp;preview=/21856369/21856443/Care%20Plan%20Scenarios%2020180713%20v3.docx">scenario</a> #1B for the C-CDA implementation-a-thon this week, which mentions: "Create a Care Plan Document that has 1 Health Concern." It then goes on to say "One of the Goals for addressing the second Health Concern also addresses the first Health Concern." So I'm confused about what this is supposed to be--how many Health Concerns should the Care Plan in this scenario have?</p>
+<p>Thanks for any help!</p>
+
+
+
+<a name="131134232"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/131134232" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Lisa Nelson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#131134232">(Aug 08 2018 at 21:40)</a>:</h4>
+<p><span class="user-mention" data-user-id="125123">@Matt Szczepankiewicz</span>  Sorry for the confusion. The sentence should say, One of the Interventions for addressing the second Goal also addresses the first Goal.</p>
+
+
+
+<a name="131144249"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/131144249" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Matt Szczepankiewicz <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#131144249">(Aug 09 2018 at 01:57)</a>:</h4>
+<p><span class="user-mention" data-user-id="120321">@Lisa Nelson</span>   Okay. Thanks!</p>
+
+
+
+<a name="132299269"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/132299269" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> David Johnson <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#132299269">(Aug 17 2018 at 12:18)</a>:</h4>
+<p>FHIR Workshop at University of Washington in September: <a href="https://www.iths.org/blog/event/university-of-washington-fhir-workshop/" target="_blank" title="https://www.iths.org/blog/event/university-of-washington-fhir-workshop/">https://www.iths.org/blog/event/university-of-washington-fhir-workshop/</a></p>
+
+
+
+<a name="132455725"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7/near/132455725" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Patricia Guerra <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.html#132455725">(Aug 20 2018 at 13:41)</a>:</h4>
+<p>thanks, letting Mark know as he may wish to contact them about proper attribution of FHIR. I noticed that Stan Huff is involved.</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>

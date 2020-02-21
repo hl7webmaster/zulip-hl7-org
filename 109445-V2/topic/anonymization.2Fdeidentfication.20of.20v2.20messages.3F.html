@@ -1,0 +1,68 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/109445-V2/topic/anonymization.2Fdeidentfication.20of.20v2.20messages.3F.html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/index.html">V2</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/anonymization.2Fdeidentfication.20of.20v2.20messages.3F.html">anonymization/deidentfication of v2 messages?</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="136860785"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/109445-V2/topic/anonymization/deidentfication%20of%20v2%20messages%3F/near/136860785" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Oliver Egger <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/anonymization.2Fdeidentfication.20of.20v2.20messages.3F.html#136860785">(Oct 31 2018 at 15:49)</a>:</h4>
+<p>hi, has anyone a pointer to a tool/software which can deidentify or anonymize hl7 v2 messages?</p>
+
+
+
+<a name="136862869"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/109445-V2/topic/anonymization/deidentfication%20of%20v2%20messages%3F/near/136862869" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Lloyd McKenzie <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/anonymization.2Fdeidentfication.20of.20v2.20messages.3F.html#136862869">(Oct 31 2018 at 16:15)</a>:</h4>
+<p>Deidentification and anonymization are risk reduction processes that require context in order to evaluate risk of identification and in order to know what sort of information must be retained to support purpose of use.  Add onto that that v2 systems are notorious for not populating segments consistently plus frequent reliance on Z-segments for important information, I think you'll be hard-pressed to find a generic tooling solution.</p>
+
+
+
+<a name="136862877"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/109445-V2/topic/anonymization/deidentfication%20of%20v2%20messages%3F/near/136862877" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Lloyd McKenzie <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/anonymization.2Fdeidentfication.20of.20v2.20messages.3F.html#136862877">(Oct 31 2018 at 16:15)</a>:</h4>
+<p><span class="user-mention" data-user-id="116959">@John Moehrke</span></p>
+
+
+
+<a name="136871569"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/109445-V2/topic/anonymization/deidentfication%20of%20v2%20messages%3F/near/136871569" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> John Moehrke <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/anonymization.2Fdeidentfication.20of.20v2.20messages.3F.html#136871569">(Oct 31 2018 at 18:32)</a>:</h4>
+<p>I agree with Lloyd.  There might be some tools that are more aware of how to do this, but I am sure there is little in the way of off-the-shelf.     Note, that all de-identification is a process that is specific to the data you have and the intended use of the resulting de-identified data. This process would look to the content of each element (e.g. each z-segment), and the need for the data to be maintained.  see my article on this <a href="https://healthcaresecprivacy.blogspot.com/2015/02/is-it-really-possible-to-anonymize-data.html" target="_blank" title="https://healthcaresecprivacy.blogspot.com/2015/02/is-it-really-possible-to-anonymize-data.html">https://healthcaresecprivacy.blogspot.com/2015/02/is-it-really-possible-to-anonymize-data.html</a></p>
+
+
+
+<a name="136909390"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/109445-V2/topic/anonymization/deidentfication%20of%20v2%20messages%3F/near/136909390" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Oliver Egger <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/anonymization.2Fdeidentfication.20of.20v2.20messages.3F.html#136909390">(Nov 01 2018 at 09:08)</a>:</h4>
+<p><span class="user-mention" data-user-id="104482">@Lloyd McKenzie</span> and <span class="user-mention" data-user-id="116959">@John Moehrke</span> thanks a lot for the information provided! i completely agree with your statements but I hoped maybe someone had already tackled part of it with a software tooling stack.</p>
+
+
+
+<a name="136919269"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/109445-V2/topic/anonymization/deidentfication%20of%20v2%20messages%3F/near/136919269" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> John Moehrke <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/anonymization.2Fdeidentfication.20of.20v2.20messages.3F.html#136919269">(Nov 01 2018 at 12:48)</a>:</h4>
+<p>possibly <a href="https://privacy-analytics.com/" target="_blank" title="https://privacy-analytics.com/">https://privacy-analytics.com/</a></p>
+
+
+
+<a name="136919275"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/109445-V2/topic/anonymization/deidentfication%20of%20v2%20messages%3F/near/136919275" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> John Moehrke <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/anonymization.2Fdeidentfication.20of.20v2.20messages.3F.html#136919275">(Nov 01 2018 at 12:48)</a>:</h4>
+<p>I would not be too surprised that the large hl7 v2 interface engines had some capability</p>
+
+
+
+<a name="136919345"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/109445-V2/topic/anonymization/deidentfication%20of%20v2%20messages%3F/near/136919345" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> John Moehrke <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/109445-V2/topic/anonymization.2Fdeidentfication.20of.20v2.20messages.3F.html#136919345">(Nov 01 2018 at 12:50)</a>:</h4>
+<p>the creation of the algorithm that is specific to your data, and your intended use of the resulting data set is the hard part, and something that is not possible to automate (well, except for the tried-and-true algorithm &gt; /dev/null</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>

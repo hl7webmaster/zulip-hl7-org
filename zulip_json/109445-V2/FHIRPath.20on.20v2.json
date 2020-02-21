@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>ITS is planning to ballot FHIRPath as normative in May. There's several implementations in different languages by different authors, there's plenty of use in the FHIR spec, there's a solid set of tests. There's some production use. And there's been very little substantiative change</p>\n<p>This is a call for comments and consideration on making this normative. In particular, has anyone used the v2 part (other than me?)</p>",
+        "id": 120749784,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1515359472
+    },
+    {
+        "content": "<p>Does it meet the requirement of 2 prior publication cycles as STU?</p>",
+        "id": 120750881,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1515362110
+    },
+    {
+        "content": "<p>where is that requirement?</p>",
+        "id": 120751652,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1515363895
+    },
+    {
+        "content": "<p>FMM5 for FHIR says \"PLUS the artifact has been published in two formal publication release cycles at FMM1+ (i.e. Trial Use level) and has been implemented in at least 5 independent production systems in more than one country\".  While FHIRPath doesn't <em>have</em> to adhere to FHIR's FMM requirements, I think the organization has identified the notion of maturity levels as \"good practice\" and given the high level of dependency FHIR has on FHIRPath, I would hope that we would maintain that same level of rigor and process.  The notion of 2 STU publication cycles is to ensure that the artifact has had sufficiently wide and deep penetration that we feel safe locking it down.  I don't see a dependency where FHIRPath would have to be normative in order for StructureDefinition to be normative, so I'm not sure there's a rush.</p>",
+        "id": 120752091,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1515364987
+    },
+    {
+        "content": "<p>discussion continued on <a href=\"https://chat.fhir.org/#narrow/stream/implementers/subject/FHIRPath\" target=\"_blank\" title=\"https://chat.fhir.org/#narrow/stream/implementers/subject/FHIRPath\">https://chat.fhir.org/#narrow/stream/implementers/subject/FHIRPath</a> since this is not about v2</p>",
+        "id": 120752582,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1515366112
+    }
+]

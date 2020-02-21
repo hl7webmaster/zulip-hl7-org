@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Does anyone know where to get the HL7 v2 Interface Specification Document?</p>",
+        "id": 183004878,
+        "sender_full_name": "Darnell Nance",
+        "timestamp": 1575928831
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"253555\">@Darnell Nance</span>  This sort of thing should probably go in the v2 thread.</p>\n<p>I'm not 100% sure what you are looking for, but if you just want the v2 base standards they are are available from the standards grid. Check out <a href=\"http://www.hl7.org/implement/standards/product_section.cfm?section=13\" target=\"_blank\" title=\"http://www.hl7.org/implement/standards/product_section.cfm?section=13\">http://www.hl7.org/implement/standards/product_section.cfm?section=13</a> and see if what you want is there.</p>",
+        "id": 183087974,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1576002904
+    }
+]

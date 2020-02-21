@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Iam computer engineer and Iam working in Healthcare.I would like to know the purpose of using HL7.</p>\n<p>Kindly help me regarding this.</p>\n<p>Thanks</p>",
+        "id": 175723185,
+        "sender_full_name": "Aisha",
+        "timestamp": 1568504074
+    },
+    {
+        "content": "<p>HL7 is an organization.  HL7 v2, HL7 v3, HL7 CDA and HL7 FHIR are all standards produced by the HL7 organization (along with several other less commonly used specifications).</p>",
+        "id": 175727279,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1568511819
+    },
+    {
+        "content": "<p>HL7 standards define how healthcare-related systems can/should share a number of different types of information with other systems.</p>",
+        "id": 175727325,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1568511871
+    }
+]

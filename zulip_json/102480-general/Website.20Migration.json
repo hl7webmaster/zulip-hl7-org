@@ -1,0 +1,116 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"101989\">@David Johnson</span> I tried to search for NIBs on the HL7 website but I'm not finding the link to the NIBs that have been submitted for this and previous cycles.  This is the permalink that Lynn gave me: <a href=\"http://www.hl7.org/Special/committees/tsc/ballotmanagement/index.cfm\" target=\"_blank\" title=\"http://www.hl7.org/Special/committees/tsc/ballotmanagement/index.cfm\">http://www.hl7.org/Special/committees/tsc/ballotmanagement/index.cfm</a></p>",
+        "id": 181845899,
+        "sender_full_name": "Melva Peters",
+        "timestamp": 1574704289
+    },
+    {
+        "content": "<p>Thank you.  I will add this to the list.  My main focus right now is standards downloads as most files are downloading as corrupt.  I am on the phone with some heavy-hitters from coldfusion consulting.  As soon as I see working file downloads, I'll start work on individual bugs.</p>",
+        "id": 181852281,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1574708441
+    },
+    {
+        "content": "<p>DJ, I hvae a problem, the website is not showing the correct ballot cycle for the NIBs, at <a href=\"https://www.hl7.org/special/Committees/tsc/ballotmanagement/reviewNIBs.cfm\" target=\"_blank\" title=\"https://www.hl7.org/special/Committees/tsc/ballotmanagement/reviewNIBs.cfm\">https://www.hl7.org/special/Committees/tsc/ballotmanagement/reviewNIBs.cfm</a>. it's showing 2019SEP not 2020FEB</p>",
+        "id": 181858579,
+        "sender_full_name": "Lynn Laakso",
+        "timestamp": 1574713016
+    },
+    {
+        "content": "<p>two more problems: can't get in to SDO site and can't add a product</p>",
+        "id": 181942230,
+        "sender_full_name": "Lynn Laakso",
+        "timestamp": 1574787990
+    },
+    {
+        "content": "<p>Could not find the included template terraform/\\formats/includes/boolean.cfm. Note: If you wish to use an absolute template path (for example, template=\"/mypath/index.cfm\") with CFINCLUDE, you must create a mapping for the path using the ColdFusion Administrator. Or, you can use per-application settings to specify mappings specific to this application by specifying a mappings struct to THIS.mappings in Application.cfc.<br>\nUsing relative paths (for example, template=\"index.cfm\" or template=\"../index.cfm\") does not require the creation of any special mappings. It is therefore recommended that you use relative paths with CFINCLUDE whenever possible.<br>\nThe error occurred on line 1296.<br>\nDate/Time: {ts '2019-11-26 12:29:52'}</p>",
+        "id": 181944278,
+        "sender_full_name": "Lynn Laakso",
+        "timestamp": 1574789429
+    },
+    {
+        "content": "<p>from <a href=\"https://www.hl7.org/intranet/product.cfm?action=add\" target=\"_blank\" title=\"https://www.hl7.org/intranet/product.cfm?action=add\">https://www.hl7.org/intranet/product.cfm?action=add</a></p>",
+        "id": 181944286,
+        "sender_full_name": "Lynn Laakso",
+        "timestamp": 1574789438
+    },
+    {
+        "content": "<p><a href=\"https://www.hl7.org/fhir/mapping.g4\" target=\"_blank\" title=\"https://www.hl7.org/fhir/mapping.g4\">https://www.hl7.org/fhir/mapping.g4</a> is not downloadable, is this also due to the migration?</p>",
+        "id": 182053243,
+        "sender_full_name": "Oliver Egger",
+        "timestamp": 1574884441
+    },
+    {
+        "content": "<p>That could be on me.  Let me check that mimetype on the old server.</p>",
+        "id": 182061425,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1574891351
+    },
+    {
+        "content": "<p>Thanks for letting me know.  It is serving now as text/plain.</p>",
+        "id": 182061698,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1574891563
+    },
+    {
+        "content": "<p>The iCal links are working at all places (events, conference calls)</p>",
+        "id": 182371356,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1575309502
+    },
+    {
+        "content": "<p>DJ, I hvae a problem, the website is not showing the correct ballot cycle for the NIBs, at <a href=\"https://www.hl7.org/special/Committees/tsc/ballotmanagement/reviewNIBs.cfm\" target=\"_blank\" title=\"https://www.hl7.org/special/Committees/tsc/ballotmanagement/reviewNIBs.cfm\">https://www.hl7.org/special/Committees/tsc/ballotmanagement/reviewNIBs.cfm</a>. it's showing 2019SEP not 2020FEB</p>",
+        "id": 182384889,
+        "sender_full_name": "Lynn Laakso",
+        "timestamp": 1575317802
+    },
+    {
+        "content": "<p>and also, I still can't get on the SDO site?</p>",
+        "id": 182384897,
+        "sender_full_name": "Lynn Laakso",
+        "timestamp": 1575317816
+    },
+    {
+        "content": "<p>Okay, I think I know what is happening and will look at it right now</p>",
+        "id": 182384915,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1575317827
+    },
+    {
+        "content": "<p>I recognize now that you said \"still\" on the sdo site</p>",
+        "id": 182389326,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1575320624
+    },
+    {
+        "content": "<p>I continued working on it and do not have it ready yet, but I think I may have just drifted away from it</p>",
+        "id": 182389399,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1575320647
+    },
+    {
+        "content": "<p>concerning the ballot desktop</p>",
+        "id": 182389407,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1575320654
+    },
+    {
+        "content": "<p>I recognize now that we are not talking about the ballot desktop.  God, I need about 20 hours of sleep.</p>",
+        "id": 182389452,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1575320687
+    },
+    {
+        "content": "<p>that nibs page, it's just showing the wrong cycle?  I'm starting a beyond compare.</p>",
+        "id": 182389469,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1575320703
+    },
+    {
+        "content": "<p>Yep, I found the config on old prod, and the date looks right at the top.  Please confirm.</p>",
+        "id": 182389601,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1575320767
+    }
+]

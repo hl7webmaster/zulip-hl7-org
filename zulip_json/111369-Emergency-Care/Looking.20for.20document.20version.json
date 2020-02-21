@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Ballot ID 1311 HL7 CDA® R2 Implementation Guide: Trauma Registry Data Submission, Release 2 - US Realm (unable to find)<br>\nBut I can only find <br>\nBallot ID 1214 HL7 CDA® R2 Implementation Guide: Trauma Registry Data Submission, Release 1 - US Realm <br>\nDoes Release 2 exist?</p>",
+        "id": 122760470,
+        "sender_full_name": "George Dixon",
+        "timestamp": 1519166131
+    },
+    {
+        "content": "<p>George, I'm not sure if this is helpful but I have been able to find this information:</p>",
+        "id": 122788961,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1519225096
+    },
+    {
+        "content": "<p><a href=\"https://www.hl7.org/special/Committees/projman/searchableProjectIndex.cfm?action=edit&amp;ProjectNumber=1214\" target=\"_blank\" title=\"https://www.hl7.org/special/Committees/projman/searchableProjectIndex.cfm?action=edit&amp;ProjectNumber=1214\">https://www.hl7.org/special/Committees/projman/searchableProjectIndex.cfm?action=edit&amp;ProjectNumber=1214</a></p>",
+        "id": 122788964,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1519225100
+    },
+    {
+        "content": "<p>There is also mention of a 2017 May Ballot Cycle for Release 2 on this page: <a href=\"http://www.hl7.org/Special/committees/tsc/BallotManagement/Reports/NoReconPackage_all_wgs.cfm\" target=\"_blank\" title=\"http://www.hl7.org/Special/committees/tsc/BallotManagement/Reports/NoReconPackage_all_wgs.cfm\">http://www.hl7.org/Special/committees/tsc/BallotManagement/Reports/NoReconPackage_all_wgs.cfm</a></p>",
+        "id": 122788972,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1519225124
+    },
+    {
+        "content": "<p>However, I don't have information on its status, only those mentions.</p>",
+        "id": 122788986,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1519225155
+    },
+    {
+        "content": "<p>David, Thank you. Second link does specify that 1214 is being withdrawn due to ANSI timing Constraints and replaced by project 1311.</p>",
+        "id": 123661840,
+        "sender_full_name": "George Dixon",
+        "timestamp": 1520959641
+    }
+]

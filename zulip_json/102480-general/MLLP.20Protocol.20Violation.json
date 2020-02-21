@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Hey guys,</p>\n<p>i hope i am posting this in the correct stream.</p>\n<p>I have a problem with sending an ORU message to my hapi fhir  jpa server.<br>\nI tried the same with the HAPI testpanel and it worked there, but now i installed my \"own\" server via docker and i get a compiler error.<br>\nThe port is definitely listening and my firewall shouldn´t make problems. I can access localhost:8080 in my browser.</p>\n<p>13:26:29.471 [hapi-worker-1] DEBUG ca.uhn.hl7v2.concurrent.Service - Prepare to stop thread Receiver<br>\n13:26:29.474 [hapi-worker-1] ERROR ca.uhn.hl7v2.app.Receiver - Unexpected error, closing connection from 127.0.0.1:8080 - <br>\nca.uhn.hl7v2.llp.LLPException: MLLP protocol violation - Expected byte '11' in state START but was '72'<br>\n    at ca.uhn.hl7v2.llp.MllpDecoderState.read(MllpDecoderState.java:137)<br>\n    at ca.uhn.hl7v2.llp.MllpDecoder.getMessage(MllpDecoder.java:63)<br>\n    at ca.uhn.hl7v2.llp.Hl7DecoderReader.getMessage(Hl7DecoderReader.java:84)<br>\n    at ca.uhn.hl7v2.llp.MinLLPReader.getMessage(MinLLPReader.java:33)<br>\n    at ca.uhn.hl7v2.app.Receiver.handle(Receiver.java:63)<br>\n    at ca.uhn.hl7v2.concurrent.Service.run(Service.java:205)<br>\n    at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)<br>\n    at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>\n    at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>\n    at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>\n    at java.base/java.lang.Thread.run(Thread.java:835)<br>\n13:26:29.474 [hapi-worker-1] DEBUG ca.uhn.hl7v2.concurrent.Service - Thread Receiver leaving main loop<br>\nca.uhn.hl7v2.HL7Exception: Timeout waiting for response to message with control ID 7801<br>\n    at ca.uhn.hl7v2.app.ActiveInitiator.sendAndReceive(ActiveInitiator.java:153)</p>\n<p>Does anybody know what \"Expected byte '11' in state START but was '72'\" means?</p>\n<p>Thanks in advance</p>",
+        "id": 170445673,
+        "sender_full_name": "Ma Sk",
+        "timestamp": 1562672945
+    },
+    {
+        "content": "<p>You're better to ask questions about FHIR in <a href=\"http://chat.fhir.org\" target=\"_blank\" title=\"http://chat.fhir.org\">chat.fhir.org</a>.  There's a lot more people there that can help you</p>",
+        "id": 170452220,
+        "sender_full_name": "David Pyke",
+        "timestamp": 1562678485
+    },
+    {
+        "content": "<p>You can ask in the Implementers channel there</p>",
+        "id": 170452231,
+        "sender_full_name": "David Pyke",
+        "timestamp": 1562678501
+    },
+    {
+        "content": "<blockquote>\n<p>You're better to ask questions about FHIR in <a href=\"http://chat.fhir.org\" target=\"_blank\" title=\"http://chat.fhir.org\">chat.fhir.org</a>.  There's a lot more people there that can help you</p>\n</blockquote>\n<p>ok. thank you</p>",
+        "id": 170457695,
+        "sender_full_name": "Ma Sk",
+        "timestamp": 1562682317
+    },
+    {
+        "content": "<p>Instead of ASCII 11 it received ASCII 72 (H). My guess ;-) .. but that doesn't explain anything as to why this is happening.</p>",
+        "id": 170467420,
+        "sender_full_name": "Rene Spronk",
+        "timestamp": 1562688924
+    },
+    {
+        "content": "<blockquote>\n<p>Instead of ASCII 11 it received ASCII 72 (H). My guess ;-) .. but that doesn't explain anything as to why this is happening.</p>\n</blockquote>\n<p>Thanks for your answer. <br>\nI debbuged my code and found an array with exactly 72 values at the error line, but i don´t know what these values are.</p>\n<p><a href=\"/user_uploads/1284/ZJKXRC54rUWtmF6AGi-G7plQ/dfdfdfdfee.PNG\" target=\"_blank\" title=\"dfdfdfdfee.PNG\">dfdfdfdfee.PNG</a> </p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/1284/ZJKXRC54rUWtmF6AGi-G7plQ/dfdfdfdfee.PNG\" target=\"_blank\" title=\"dfdfdfdfee.PNG\"><img src=\"/user_uploads/1284/ZJKXRC54rUWtmF6AGi-G7plQ/dfdfdfdfee.PNG\"></a></div><p>maybe this makes things clearer?</p>",
+        "id": 170480806,
+        "sender_full_name": "Ma Sk",
+        "timestamp": 1562698680
+    }
+]

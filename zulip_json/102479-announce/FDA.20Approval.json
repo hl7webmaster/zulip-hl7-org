@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Hi,</p>\n<p>My name is Alex and I work for a medical software company. </p>\n<p>There are a few companies that provide Medical Device Integrations to EMR (via HL7) such as Capsule and Enovacom. They do this seamlessly and automatically so that the medical personnel does not need to input anything themselves, helping them focus on taking care of their patients.</p>\n<p>My question is, do these type of companies require an FDA approval to provide service to customers in the USA?</p>",
+        "id": 175703726,
+        "sender_full_name": "Alexis Bucsit",
+        "timestamp": 1568471444
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"240198\">@Alexis Bucsit</span> Hi, I found this link regarding FDA approvals. I hope it helps <a href=\"https://www.fda.gov/consumers/consumer-updates/it-really-fda-approved\" target=\"_blank\" title=\"https://www.fda.gov/consumers/consumer-updates/it-really-fda-approved\">https://www.fda.gov/consumers/consumer-updates/it-really-fda-approved</a>. I did a bit of research, I was not able to find anything related to FDA approvals for software integration. I believe they may need HIPPA approval if staff interacts and has access to identifiable medical record, however if its only data without identifiable medical information they may not require HIPPA compliance. Let me know your thoughts :) thanks for posting this question.</p>",
+        "id": 180657149,
+        "sender_full_name": "Adilia Morales",
+        "timestamp": 1573670125
+    }
+]

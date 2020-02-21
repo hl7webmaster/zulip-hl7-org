@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Hi.  Looking to go to my first HL7 event... but I can't register.  Registering requires creating an account on <a href=\"https://www.hl7.org/\" target=\"_blank\" title=\"https://www.hl7.org/\">https://www.hl7.org/</a>, and trying to do that always redirects to a login screen.  Any secrets to creating an HL7 account?</p>",
+        "id": 184745633,
+        "sender_full_name": "Brian Irick",
+        "timestamp": 1578068026
+    },
+    {
+        "content": "<p>Brian, Sorry for the inconvenience.  We have had a firewall die at our co-location and are working at replacing it.  ETA is 2 hours.</p>",
+        "id": 184745812,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1578068151
+    },
+    {
+        "content": "<p>Alright thanks ... I tried yesterday too.  Just making sure I wasn't missing something.</p>",
+        "id": 184746032,
+        "sender_full_name": "Brian Irick",
+        "timestamp": 1578068312
+    }
+]

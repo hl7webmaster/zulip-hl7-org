@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>There should be a stream for audience to ask questions about interpretation of the GOM.</p>",
+        "id": 182967380,
+        "sender_full_name": "John Moehrke",
+        "timestamp": 1575905928
+    },
+    {
+        "content": "<p>You can send an email to <a href=\"mailto:GOC@hl7.org\" title=\"mailto:GOC@hl7.org\">GOC@hl7.org</a> and a response will be provided</p>",
+        "id": 183004428,
+        "sender_full_name": "Melva Peters",
+        "timestamp": 1575928498
+    },
+    {
+        "content": "<p>okay, but zulip would be nice addition to that functionality as it opens up the Q&amp;A to view of everyone, and automatically records a history of answers.</p>",
+        "id": 183004738,
+        "sender_full_name": "John Moehrke",
+        "timestamp": 1575928745
+    }
+]

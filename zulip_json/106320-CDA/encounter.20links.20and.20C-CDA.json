@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"248361\">@Julie Paulson</span> asked:</p>\n<blockquote>\n<p>I am trying to verify how to \"link up\" a patient's CDA message to their HL7 messages(ADT's, ORU^R01's etc) via encounter number. More specifically, we have an encounter number in the PID segment(we use PID-18).  Our ICD-10 codes are sent to us in the CDA message.  I cannot seem to find the encounter number(PID-18) in the CDA.  Is that common?  I would like to match the ICD10 codes sent to us in the CDA with the  specific encounter in the HL7 messages.  It appears to me that the only way to \"link/match\" them is by date only.  I was curious how this can be done or if it is done industry-wise or is CDA not really meant to be \"encounter based\" - just date range-based?  Thank you,</p>\n</blockquote>\n<p>A C-CDA document is of a particular document type. Some document types can be encounter based, in which case you can find the encounter information in the CDA header, componentOf/encompassingEncounter/id<br>\nIf the information in the header is not present, you can look for one or more Encounter sections (template id 2.16.840.1.113883.10.20.22.2.22, code 46240-8), where the encounter ID is present as the entry id.</p>\n<p>Also, note that PID-18 is not a good place for encounter numbers, PV1-19 is the designated spot.</p>",
+        "id": 187371110,
+        "sender_full_name": "Vassil Peytchev",
+        "timestamp": 1580832051
+    },
+    {
+        "content": "<p>We are not being sent the PV1-19 field.  The PID-18 is the designated \"encounter\" identifier.  I am not very familiar with the CDA document but understand the basics .  We are receiving CCDA's with a title of \"Summary of Care\".  I have read other CDA documents entitled \"Continuity of Care\".  The Continuity of Care one seems to be more encounter-based but again, I am not certain as we do not receive it as of yet.  Does anyone know the difference between the 2 and which one is geered more towards providing more of an encounter-based data elements.  THank you again....</p>",
+        "id": 187378202,
+        "sender_full_name": "Julie Paulson",
+        "timestamp": 1580836616
+    }
+]

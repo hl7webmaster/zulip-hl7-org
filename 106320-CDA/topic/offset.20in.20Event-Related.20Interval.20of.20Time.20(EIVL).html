@@ -1,0 +1,54 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/106320-CDA/topic/offset.20in.20Event-Related.20Interval.20of.20Time.20(EIVL).html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/106320-CDA/index.html">CDA</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/106320-CDA/topic/offset.20in.20Event-Related.20Interval.20of.20Time.20(EIVL).html">offset in Event-Related Interval of Time (EIVL)</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="182740512"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/106320-CDA/topic/offset%20in%20Event-Related%20Interval%20of%20Time%20%28EIVL%29/near/182740512" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Giorgio Cangioli <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/106320-CDA/topic/offset.20in.20Event-Related.20Interval.20of.20Time.20(EIVL).html#182740512">(Dec 06 2019 at 08:57)</a>:</h4>
+<p>I've been asked why some guides have examples of offset using low = -1 and others low = 1 to indicate 1 hour before the event .</p>
+<p>-1 seems to me more logic :-), but the example in Datatype R1.1 indicates low = 1. (where DT R2 has the same example with low = -1).</p>
+<p>I was wondering if it was just a never fixed typo in DT R1.1, or there is a different approach between R1 and R2.</p>
+
+
+
+<a name="182740880"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/106320-CDA/topic/offset%20in%20Event-Related%20Interval%20of%20Time%20%28EIVL%29/near/182740880" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Giorgio Cangioli <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/106320-CDA/topic/offset.20in.20Event-Related.20Interval.20of.20Time.20(EIVL).html#182740880">(Dec 06 2019 at 09:02)</a>:</h4>
+<p>...the funny thing is that the examples provided are always the same and they are  those reported in the datatype description.. .</p>
+
+
+
+<a name="182888563"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/106320-CDA/topic/offset%20in%20Event-Related%20Interval%20of%20Time%20%28EIVL%29/near/182888563" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Frank Oemig <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/106320-CDA/topic/offset.20in.20Event-Related.20Interval.20of.20Time.20(EIVL).html#182888563">(Dec 08 2019 at 11:19)</a>:</h4>
+<p>Which datatype?</p>
+
+
+
+<a name="182907186"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/106320-CDA/topic/offset%20in%20Event-Related%20Interval%20of%20Time%20%28EIVL%29/near/182907186" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Giorgio Cangioli <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/106320-CDA/topic/offset.20in.20Event-Related.20Interval.20of.20Time.20(EIVL).html#182907186">(Dec 08 2019 at 20:14)</a>:</h4>
+<p>Event-Related Interval of Time (EIVL) specializes SXCM.</p>
+<p>datatype R1.1 "For example: if the specification is "one hour before breakfast for 10 minutes" the offset's low boundary is 1 h and the offset's width is 10 min (consequently the offset's high boundary is 50 min)." </p>
+<p>Datatype R2 “For example: if the specification is "one hour before breakfast for 10 minutes" the offset's low boundary is -1 h and the offset's width is 10 min (consequently the offset's high boundary is -50 min).”</p>
+
+
+
+<a name="182923974"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/106320-CDA/topic/offset%20in%20Event-Related%20Interval%20of%20Time%20%28EIVL%29/near/182923974" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Grahame Grieve <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/106320-CDA/topic/offset.20in.20Event-Related.20Interval.20of.20Time.20(EIVL).html#182923974">(Dec 09 2019 at 04:37)</a>:</h4>
+<p>it was deliberately changed as a clarification in R2</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>

@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>I have question and please correct me if I am not posting in right place.</p>\n<p>We are using HL7 ORU, ACK and ADT messages to communicate with EMR-s from our software which is written in C#.</p>\n<p>I found nice libraries for handling HL7 messages, NHapi, NHapiTools &amp; HL7Fuse , may be this libraries are used in other languages too, I am not sure.</p>\n<p>The point is that I want to build classes to communicate with those libraries to have different version handling in the code. <br>\nThis libraries seem to be effective way for creating or reading this type of messages (correct me if I'm wrong) and if they are as good as they seem to be, I need some advice from people who already frustrated through this process to ask some questions around the topic.</p>\n<p>I wonder if anyone have any experience with this libraries?</p>",
+        "id": 163664122,
+        "sender_full_name": "Irakli Gigiberia",
+        "timestamp": 1555602891
+    }
+]

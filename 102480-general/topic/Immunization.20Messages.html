@@ -1,0 +1,56 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/102480-general/topic/Immunization.20Messages.html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Immunization.20Messages.html">Immunization Messages</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="173536469"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/Immunization%20Messages/near/173536469" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Vinutha Pinapala <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Immunization.20Messages.html#173536469">(Aug 19 2019 at 11:32)</a>:</h4>
+<p>Hello...i was looking for advice for a very specific problem in sending out vaccine messages. Single component vaccines have 2 VIS Published dates. While I see standards in terms of sending multiple VIS dates for multi-component vaccines, I don't see guidelines for single vaccine with multiple VIS.</p>
+
+
+
+<a name="173787914"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/Immunization%20Messages/near/173787914" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Craig Newman <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Immunization.20Messages.html#173787914">(Aug 21 2019 at 12:18)</a>:</h4>
+<p><span class="user-mention" data-user-id="235709">@Vinutha Pinapala</span>   When you say they have 2 VIS published dates, what do you mean? Are you talking about 2 different versions of the VIS or the fact that a given vaccine might have a specific VIS but then also be covered in the multi-vaccine VIS? Either way, has the patient been given both VIS or just one? The HL7 message should only reflect what the patient was actually given, not what might have been available at the time.</p>
+
+
+
+<a name="174197380"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/Immunization%20Messages/near/174197380" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Vinutha Pinapala <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Immunization.20Messages.html#174197380">(Aug 27 2019 at 05:12)</a>:</h4>
+<p><span class="user-mention" data-user-id="104289">@Craig Newman</span> thank you for your response. The case I am referring to is the latter " given vaccine might have a specific VIS but then also be covered in the multi-vaccine VIS". If the patient was indeed handed both (I am not sure how realistic this scenario is), then do we send 2 OBX segments with VIS Published date for a single vaccine?</p>
+
+
+
+<a name="174229338"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/Immunization%20Messages/near/174229338" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Craig Newman <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Immunization.20Messages.html#174229338">(Aug 27 2019 at 13:37)</a>:</h4>
+<p>I checked with a few colleagues (just to make sure we had the right answer) and the consensus is that while it wouldn't be technically wrong to send both VIS, we don't think that is what most systems would expect to receive (and so we don't recommend it).  We agree that this is an unlikely scenario, but should it happen, it would be sufficient to send the document ID and publication date for just a one of the two VIS. Either the vaccine specific VIS could be sent or the multi-vaccine VIS (provided that 2 or more vaccines from the multi-vaccine VIS were administered at that visit - the CDC VIS site (<a href="https://www.cdc.gov/vaccines/hcp/vis/current-vis.html" target="_blank" title="https://www.cdc.gov/vaccines/hcp/vis/current-vis.html">https://www.cdc.gov/vaccines/hcp/vis/current-vis.html</a>) indicates that the multi-vaccine VIS can be used when 2 or more of the vaccines are administered at the same time). As I mentioned before, the critical thing is that the VIS in the message reflects what the patient was actually given. Hope that helps. Let me know if you have other questions.</p>
+
+
+
+<a name="174229391"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/Immunization%20Messages/near/174229391" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Craig Newman <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Immunization.20Messages.html#174229391">(Aug 27 2019 at 13:37)</a>:</h4>
+<p><span class="user-mention" data-user-id="235709">@Vinutha Pinapala</span> - sorry forgot to flag you in the response.</p>
+
+
+
+<a name="174764180"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/Immunization%20Messages/near/174764180" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Vinutha Pinapala <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/Immunization.20Messages.html#174764180">(Sep 03 2019 at 07:16)</a>:</h4>
+<p><span class="user-mention" data-user-id="104289">@Craig Newman</span> thanks so much for discussing and sending your recommendations. This makes a lot of sense</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>

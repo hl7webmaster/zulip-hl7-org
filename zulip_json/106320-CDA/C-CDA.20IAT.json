@@ -1,0 +1,260 @@
+[
+    {
+        "content": "<p>Creation of new topic for the C-CDA Implementation-A-Thon.</p>",
+        "id": 119114209,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1511987545
+    },
+    {
+        "content": "<p>(deleted)</p>",
+        "id": 119510791,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1512766791
+    },
+    {
+        "content": "<p>January 2018 IAT Topics</p>",
+        "id": 119511145,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1512767321
+    },
+    {
+        "content": "<p>we're wading through potential agenda items for the January event.  We will retain our usual format: exchange, discussion topics, Ask the ONC, etc.  Are there specific discussion topics or exchange scenarios you would like to see?</p>",
+        "id": 119511148,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1512767336
+    },
+    {
+        "content": "<p>I have not previously attended an implementation-a-thon. A few questions. <br>\nLocation- Will there be internet access (e.g. connecting to hosted services)?  Is there any recommended hardware (e.g. cables, power strips)?<br>\nContent- Are there prescribed patients that should be configured before arrival? Is there prescribed patient content that needs to be configured?<br>\nHow are documents shared?</p>",
+        "id": 120609212,
+        "sender_full_name": "George Dixon",
+        "timestamp": 1515070791
+    },
+    {
+        "content": "<p>George,<br>\nFirst, welcome aboard.  Glad you've posted these questions on Zulip.</p>\n<p>Regarding the location's internet access, etc.  Yes, there will be internet access and power strips in the class room.  When I seek out locations, I indicate that we need the following:</p>\n<p>Room Type: Classroom layout with outlets and power strips for attendees to plug in their laptops<br>\nEquipment Needed: Wireless Internet, projector/screen, outlets for laptops<br>\nWifi Requirements: Fairly simple -- General internet access which allows access to “Dropbox” and transmission of simple text files; Participants can access email hosted on Exchange servers, Participants can use VPN to access machines at their office</p>",
+        "id": 120614689,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1515080648
+    },
+    {
+        "content": "<p>Regarding your content/configuration questions....I'll defer to Jean or Joginder (the IAT speakers) to address anything in more detail.  They will be sending out scenarios in the coming week or so along with a little homework so that you can get the data situated and hit the ground running when we are at the IAT.</p>\n<p>Scenarios used in past IATs can be viewed on the HL7 Wiki at:<br>\n<a href=\"http://wiki.hl7.org/index.php?title=C-CDA:_Enhancing_Implementation_(ONC_Grant_Project)\" target=\"_blank\" title=\"http://wiki.hl7.org/index.php?title=C-CDA:_Enhancing_Implementation_(ONC_Grant_Project)\">http://wiki.hl7.org/index.php?title=C-CDA:_Enhancing_Implementation_(ONC_Grant_Project)</a></p>",
+        "id": 120614705,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1515080685
+    },
+    {
+        "content": "<p>How are documents shared?<br>\nIn the past, Dropbox has been used.  Jean or Joginder can weigh in here if we're going to use a different method.</p>\n<p>In the coming weeks, you'll start receiving a lot more information to prep for the IAT.  I always send out a 'helpful hints' email containing general information, and then I'll be forwarding informaton on behalf of Jean and Joginder, simply so you are getting info from a sole source.</p>\n<p>Always feel free to post questions to the Zulip chat. I'm on Zulip most of the day and Jean and Joginder monitor it as well.</p>",
+        "id": 120614710,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1515080697
+    },
+    {
+        "content": "<p>Thank you for the detailed response. Any content needs specific to this testing earlier information is better, limited resources etc.</p>",
+        "id": 120655926,
+        "sender_full_name": "George Dixon",
+        "timestamp": 1515159285
+    },
+    {
+        "content": "<p>Hi <span class=\"user-mention\" data-user-email=\"george.dixon@allscripts.com\" data-user-id=\"104660\">@George Dixon</span> .  We are in the midst of finalizing the agenda and will be sending out information re: homework scenarios, discussion topics etc. towards the end of this week.  At that point, we will also create an Confluence (wiki) page for the IAT that will serve as the event's information hub.</p>",
+        "id": 120765030,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1515394220
+    },
+    {
+        "content": "<p>To help prepare for HL7's Implementation-A-Thon on January 25 &amp; 26, 2018, please note the following:</p>\n<p>The IAT will be 9am-5pm ET each day;  HL7 Staff will be available at 8:30am.</p>\n<p>Event Location <br>\nLoyola University<br>\nDanna Student Center<br>\nThe Learn Lab (2nd Floor)<br>\n6363 St. Charles Avenue*<br>\nNew Orleans, LA 70118</p>\n<p>*Note that the address is for the entire campus; our building is nestled in the center of campus.  Hence, being dropped off on West Road or Calhoun Street seems to be better than St. Charles Ave.</p>\n<p>Campus Map / Directions and Parking<br>\nThe following document contains driving directions and a campus map; our building is labeled ‘DSC’ for Danna Student Center. <br>\n<a href=\"https://gforge.hl7.org/gf/project/enhanceccdaimpl/docman/Implementation-A-Thons/LoyolaUniversity_campus-map-april-2016.pdf\" target=\"_blank\" title=\"https://gforge.hl7.org/gf/project/enhanceccdaimpl/docman/Implementation-A-Thons/LoyolaUniversity_campus-map-april-2016.pdf\">https://gforge.hl7.org/gf/project/enhanceccdaimpl/docman/Implementation-A-Thons/LoyolaUniversity_campus-map-april-2016.pdf</a></p>\n<p>As with many universities, public parking is limited.  If you plan to park, please review the website below which contains contact info for Loyola University Parking Services:<br>\n<a href=\"http://finance.loyno.edu/police/parking-services\" target=\"_blank\" title=\"http://finance.loyno.edu/police/parking-services\">http://finance.loyno.edu/police/parking-services</a></p>\n<p>IAT Project Page – (Confluence Page)<br>\nThe most current agenda, homework scenarios and other information can be found on the IAT Confluence page at: <a href=\"http://52.42.5.44:8090/display/IAT/20180125-26+IAT\" target=\"_blank\" title=\"http://52.42.5.44:8090/display/IAT/20180125-26+IAT\">http://52.42.5.44:8090/display/IAT/20180125-26+IAT</a><br>\n(if the above URL is unsuccessful, try <a href=\"http://bit.ly/2mp5eHA\" target=\"_blank\" title=\"http://bit.ly/2mp5eHA\">http://bit.ly/2mp5eHA</a>  or   <a href=\"http://confluence.hl7.org:8090/display/IAT/20180125-26+IAT\" target=\"_blank\" title=\"http://confluence.hl7.org:8090/display/IAT/20180125-26+IAT\">http://confluence.hl7.org:8090/display/IAT/20180125-26+IAT</a>)</p>\n<p>Draft Agenda<br>\nDay 1<br>\nIntroductions / Housekeeping (09h00 to 09h30)<br>\nHomework scenarios (09h30 to 12h00)<br>\nLunch (12h00 to 13h00)<br>\nDiscussion (13h00 to 14h00)<br>\nAsk the ONC (14h00 to 14h30)<br>\nHomework scenarios (14h30 to 17h00)</p>\n<p>Day 2<br>\nHomework Scenarios (09h00 to 10h00)<br>\nDiscussion (10h00 to 12h00) <br>\nLunch (12h00 to 13h00)<br>\nAsk the ONC (13h00 to 13h30)<br>\nHomework Scenarios (13h30 to 15h30)<br>\nDiscussion (15h30 to 16h30)<br>\nWrap up (16h30 to 17h00)</p>\n<p>Draft Scenarios<br>\nCare Plan Scenarios: TBD<br>\nMedication Section Scenarios:  TBD<br>\nClinical Note Template Scenarios: TBD</p>\n<p>Draft Discussion Items<br>\nC-CDA Scorecard<br>\nVSAC Update Process<br>\nValue set and/or vocabulary maintenance: <br>\nHow are updates pushed, disseminated, etc.  <br>\nProcess to add terminology from a POS</p>\n<p>Zulip Chat<br>\nZulip will be used extensively both prior to, and during, the IAT.  If you haven't done so, please insure that you have activated your account and familiarize yourself with Zulip.  <br>\nThe Zulip Chat for our IAT is at: <a href=\"https://chat.hl7.org\" target=\"_blank\" title=\"https://chat.hl7.org\">https://chat.hl7.org</a></p>\n<p>Dress Code<br>\nThe dress code is casual; layered clothing is advised as room temperatures vary.</p>\n<p>Food and Beverages<br>\nUnlike many other HL7 events, breakfast, morning snacks and afternoon snacks will NOT be provided so please plan accordingly.<br>\nLunch on both days will be boxed lunches.<br>\nCoffee, water and soda will be provided throughout the day and for lunch.</p>\n<p>Please let me know as soon as possible if you have any food allergies/preferences (vegan, gluten-free, etc.)</p>\n<p>Additional information regarding the Implementation-A-Thon can be found at: <a href=\"http://www.hl7.org/events/c-cda/implementation/2018/01/?ref=banner\" target=\"_blank\" title=\"http://www.hl7.org/events/c-cda/implementation/2018/01/?ref=banner\">http://www.hl7.org/events/c-cda/implementation/2018/01/?ref=banner</a></p>",
+        "id": 120976778,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1515781520
+    },
+    {
+        "content": "<p>Thank you to those that attended Tuesday’s IAT prep call.  Sending out additional information based on that call….</p>\n<p>If you missed the 30-minute call, you can view it at: <a href=\"https://fccdl.in/EY21t79kB\" target=\"_blank\" title=\"https://fccdl.in/EY21t79kB\">https://fccdl.in/EY21t79kB</a></p>\n<p>NEW LINK FOR THE LOYOLA CAMPUS MAP (I mistakenly moved it from its prior location):<br>\n<a href=\"https://gforge.hl7.org/gf/project/enhanceccdaimpl/docman/Implementation-A-Thons/IAT-Jan2018-New%20Orleans/LoyolaUniversity_campus-map-april-2016.pdf\" target=\"_blank\" title=\"https://gforge.hl7.org/gf/project/enhanceccdaimpl/docman/Implementation-A-Thons/IAT-Jan2018-New%20Orleans/LoyolaUniversity_campus-map-april-2016.pdf\">https://gforge.hl7.org/gf/project/enhanceccdaimpl/docman/Implementation-A-Thons/IAT-Jan2018-New%20Orleans/LoyolaUniversity_campus-map-april-2016.pdf</a></p>\n<p>All attendees should do the following prior to the IAT:</p>\n<p>•   Verify you can browse the IAT Confluence page at: <a href=\"http://52.42.5.44:8090/display/IAT/20180125-26+IAT\" target=\"_blank\" title=\"http://52.42.5.44:8090/display/IAT/20180125-26+IAT\">http://52.42.5.44:8090/display/IAT/20180125-26+IAT</a><br>\nFor those that cannot browse the Confluence page let Dave Hamill know.  We've copied the info to an HL7 Wiki page at:<br>\n<a href=\"http://wiki.hl7.org/index.php?title=C-CDA_Implementation-a-Thon_2018_January_-_New_Orleans\" target=\"_blank\" title=\"http://wiki.hl7.org/index.php?title=C-CDA_Implementation-a-Thon_2018_January_-_New_Orleans\">http://wiki.hl7.org/index.php?title=C-CDA_Implementation-a-Thon_2018_January_-_New_Orleans</a></p>\n<p>•   Review scenarios that reside on the IAT Confluence Page.  They’ve also been linked on the Wiki page and are attached.<br>\n•   Verify remote VPN access on your laptop to avoid delays in connecting to VPN at the venue</p>\n<p>The IAT will be 9am-5pm ET each day;  HL7 Staff will be available at 8:30am.</p>\n<p>Event Location <br>\nLoyola University<br>\nDanna Student Center<br>\nThe Learn Lab (2nd Floor)<br>\n6363 St. Charles Avenue*<br>\nNew Orleans, LA 70118</p>\n<p>*Note that the address is for the entire campus; our building is nestled in the center of campus.  Hence, being dropped off on West Road or Calhoun Street seems to be better than St. Charles Ave.</p>\n<p>Campus Map / Directions and Parking<br>\nThe following document contains driving directions and a campus map; our building is labeled ‘DSC’ for Danna Student Center. <br>\n<a href=\"https://gforge.hl7.org/gf/project/enhanceccdaimpl/docman/Implementation-A-Thons/IAT-Jan2018-New%20Orleans/LoyolaUniversity_campus-map-april-2016.pdf\" target=\"_blank\" title=\"https://gforge.hl7.org/gf/project/enhanceccdaimpl/docman/Implementation-A-Thons/IAT-Jan2018-New%20Orleans/LoyolaUniversity_campus-map-april-2016.pdf\">https://gforge.hl7.org/gf/project/enhanceccdaimpl/docman/Implementation-A-Thons/IAT-Jan2018-New%20Orleans/LoyolaUniversity_campus-map-april-2016.pdf</a></p>\n<p>As with many universities, public parking is limited.  If you plan to park, please review the website below which contains contact info for Loyola University Parking Services:<br>\n<a href=\"http://finance.loyno.edu/police/parking-services\" target=\"_blank\" title=\"http://finance.loyno.edu/police/parking-services\">http://finance.loyno.edu/police/parking-services</a></p>\n<p>IAT Project Page – (Confluence Page)<br>\nThe most current agenda, homework scenarios and other information can be found on the IAT Confluence page at: <a href=\"http://52.42.5.44:8090/display/IAT/20180125-26+IAT\" target=\"_blank\" title=\"http://52.42.5.44:8090/display/IAT/20180125-26+IAT\">http://52.42.5.44:8090/display/IAT/20180125-26+IAT</a><br>\n(if the above URL is unsuccessful, try <a href=\"http://bit.ly/2mp5eHA\" target=\"_blank\" title=\"http://bit.ly/2mp5eHA\">http://bit.ly/2mp5eHA</a>  or   <a href=\"http://confluence.hl7.org:8090/display/IAT/20180125-26+IAT\" target=\"_blank\" title=\"http://confluence.hl7.org:8090/display/IAT/20180125-26+IAT\">http://confluence.hl7.org:8090/display/IAT/20180125-26+IAT</a>)</p>\n<p>For those that cannot browse the Confluence page, we've copied the info to an HL7 Wiki page at:<br>\n<a href=\"http://wiki.hl7.org/index.php?title=C-CDA_Implementation-a-Thon_2018_January_-_New_Orleans\" target=\"_blank\" title=\"http://wiki.hl7.org/index.php?title=C-CDA_Implementation-a-Thon_2018_January_-_New_Orleans\">http://wiki.hl7.org/index.php?title=C-CDA_Implementation-a-Thon_2018_January_-_New_Orleans</a></p>\n<p>Draft Agenda<br>\nDay 1<br>\nIntroductions / Housekeeping (09h00 to 09h30)<br>\nHomework scenarios (09h30 to 12h00)<br>\nLunch (12h00 to 13h00)<br>\nDiscussion (13h00 to 14h00)<br>\nAsk the ONC (14h00 to 14h30)<br>\nHomework scenarios (14h30 to 17h00)</p>\n<p>Day 2<br>\nHomework Scenarios (09h00 to 10h00)<br>\nDiscussion (10h00 to 12h00) <br>\nLunch (12h00 to 13h00)<br>\nAsk the ONC (13h00 to 13h30)<br>\nHomework Scenarios (13h30 to 15h30)<br>\nDiscussion (15h30 to 16h30)<br>\nWrap up (16h30 to 17h00)</p>\n<p>Draft Scenarios<br>\nCare Plan Scenarios: TBD<br>\nMedication Section Scenarios:  TBD<br>\nClinical Note Template Scenarios: TBD</p>\n<p>Draft Discussion Items<br>\nC-CDA Scorecard<br>\nVSAC Update Process<br>\nValue set and/or vocabulary maintenance: <br>\nHow are updates pushed, disseminated, etc.  <br>\nProcess to add terminology from a POS</p>\n<p>Zulip Chat<br>\nZulip will be used extensively both prior to, and during, the IAT.  If you haven't done so, please insure that you have activated your account and familiarize yourself with Zulip.  <br>\nThe Zulip Chat for our IAT is at: <a href=\"https://chat.hl7.org\" target=\"_blank\" title=\"https://chat.hl7.org\">https://chat.hl7.org</a></p>\n<p>Dress Code<br>\nThe dress code is casual; layered clothing is advised as room temperatures vary.</p>\n<p>Food and Beverages<br>\nUnlike many other HL7 events, breakfast, morning snacks and afternoon snacks will NOT be provided so please plan accordingly.<br>\nLunch on both days will be boxed lunches.<br>\nCoffee, water and soda will be provided throughout the day and for lunch.</p>\n<p>Please let me know as soon as possible if you have any food allergies/preferences (vegan, gluten-free, etc.)</p>\n<p>Additional information regarding the Implementation-A-Thon can be found at: <a href=\"http://www.hl7.org/events/c-cda/implementation/2018/01/?ref=banner\" target=\"_blank\" title=\"http://www.hl7.org/events/c-cda/implementation/2018/01/?ref=banner\">http://www.hl7.org/events/c-cda/implementation/2018/01/?ref=banner</a></p>\n<p>Let me know if you have any questions.</p>",
+        "id": 121174884,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1516199968
+    },
+    {
+        "content": "<p>As we prepare the agenda for the upcoming IAT, we are asking participants if there are topics that they feel should be considered for inclusion - either as discussion topics or scenarios to test.  If there is something you would like us to consider for inclusion, please send us a note and we will do our best to accommodate.</p>\n<p>To date, we've received requests to include the following:  </p>\n<p>•   Clinical Notes scenario/discussion<br>\n•   Procedure Note<br>\n•   Progress Note <br>\n•   CCD vs. Discharge Summary vs. Progress note scenario<br>\n•   Discharge Note in a Discharge summary Document<br>\n•   Discharge Note in a CCD that is a 6 month summary.<br>\n•   Care Plan scenario (particularly General Care Plans and Specialty Care Plans)<br>\n•   Medication administered vs. historical vs. dispensed vs. med list<br>\n•   VSAC (from the perspective of updates made in last 4 weeks to bring everyone up to date)<br>\n•   History and Physical Note<br>\n•   Ask the ONC discussion<br>\n•   Discussion around the C-CDA scorecard and Rubric<br>\n•   Implementer feedback about the use of the Mental Status and Functional Status sections and the associated entries</p>",
+        "id": 121175179,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1516200501
+    },
+    {
+        "content": "<p>As discussed in yesterday's prep call, for your review, here are the scenario docs that reside on the Confluence IAT page...</p>\n<p>Care Plan Scenarios</p>\n<p><a href=\"/user_uploads/1284/8govIj-snn0vGxN4TSNMETnh/Care-Plan-Scenarios-v2_20180115.docx\" target=\"_blank\" title=\"Care-Plan-Scenarios-v2_20180115.docx\">Care-Plan-Scenarios-v2_20180115.docx</a></p>",
+        "id": 121175267,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1516200700
+    },
+    {
+        "content": "<div class=\"codehilite\"><pre><span></span>Medication Section Scenarios\n</pre></div>\n\n\n<p><a href=\"/user_uploads/1284/LR4qv92A_VijGNrjM9Cu_83i/Medication-Section-Scenarios-1_20180115.docx\" target=\"_blank\" title=\"Medication-Section-Scenarios-1_20180115.docx\">Medication-Section-Scenarios-1_20180115.docx</a></p>",
+        "id": 121175313,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1516200762
+    },
+    {
+        "content": "<p>Clinical Note Template Scenarios</p>\n<p><a href=\"/user_uploads/1284/Bb5ejUX6QffsgqDXx9HZ53Ia/Clinical-Notes-Template-Scenarios_20180115.docx\" target=\"_blank\" title=\"Clinical-Notes-Template-Scenarios_20180115.docx\">Clinical-Notes-Template-Scenarios_20180115.docx</a></p>",
+        "id": 121175319,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1516200776
+    },
+    {
+        "content": "<p>And to assist everyone getting to the Danna Student Center, here's the campus map I reviewed in yesterday's call</p>\n<p><a href=\"/user_uploads/1284/-WqUa_GU-R5JbKE3rhTRQ7Nb/campus-map-april-2016.pdf\" target=\"_blank\" title=\"campus-map-april-2016.pdf\">campus-map-april-2016.pdf</a></p>",
+        "id": 121175340,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1516200840
+    },
+    {
+        "content": "<p>Pregnancy Observation<br>\nPregnancy observation is an assertion in C-CDA 2.1. eICR requires the ability to negate a pregnancy (over a period of time). On receiving a C-CDA document, are vendors expecting negated pregnancy in the pregnancy observation template?</p>",
+        "id": 121180260,
+        "sender_full_name": "Emma Jones",
+        "timestamp": 1516208327
+    },
+    {
+        "content": "<p>New UDI templates - Implantable Device Instance template (conforms to Product Instance)<br>\nIs the purpose of this template to be used only for implantable Devices? How is is handle in context of product instance? Is it meant to replace the product instance template? Are both expected to be used - if so - what are guiding principles?</p>",
+        "id": 121180456,
+        "sender_full_name": "Emma Jones",
+        "timestamp": 1516208570
+    },
+    {
+        "content": "<p>Care Plan view - Need a concise way of viewing the care plan elements in the context of it's linkages to be able to show the clinical picture.</p>",
+        "id": 121180582,
+        "sender_full_name": "Emma Jones",
+        "timestamp": 1516208744
+    },
+    {
+        "content": "<p>We will add these to our list of potential discussion topics.  Is the pregnancy observation question covered by section of the C-CDA R2.1 Companion Guide?  It states \"To indicate a patient was not pregnant during a specified date range, the Pregnancy Observation should also be used, but with a negationInd set to 'true'...\"</p>",
+        "id": 121210933,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1516263859
+    },
+    {
+        "content": "<p>Provenance<br>\nProvenance is listed as one of  upcoming data elements on USCDI list. Suggesting discussing the definition of provenance, data elements and determine if there are existing implementation of provenance today.</p>",
+        "id": 121222489,
+        "sender_full_name": "Emma Jones",
+        "timestamp": 1516287696
+    },
+    {
+        "content": "<p>Topic: use of the text node in the note section template (Companion guide new templates)</p>",
+        "id": 121400832,
+        "sender_full_name": "Emma Jones",
+        "timestamp": 1516656429
+    },
+    {
+        "content": "<p>Hi Everyone.  The notes from this week's in-person IAT are up - <a href=\"http://confluence.hl7.org:8090/display/IAT/20180125-26+IAT\" target=\"_blank\" title=\"http://confluence.hl7.org:8090/display/IAT/20180125-26+IAT\">http://confluence.hl7.org:8090/display/IAT/20180125-26+IAT</a></p>",
+        "id": 121596272,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1517015123
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"119600\">@Yash Panchal</span> <span class=\"user-mention\" data-user-id=\"104295\">@Jean Duteau</span> <span class=\"user-mention\" data-user-id=\"104293\">@Joginder Madra</span>      Yash, I was forwarded the questions that you raised:</p>\n<p>1) About the event, Is there only introductory discussions among all or there would be live testing of interoperability use cases?</p>\n<p>Answer:<br>\nThe IAT will be both discussions as well as exchanging of data.  The data stems from scenarios that are created and distributed a week prior to the event.</p>\n<p>2) Considering that we will be exporting CCD files, What is expected to be destinations and raw data?<br>\nAnswer:<br>\nWe'll have attendees that represent both sending organizations and receiving organizaztions.  </p>\n<p>The VIAT faciliators, Jean Duteau and Joginder Madra are on this Zulip chat as well so they can expand on the answers as well.</p>",
+        "id": 128418012,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1529588079
+    },
+    {
+        "content": "<p>To clarify 2), we have tried to remove complexities around the mechanics of actual document exchange as we want to focus IAT time on \"content\".  With that in mind, we will be setting up a Dropbox folder where participants can put/retrieve their C-CDA documents</p>",
+        "id": 128447463,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1529627090
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"104293\">@Joginder Madra</span>  You mean to say we will post CDA documents on central location so that everyone can access it.</p>",
+        "id": 128460754,
+        "sender_full_name": "Yash Panchal",
+        "timestamp": 1529653873
+    },
+    {
+        "content": "<p>that is correct</p>",
+        "id": 128474732,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1529676697
+    },
+    {
+        "content": "<p>Hi Everyone.  By now you should have received three scenario documents for Thursday's Virtual IAT.  We would like participants to have their C-CDA documents created and ready to exchange for Thursday.  As in the past, we will set up a Dropbox folder to facilitate the document exchange.</p>\n<p>We will also be posting the documents to the Virtual IAT page in Confluence - <a href=\"http://confluence.hl7.org/display/IAT/20180628+-+Virtual+IAT\" target=\"_blank\" title=\"http://confluence.hl7.org/display/IAT/20180628+-+Virtual+IAT\">http://confluence.hl7.org/display/IAT/20180628+-+Virtual+IAT</a></p>\n<p>Registered participants should receive an invite to the event's Dropbox folder by EOD Wednesday.</p>",
+        "id": 128669405,
+        "sender_full_name": "Joginder Madra",
+        "timestamp": 1530035313
+    },
+    {
+        "content": "<p>Virtual IAT Registrants…</p>\n<p>Sending this helpful information again…</p>\n<p>To help prepare for the event tomorrow, June 28, 2018, please note the following:</p>\n<p>The Virtual IAT will be 10:30am-4:30pm ET.<br>\nShort breaks will be incorporated, however, please prepare accordingly for quick snack, lunch and bio-breaks.</p>\n<p>Home work scenarios have been sent to all registrants.  Let me know if you have not received them or have questions about them.</p>\n<p>IAT Project Page – (Confluence Page)<br>\nThe most current agenda, homework scenarios and other information can be found on the IAT Confluence page at:<br>\n<a href=\"http://confluence.hl7.org/display/IAT/20180628+-+Virtual+IAT\" target=\"_blank\" title=\"http://confluence.hl7.org/display/IAT/20180628+-+Virtual+IAT\">http://confluence.hl7.org/display/IAT/20180628+-+Virtual+IAT</a></p>\n<p>Event Start Up<br>\nRegistrants should have received an email from “HL7 Webinars” with their credentials to access GoToWebinar to join the Virtual IAT.  If you don’t have this information, please contact me at <a href=\"mailto:pmo@HL7.org\" title=\"mailto:pmo@HL7.org\">pmo@HL7.org</a>.  These credentials are unique to each registrant, meaning only one person is allowed access to the webinar with the credentials.</p>\n<p>Issues during the webinar?  I’ll be monitoring the entire event so please email me if you encounter issues.</p>\n<p>Other Information<br>\nA survey will be sent to all attendees following the Virtual IAT.  Please take a few minutes to complete it as we really value your input.</p>\n<p>Let me know if you have any questions.</p>",
+        "id": 128729992,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1530123418
+    },
+    {
+        "content": "<p>Any clarification on the 'versioning' scenarios? They seem a little fuzzy, though I know sometimes that's intentional! :)  Is the intent to explore various combinations of the <code>RPLC</code> vs <code>APND</code> document relationship types?</p>",
+        "id": 128734038,
+        "sender_full_name": "Benjamin Flessner",
+        "timestamp": 1530128446
+    },
+    {
+        "content": "<p>Yes exactly.  In the CDA tutorials that I teach, I have pretty much these exact scenarios so I thought I’d use that as the scenarios to see what implementers can do.</p>",
+        "id": 128735185,
+        "sender_full_name": "Jean Duteau",
+        "timestamp": 1530129924
+    },
+    {
+        "content": "<p>Hi all, I happened across a new OID for the MBI (new Medicare Beneficiary Identifier) that replaces the HICN starting in April of this year.  I am curious if generators of the CCDA Payer (or Record Target) section are using the new OID (2.16.840.1.113883.4.927 ) as well as the old HICN OID (2.16.840.1.113883.4.572 ) Or have you kept the old or entirely switched over to the new?  (Something tells me that the answer is \"it depends\" and is how user configures it?  Appreciate your insight.</p>",
+        "id": 129162530,
+        "sender_full_name": "Linda Michaelsen",
+        "timestamp": 1530822700
+    },
+    {
+        "content": "<p>Hello All,<br>\nI am developing CCDA Consultation Notes for the first time. Can anyone please share some realtime usecases around it? Like how industry is using and more?</p>\n<p>Thank you<br>\nYash Panchal</p>",
+        "id": 129748356,
+        "sender_full_name": "Yash Panchal",
+        "timestamp": 1531746272
+    },
+    {
+        "content": "<p>C-CDA IAT Zulipers..</p>\n<p>don’t forget about the upcoming C-CDA IAT in Washington DC on Aug 9-10.</p>\n<p>Planned scenarios/discussions are:<br>\n- Encounter summary (i.e. discharge summary or progress note) vs patient summary (CCD)<br>\n- CDA -&gt; FHIR Mapping (focusing on US data elements)*<br>\n- Care Plan**<br>\n- Ask the ONC</p>\n<p>*We are also looking to demonstrate round-tripping between C-CDA to FHIR then back to C-CDA and, if possible, a \"real\" FHIR server/application to consumer.  If you can help out with this or want more information, contact Dave Hamill at <a href=\"mailto:pmo@HL7.org\" title=\"mailto:pmo@HL7.org\">pmo@HL7.org</a>.</p>\n<p>**The Care Plan scenario file now includes a 4th assignment that will have implementers exercise the Health Status Evaluation and Outcomes section to hold assessment information covering the sexy topics of eLTSS and Social Determinants of Health!</p>\n<p>The draft agenda can be found at:  <br>\n<a href=\"http://confluence.hl7.org/pages/viewpage.action?pageId=21856369\" target=\"_blank\" title=\"http://confluence.hl7.org/pages/viewpage.action?pageId=21856369\">http://confluence.hl7.org/pages/viewpage.action?pageId=21856369</a></p>\n<p>Registration for the IAT can be found at:<br>\n<a href=\"http://www.hl7.org/events/c-cda/implementation/2018/08/\" target=\"_blank\" title=\"http://www.hl7.org/events/c-cda/implementation/2018/08/\">http://www.hl7.org/events/c-cda/implementation/2018/08/</a></p>",
+        "id": 129827652,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1531852367
+    },
+    {
+        "content": "<p>To help prepare for HL7's Implementation-A-Thon on August 9 &amp; 10, 2018, please note the following:</p>\n<p>The IAT will be 9am-5pm ET each day.</p>\n<p>Prior to 9am, the meeting room is only accessible to staff, so please arrive just a little bit before 9am.  We must depart the facility by 5pm.</p>\n<p>Upon entering the building , all attendees should check in at the Security Desk and let them know they’re attending the Health Level Seven International C-CDA Implementation-A-Thon.    Security will direct you to the appropriate room.  </p>\n<p>Event Location:<br>\nKaiser Permanente Center for Total Health<br>\n700 Second St. NE<br>\nWashington, DC 20002</p>\n<p>Additional details about the Center for Total Health can be found at:  <a href=\"https://centerfortotalhealth.org/\" target=\"_blank\" title=\"https://centerfortotalhealth.org/\">https://centerfortotalhealth.org/</a></p>\n<p>Location, Directions, Public Transportation, Parking<br>\n<a href=\"https://centerfortotalhealth.org/location/\" target=\"_blank\" title=\"https://centerfortotalhealth.org/location/\">https://centerfortotalhealth.org/location/</a></p>\n<p>Dress Code:<br>\nThe dress code is casual; layered clothing is advised as room temperatures vary.</p>\n<p>Food and Beverages:<br>\nUnlike many other HL7 events, breakfast, morning snacks and afternoon snacks will NOT be provided so please plan accordingly.<br>\nLunch on both days will be boxed lunches.<br>\nCoffee, tea ice water and fruited water will be provided throughout the day and for lunch.  Note that the Center for Total Health does not provide soda.</p>\n<p>Please let me know as soon as possible if you have any food allergies/preferences (vegan, gluten-free, etc.)</p>\n<p>Additional information regarding the Implementation-A-Thon can be found at: <a href=\"http://www.hl7.org/events/c-cda/implementation/2018/08/?ref=banner\" target=\"_blank\" title=\"http://www.hl7.org/events/c-cda/implementation/2018/08/?ref=banner\">http://www.hl7.org/events/c-cda/implementation/2018/08/?ref=banner</a></p>",
+        "id": 130784380,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1533223073
+    },
+    {
+        "content": "<p><strong>I am pleased to announce the upcoming  HL7 C-CDA Implementation-A-Thon on January 12-13 2018</strong><br>\nThe C-CDA IAT will be conducted as a track within the FHIR Connectathon held in San Antonio, TX, just prior to the HL7 Working Group and Payer Summit. </p>\n<p>Registration Information and everything you need to know about C-CDA IAT can be found on Confluence: <a href=\"https://confluence.hl7.org/display/IAT/Implementation-A-Thons\" target=\"_blank\" title=\"https://confluence.hl7.org/display/IAT/Implementation-A-Thons\">https://confluence.hl7.org/display/IAT/Implementation-A-Thons</a></p>\n<p>Register TODAY!  Be a part of an exciting new way to learn about and continuously improve adoption of C-CDA.</p>\n<p>FHIR Connectathon includes an exciting new track!!  The CCDA Implementation-A-Thon (C-CDA IAT) is now being held in conjunction with the FHIR Connectathon.  The CCDA IAT helps implementers work to reduce inconsistencies in HL7 C-CDA® implementations across the healthcare industry. The track also includes collaboration aimed at clarifying C-CDA document creation questions and exploratory sessions designed to bring clarity for less defined or emerging data representation in C-CDA.  </p>\n<p>Registration for the C-CDA IAT Track allows participants to optimize their participation across CDA and FHIR related Tracks. You can participate in  the structured CCDA IAT track activities that suit your needs and interests, or take time out to participate in other aspects of the FHIR Connectathon.  With the FHIR Connectathon happening at the same time, CDA implementers gain the opportunity to test crossover functionality like the FHIR Conversion Challenge (C-CDA to C-CDA on FHIR bidirectional document conversion).</p>\n<p>The CDA IAT Track agenda is broken out by 90 minute quarters.  This will facilitate your ability to focus on just the CCDA topics of interest to you and your organization.  Of course, if they are all of interest, you can participate in all eight quarters. In addition to the C-CDA on FHIR and attachments quarter, the CDA IAT Track will include quarters on Data Provenance, Care Plan Documents, USCDI (US Core Data for Interoperability) and will cover review of the the evolving ONC Scorecard Rubric. It also includes pre-Connectathon virtual working sessions to introduce each topic and focus participants on getting the most out of their hands-on time in January. This track is ideal  for CDA Implementers interested in gaining exposure to FHIR and the possibilities for harnessing both. The timing also makes it ideal for gaining exposure to CDA and FHIR prior to attending the Payor Summit.</p>",
+        "id": 146799992,
+        "sender_full_name": "Lisa Nelson",
+        "timestamp": 1541429153
+    },
+    {
+        "content": "<p>Are you interested in learning more about <br>\nthe January 2019 HL7 C-CDA Implementation-A-Thon (C-CDA IAT)?</p>\n<p>Expand your expertise and gain more experience with:<br>\n•   Encounter Summary Documents and Patient Summary Documents<br>\n•   Data Provenance<br>\n•   Care Plan Documents <br>\n•   USCDI (US Core Data for Interoperability)<br>\n•   C-CDA Scorecard Rubric<br>\n•   C-CDA on FHIR Documents</p>\n<p>Don’t miss our first Preparation Workshop call this coming Wednesday.<br>\nPreparation Working Sessions<br>\nWednesday, Nov 14th, 2018<br>\n2:00-3:00pm ET  Prep for C-CDA IAT - What to expect<br>\n•         Review the agenda for the C-CDA IAT track in January.<br>\n•         Learn what will be covered during the Preparation Working Sessions and how we will get ready for a valuable C-CDA Implementation-A-Thon experience.</p>\n<p>Preparation Workshop Call Information:<br>\nWednesday, November 14th, 2018, 2:00-3:00pm ET<br>\nJoin the Meeting: <a href=\"https://global.gotomeeting.com/join/305699981\" target=\"_blank\" title=\"https://global.gotomeeting.com/join/305699981\">https://global.gotomeeting.com/join/305699981</a><br>\nYou can also dial in using your phone.<br>\nUnited States: +1 (646) 749-3112   Access Code: 305-699-981</p>\n<p>FHIR Connectathon/C-CDA IAT Registration Info Included Below:  <br>\nNote, you don’t have to be registered for the January C-CDA IAT to attend the Preparation Workshops. But sign up soon, space is limited.</p>\n<p>Visit HL7 Confluence for more information: <br>\nComplete Preparation Workshop schedule: 20190112-13 C-CDA Implementation-A-Thon</p>",
+        "id": 147532843,
+        "sender_full_name": "Lisa Nelson",
+        "timestamp": 1542037215
+    },
+    {
+        "content": "<p>Who is committed to making ZULIP a great place to chat with others who are implementing C-CDA and C-CDA on FHIR?  Let's get this party started!!!!</p>",
+        "id": 147666962,
+        "sender_full_name": "Lisa Nelson",
+        "timestamp": 1542201660
+    },
+    {
+        "content": "<p>HEY!  Guess what?  We decided to move the conversation to <a href=\"http://chat.FHIR.org\" target=\"_blank\" title=\"http://chat.FHIR.org\">chat.FHIR.org</a>.  There's way more activity over there!  Plus this will make it easier to monitor the CDA IAT and other FHIR Tracks at the same time in January--all from one place. You will need to get a separate account for <a href=\"http://chat.FHIR.org\" target=\"_blank\" title=\"http://chat.FHIR.org\">chat.FHIR.org</a>.  Once you log in, you will see a stream for C-CDA IAT.  Catch you there!</p>",
+        "id": 147708824,
+        "sender_full_name": "Lisa Nelson",
+        "timestamp": 1542239745
+    },
+    {
+        "content": "<p>Why is PQ data type required to have a unit of measure when the datatype itself does not specify that?   If this is the rule, does all PQ have to have a unit? Please see</p>\n<p><a href=\"https://groups.google.com/forum/#!topic/edge-test-tool/PfFu359S69E\" target=\"_blank\" title=\"https://groups.google.com/forum/#!topic/edge-test-tool/PfFu359S69E\">https://groups.google.com/forum/#!topic/edge-test-tool/PfFu359S69E</a></p>",
+        "id": 155049305,
+        "sender_full_name": "Emma Jones",
+        "timestamp": 1547418821
+    },
+    {
+        "content": "<p>September 2019 C-CDA Implementation-A-Thon—Together again at the FHIR Connectathon</p>\n<p>SAVE THE DATE! <br>\nSeptember 14-15, 2019 <br>\nAtlanta Marriott Marquis, Atlanta GA</p>\n<p>Join the C-CDA Community as we plan the agenda and select focal topics</p>\n<p>The C-CDA Implementation-A-Thon (C-CDA IAT) is now being held as a track within the FHIR Connectathon.  The C-CDA IAT helps implementers work to reduce inconsistencies in HL7 C-CDA® implementations across the healthcare industry. The track includes: <br>\n•   Collaboration activities aimed at clarifying C-CDA document creation and consumption questions <br>\n•   Exploratory sessions designed to clarify less defined or emerging C-CDA data representation<br>\n•   Experimentation with sharing C-CDA documents using FHIR APIs</p>\n<p>Registration for the C-CDA IAT Track allows participants to optimize their participation across CDA and FHIR related tracks, following the structured C-CDA IAT track activities of interest or partaking in other aspects of the FHIR Connectathon. The C-CDA IAT Track agenda is organized by 90-minute quarters.  Participants can spend eight quarters over two days in the C-CDA IAT Track, or use some quarters to learn more about FHIR. Implementers determine what areas the track will cover at each session.</p>\n<p>The C-CDA IAT includes pre-Connectathon preparation working sessions to introduce each topic and focus participants on getting the most out of their hands-on face-to-face time. This track is ideal for C-CDA implementers interested in gaining exposure to FHIR and the possibilities for harnessing both HL7 standards to meet emerging business use cases for information exchange. The timing also makes it ideal for gaining exposure to C-CDA and FHIR prior to attending the Payer Summit.  <br>\nC-CDA Implementation-A-Thon September 2019</p>\n<p>SAVE THE DATE! <br>\nSeptember 14-15, 2019 <br>\nAtlanta Marriott Marquis, Atlanta GA</p>",
+        "id": 160439115,
+        "sender_full_name": "Lisa Nelson",
+        "timestamp": 1552262538
+    },
+    {
+        "content": "<p>Reply to this thread with topics of interest for the upcoming agenda. What areas of focus would be valuable to participants from your organization?</p>",
+        "id": 160439651,
+        "sender_full_name": "Lisa Nelson",
+        "timestamp": 1552263513
+    }
+]

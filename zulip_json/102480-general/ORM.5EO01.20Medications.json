@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>I am trying to determine how to correlate medication orders (ORM^O01 messages) that we receive from an external system.  These 3 messages appear to all belong to the same order.  This is what it \"appears\" to be....first ORM for patient Joe Smith orders acetaminophen at hospital A.  Then the next 2 are both status chance messages.  ORM 2 appears to \"complete that order\" .  What is ORM 3 doing?  is the fact that the ORC-3 value in ORM 3 matches the ORC-2 value in ORM 1 and ORM 2 mean that this order was 'filled\" at a different hospital (hospital B)?  Is that how I should be interpreting this?  Also, what date is better used to determine how the sequence of events should be looked at - ORC-9(transaction date) or ORC-15(Effective date)? </p>\n<p>ORM             MSH-4        ORC-2      ORC-3                              ORC-1   ORC-5  ORC-9     ORC-15   RXO-2<br>\n--------             ----------      ----------    ----------</p>",
+        "id": 188587605,
+        "sender_full_name": "Julie Paulson",
+        "timestamp": 1582147721
+    },
+    {
+        "content": "<p>This refers to question above:</p>\n<p>ORM        |     MSH-4    ORC-2           ORC-3            ORC-1             ORC-5             ORC-9                                        ORC-15                       RXO-2<br>\n------             --------       --------           ---------            -----------     ----------          ------------------                    -----------------                           --------- <br>\nORM_1             A               11111        NULL                   NW               NW                 20200116152856             20200116152856            pillA<br>\nORM_2             A               11111         NULL                   SC                 CM                 20200130070130            20200130070130             pillA<br>\nORM_3             B               22222        11111                   SC                 CM                 20200130070139            20200130070139             pillA</p>",
+        "id": 188588875,
+        "sender_full_name": "Julie Paulson",
+        "timestamp": 1582148689
+    },
+    {
+        "content": "<table>\n<thead>\n<tr>\n<th>MSG</th>\n<th align=\"center\">MSH-4</th>\n<th align=\"right\">ORC-2</th>\n<th align=\"right\">ORC-3</th>\n<th align=\"right\">ORC-1</th>\n<th align=\"right\">ORC-5</th>\n<th align=\"right\">ORC-9</th>\n<th align=\"right\">ORC-15</th>\n<th align=\"right\">RXO-2</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ORM_1</td>\n<td align=\"center\">A</td>\n<td align=\"right\">11111</td>\n<td align=\"right\"></td>\n<td align=\"right\">NW</td>\n<td align=\"right\">NW</td>\n<td align=\"right\">20200116153030</td>\n<td align=\"right\">20200116153030</td>\n<td align=\"right\">pillA</td>\n</tr>\n<tr>\n<td>ORM_2</td>\n<td align=\"center\">A</td>\n<td align=\"right\">11111</td>\n<td align=\"right\"></td>\n<td align=\"right\">SC</td>\n<td align=\"right\">CM</td>\n<td align=\"right\">20200130070130</td>\n<td align=\"right\">20200130070130</td>\n<td align=\"right\">pillA</td>\n</tr>\n<tr>\n<td>ORM_3</td>\n<td align=\"center\">B</td>\n<td align=\"right\">22222</td>\n<td align=\"right\">11111</td>\n<td align=\"right\">SC</td>\n<td align=\"right\">CM</td>\n<td align=\"right\">20200116153039</td>\n<td align=\"right\">20200116153039</td>\n<td align=\"right\">pillA</td>\n</tr>\n</tbody>\n</table>",
+        "id": 188590603,
+        "sender_full_name": "Julie Paulson",
+        "timestamp": 1582149863
+    },
+    {
+        "content": "<p>I'm surprised to see ORM^O01 messages.  These were deprecated in v2.4 (2007).  It would be clearer if it was using OMP^O09, RDE^O11 and RDS^013.  But, to address these messages:</p>\n<ul>\n<li>\n<p>ORM_1 is a new prescription from \"A\" (possibly to \"B\", would need to see MSH-6).  the prescription is dated 1/16/2020 @ 3:30pm.  <br>\n     - In moving from ORM, this would be an OMP^O09 message.</p>\n</li>\n<li>\n<p>ORM_3 is \"B\" indicating that the prescription (with an order number of \"1111\" in \"A\", and a prescription number of \"2222\" in \"B\") was completed.  This suggests that \"B\" is the pharmacy and they received the order into their system on 1/16/2020 @ 3:30pm (9 after it was written). Because of the 9 second time difference, I am labeling this as the v2 concept of \"encoding\" - where the pharmacy accepts the order, writes it to the system, and sends the prescription info back as it is in the pharmacay system (might be slightly different that the what comes from the prescriber).  If the time difference was longer, I would suspect that the was a dispense notification from \"B\" to \"A\"<br>\n     - In moving from ORM, if this is the encoded order then an RDE^O11 message would be appropriate.  If this is the dispense message, then an RDS^013 would be used.</p>\n</li>\n<li>\n<p>ORM_2 says that \"A\" marked the order as complete within \"A\" on 1/30/2020 @ 7:01am.  This is confusing: it could be that \"A\" is just marking the order complete in an end-of-cycle process, or somehow \"A\" became aware of that the prescription had been dispensed.  But, if ORM_3 was the dispense message from \"B\" to \"A\", why is there a 15 day delay? </p>\n</li>\n</ul>\n<p>Other comments</p>\n<ul>\n<li>\n<p>ORC-9 is the transaction date and how I ordered the messages.  ORC-15 is the effective date, when the \"order\" will/can be performed.  It is common, as in your examples, for ORC-9 to equal ORC-15.  </p>\n</li>\n<li>\n<p>RXO-2 doesn't make sense.  RXO-2 is \"Requested Give Amount - Minimum\", the dose (or minimum dose), e.g. the \"1\" in \"Take 1 - 2 tablets ...\".  I'm not sure what to make of \"pillA\"</p>\n</li>\n</ul>\n<p>Hope that helps</p>",
+        "id": 188602573,
+        "sender_full_name": "Scott Robertson",
+        "timestamp": 1582161498
+    },
+    {
+        "content": "<p>Thank you Scott....yes the ORM^O01 messages we will be receiving are not \"typical\" - they will contain the ORC/RXO/RXR/RXC/OBX  segments.  I mistyped the RXO-2 and shoudl have been RXO-1.  You answered my main question and that was, does the 3rd ORM in my table indicate the order(from ORM_1/ORM_2) was filled?  These are test messages we are receiving so that may account for the oddity in the dates....thank you again for your clarifications and taking the time to answer.</p>",
+        "id": 188648356,
+        "sender_full_name": "Julie Paulson",
+        "timestamp": 1582212900
+    }
+]

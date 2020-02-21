@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>Hello again dear community, i am using \" Tersers \" to get data from an hl7 v2 messeage, its a ADT_A08 messeage.</p>\n<p>Well the thing is that, im trying to get the PatientName with this: string test = terser.Get(\"PID-5-1\"); and that return me nothing, instead if i use the same but changing the command for something like \"MSH-16-2\" i dont remember, but its work, why it still happend me that? i need to use things like PID-5-2 or EVN-2 , that commands does not work at all. The same happens when I use \"MSH-152-2\"; the return is the name of a medication, but that is typical of one of my hl7-v2 messages, but I would have to use \"RXE-2-1\" to get the same data. I apologize for my english , im spanish-language native.</p>\n<p>using NHapi.Base.Model;<br>\nusing NHapi.Base.Util;<br>\nusing NHapi.Base.Parser;<br>\nusing System.Diagnostics;<br>\nusing NHapi.Model.V23.Message;<br>\nusing System.IO;</p>\n<p>public void someMethod()<br>\n{  <br>\n        string msg = txtHL7m.Text;</p>\n<div class=\"codehilite\"><pre><span></span>    PipeParser pParser = new PipeParser();\n    var iMesseage = pParser.Parse(msg, &quot;2.3&quot;);\n\n    try\n    {\n        var terser = new Terser(iMesseage);\n        string test = terser.Get(txtTerserExpression.Text);\n        txtTerserResults.Text = test;\n    }\n    catch\n    {\n        Console.WriteLine(&quot;ERROR&quot;);\n    }\n</pre></div>\n\n\n<p>}</p>",
+        "id": 168797580,
+        "sender_full_name": "Fruei",
+        "timestamp": 1561303421
+    }
+]

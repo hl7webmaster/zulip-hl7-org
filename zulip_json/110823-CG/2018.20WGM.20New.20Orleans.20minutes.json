@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Minutes from the WGM in New Orleans will be captured here:<br>\n<a href=\"https://docs.google.com/document/d/1JbxKhRUEADQ-HfXQAeFmzeKt0IJUL0ft93QfopL_ADY\" target=\"_blank\" title=\"https://docs.google.com/document/d/1JbxKhRUEADQ-HfXQAeFmzeKt0IJUL0ft93QfopL_ADY\">https://docs.google.com/document/d/1JbxKhRUEADQ-HfXQAeFmzeKt0IJUL0ft93QfopL_ADY</a></p>",
+        "id": 121679987,
+        "sender_full_name": "Bob Milius",
+        "timestamp": 1517167623
+    },
+    {
+        "content": "<p>short version of url<br>\n<a href=\"https://tinyurl.com/HL7CG-WGM-Jan2018\" target=\"_blank\" title=\"https://tinyurl.com/HL7CG-WGM-Jan2018\">https://tinyurl.com/HL7CG-WGM-Jan2018</a></p>",
+        "id": 121680170,
+        "sender_full_name": "Bob Milius",
+        "timestamp": 1517167943
+    },
+    {
+        "content": "<p>FHIR agenda for 2018 January WGM -- contains info about Q5 and Q6 activities such as the FHIR registry BOF<br>\n<a href=\"http://wiki.hl7.org/index.php?title=FHIR_Agenda_201801_WGM\" target=\"_blank\" title=\"http://wiki.hl7.org/index.php?title=FHIR_Agenda_201801_WGM\">http://wiki.hl7.org/index.php?title=FHIR_Agenda_201801_WGM</a></p>",
+        "id": 121803623,
+        "sender_full_name": "Joel Schneider",
+        "timestamp": 1517351702
+    }
+]

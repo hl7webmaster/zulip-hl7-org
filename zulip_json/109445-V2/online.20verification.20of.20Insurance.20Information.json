@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>hello all,</p>\n<p>in Germany we do have the requirement to verify insurance information via an online service. We are now checking/searching for suitable fields in v2.x:</p>\n<p>Date/Time of online verification:<br>\n-&gt; IN3-6 Certification Date/Time</p>\n<p>Result of online verification:<br>\n-&gt; new field?</p>\n<p>error code for online verification:<br>\n-&gt; new field, eventually using a specific table in combination with the previous information?</p>\n<p>check-digit of online verification:<br>\n-&gt; new field?</p>\n<p>Any help is appreciated.<br>\nthx</p>\n<p>best regards<br>\nFrank</p>",
+        "id": 159405574,
+        "sender_full_name": "Frank Oemig",
+        "timestamp": 1551167431
+    }
+]

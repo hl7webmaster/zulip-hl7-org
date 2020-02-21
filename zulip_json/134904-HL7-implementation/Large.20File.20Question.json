@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>I have an email with the following request for help.  Anyone able to provide direction?</p>\n<p>We are working with reporting software that sends updates to EMR and in some cases, those updates contain large files (larger than 65k chars in base64), sometimes may be even gifs or videos that are provided by specific tests, and we have issue with sending large files with ORU_R01 message, as OBX segment has limitation for large files.</p>\n<p>I found in some cases that people remove limitation from configuration, but they provide very “handmade” solutions.<br>\nThere was also interesting solution, to send file link and to upload it on shared server, but first, I want to hear from HL7 International, what do you think about this.</p>\n<p>Have you faced any issue with large files in your experience?</p>\n<p>Do you have any solution to send large files, or can you suggest the way of solving this problem?</p>",
+        "id": 163572278,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1555515382
+    },
+    {
+        "content": "<p>large files are sent by reference in my experience.</p>",
+        "id": 163617342,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1555553738
+    },
+    {
+        "content": "<p>By the way: there is no size limitation in HL7 v2 for OBX-5. The value of 64k, just like -1, is a special value which denotes 'unlimited size'. It's up to senders and/or receivers to set a max size.</p>",
+        "id": 163627537,
+        "sender_full_name": "Rene Spronk",
+        "timestamp": 1555570305
+    },
+    {
+        "content": "<p>Thank you, responses where very helpful</p>",
+        "id": 163656852,
+        "sender_full_name": "Irakli Gigiberia",
+        "timestamp": 1555597918
+    }
+]

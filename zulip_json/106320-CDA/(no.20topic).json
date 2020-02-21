@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Hello all, <br>\nWhat is the best way to present a phone number with an associated extension in a CCDA? Example a provider's work phone number and their extension</p>\n<p>Thanks for the help!</p>",
+        "id": 157722302,
+        "sender_full_name": "Hassan",
+        "timestamp": 1549484336
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"120321\">@Lisa Nelson</span></p>",
+        "id": 157734047,
+        "sender_full_name": "John Moehrke",
+        "timestamp": 1549493396
+    }
+]

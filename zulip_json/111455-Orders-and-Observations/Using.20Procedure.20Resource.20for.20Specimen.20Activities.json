@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Folks on the Specimen call are looking for guidance and suggestions. We are mapping the Specimen DAM to FHIR, and when we look at our specimen collection activity and specimen processing activity, the look somewhat like what is found in the procedure resource, but not completely. Currently the DAM has a \"procedure\" just as a codeable concept in each activity. </p>\n<p>Our current thought is to leverage the procedure resource but move the lab-specific attributes not covered in the procedure resource (like a processing additive) someplace else. </p>\n<p>Thoughts? </p>\n<p>Links to the minutes below: </p>\n<p><a href=\"https://confluence.hl7.org/display/OO/Specimen+Call+Minutes+October+15%2C+2019\" target=\"_blank\" title=\"https://confluence.hl7.org/display/OO/Specimen+Call+Minutes+October+15%2C+2019\">https://confluence.hl7.org/display/OO/Specimen+Call+Minutes+October+15%2C+2019</a></p>",
+        "id": 178308171,
+        "sender_full_name": "JD Nolen",
+        "timestamp": 1571245455
+    },
+    {
+        "content": "<p>The Specimen allows you to capture what was added - does that meet your need or do you need to distinguish exactly when each additive was introduced, when, by whom, etc?</p>",
+        "id": 178312979,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1571248759
+    },
+    {
+        "content": "<p>Also, FHIR discussion is commonly on <a href=\"http://chat.fhir.org\" target=\"_blank\" title=\"http://chat.fhir.org\">chat.fhir.org</a>, not <a href=\"http://chat.hl7.org\" target=\"_blank\" title=\"http://chat.hl7.org\">chat.hl7.org</a>.</p>",
+        "id": 178313041,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1571248801
+    }
+]

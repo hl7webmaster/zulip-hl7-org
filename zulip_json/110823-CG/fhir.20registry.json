@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>from Michel Rutten:</p>\n<p>The New Orleans Working Group Meeting will be the occasion for the official introduction of <a href=\"http://registry.fhir.org\" target=\"_blank\" title=\"http://registry.fhir.org\">http://registry.fhir.org</a> to support the development of FHIR resources. The FHIR Registry is powered by <a href=\"http://Simplifier.net\" target=\"_blank\" title=\"http://Simplifier.net\">Simplifier.net</a>, and is intended to be the source of truth for FHIR profiles, extensions, terminology-related components and other resources available to the greater FHIR community.</p>\n<p>As part of the rollout, a Birds-of-a-Feather session has been scheduled at the conference hotel in the St. James room for Tuesday, January 30, at 7:30pm, following the Corepoint social event, when we should all be in the proper frame of mind to appreciate the benefits the Registry will offer. This session will provide basic introductory training and Q&amp;A to all interested attendees.</p>\n<p>I will be available to meet with interested WGs who would like a personal demo or assistance in beginning to use the registry.</p>\n<p>Co-Chairs: if your WG would like to take advantage of this opportunity, please contact me directly as soon as possible — I will reserve a 15-30 minute scheduled visit during one of your WGM sessions, and also configure projects, accounts and authorization profiles in advance to support your WG needs.</p>\n<p>You can also ask questions or provide feedback via Zulip in the new registry stream:<br>\n<a href=\"https://chat.fhir.org/#narrow/stream/registry.2Efhir.2Eorg\" target=\"_blank\" title=\"https://chat.fhir.org/#narrow/stream/registry.2Efhir.2Eorg\">https://chat.fhir.org/#narrow/stream/registry.2Efhir.2Eorg</a></p>",
+        "id": 121804039,
+        "sender_full_name": "Bob Milius",
+        "timestamp": 1517352476
+    },
+    {
+        "content": "<p>Is there any interest in having Michel drop by during our WG meeting tomorrow?  Q2, Q3, Q4 look like options.  I can send the request if there is interest.</p>",
+        "id": 121804228,
+        "sender_full_name": "Bob Freimuth",
+        "timestamp": 1517352785
+    }
+]

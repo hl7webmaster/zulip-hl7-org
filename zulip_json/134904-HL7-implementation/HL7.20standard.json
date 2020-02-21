@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>HL7 standard</p>",
+        "id": 130700268,
+        "sender_full_name": "rahul garg",
+        "timestamp": 1533111872
+    },
+    {
+        "content": "<p>Hi <span class=\"user-mention\" data-user-id=\"124075\">@rahul garg</span> , what HL7 standard are you referring to? V2 messaging? CDA? FHIR?</p>",
+        "id": 130716760,
+        "sender_full_name": "Lynn Laakso",
+        "timestamp": 1533132949
+    },
+    {
+        "content": "<p>i didn't use any standard yet. Please suggest how i can start with HL7. as i don't have enough knowledge about hl7 implementation.</p>",
+        "id": 130758632,
+        "sender_full_name": "rahul garg",
+        "timestamp": 1533185574
+    },
+    {
+        "content": "<p>The first question will be: what are you trying to achieve? Which kinds of data are you looking to encode as HL7? With what systems/applications/apps are you seeking to exchange data? Which country are you in, what legal framework (if any) requires you to use a HL7 standard? <br>\nThere are many HL7 standards, as such we'll first have to determine which one (if any) is the best match with your requirements.</p>",
+        "id": 130766210,
+        "sender_full_name": "Rene Spronk",
+        "timestamp": 1533199121
+    },
+    {
+        "content": "<p>fyi, there is an online course on HL7 Fundementals startimg next week. Looks like registration is still open.<br>\n<a href=\"http://www.hl7.org/events/elearning.cfm?ref=nav\" target=\"_blank\" title=\"http://www.hl7.org/events/elearning.cfm?ref=nav\">http://www.hl7.org/events/elearning.cfm?ref=nav</a></p>",
+        "id": 130793809,
+        "sender_full_name": "Bob Milius",
+        "timestamp": 1533234600
+    }
+]

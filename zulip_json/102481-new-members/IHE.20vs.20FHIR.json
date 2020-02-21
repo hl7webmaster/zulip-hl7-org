@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Which are , on your experience pros anc cons of these two standards ?</p>",
+        "id": 183927881,
+        "sender_full_name": "Ligi",
+        "timestamp": 1576841348
+    },
+    {
+        "content": "<p>IHE is not a standard. It is a standards organization that focuses only on Implementation Guides (they call them Profiles). IHE takes use-cases and puts forth the best (current) solution leveraging standards, like FHIR. IHE has worked with HL7 (and other standards) side-by-side. IHE has been involved in FHIR from the beginning.  IHE thus has many Implementation Guides that use FHIR <a href=\"https://wiki.ihe.net/index.php/Category:FHIR\" target=\"_blank\" title=\"https://wiki.ihe.net/index.php/Category:FHIR\">https://wiki.ihe.net/index.php/Category:FHIR</a></p>",
+        "id": 183939934,
+        "sender_full_name": "John Moehrke",
+        "timestamp": 1576852415
+    },
+    {
+        "content": "<p>This whitepaper might also be useful  (pdf) <a href=\"https://www.e-health-suisse.ch/fileadmin/user_upload/Dokumente/E/overview-ihe-hl7-fhir.pdf\" target=\"_blank\" title=\"https://www.e-health-suisse.ch/fileadmin/user_upload/Dokumente/E/overview-ihe-hl7-fhir.pdf\">https://www.e-health-suisse.ch/fileadmin/user_upload/Dokumente/E/overview-ihe-hl7-fhir.pdf</a></p>",
+        "id": 183940339,
+        "sender_full_name": "John Moehrke",
+        "timestamp": 1576852676
+    },
+    {
+        "content": "<p>Thk u a lot !</p>",
+        "id": 183940567,
+        "sender_full_name": "Ligi",
+        "timestamp": 1576852830
+    }
+]

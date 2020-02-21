@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>I got the HL7 message from TCP listener as a Source , from there need to transfer specific data ( i.e patient is, patient name and patient DOB ) to my service which is written in Java Web Service. So please help me how to send data to Java Web Service through Mirth Connect i.e what destination I need to select and destination configuration</p>",
+        "id": 168851435,
+        "sender_full_name": "Samba Chennamsetty",
+        "timestamp": 1561384599
+    }
+]

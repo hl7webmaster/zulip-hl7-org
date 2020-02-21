@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>I have an email from someone looking for assistance</p>",
+        "id": 162623081,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1554471127
+    },
+    {
+        "content": "<div class=\"codehilite\"><pre><span></span>\n</pre></div>",
+        "id": 162623086,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1554471130
+    },
+    {
+        "content": "<div class=\"codehilite\"><pre><span></span>Hello! My name is Jeremy Greco and I work for a software company called EMS Consultants in LaGrange, GA, United States. We currently create software for EMS clients that allows them to file their NEMSIS reports with several states. We are considering implementing HL7 standards into our software to allow our clients to better communicate the record patient care reports with some hospitals which would prefer that standard. I was searching the HL7 website for an XML Schema that would allow us to create appropriate models in our software for this purpose but was unable to find an XML schema for patient care reports such that would fit the example found in the document on this page:\nhttp://www.hl7.org/implement/standards/product_brief.cfm?product_id=276\nCan you help me locate what I am looking for?\n</pre></div>",
+        "id": 162623100,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1554471144
+    },
+    {
+        "content": "<p>well now I need help. <span aria-label=\"slight smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"slight smile\">:slight_smile:</span></p>",
+        "id": 162623104,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1554471152
+    },
+    {
+        "content": "<p>here's what they put:</p>",
+        "id": 162623107,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1554471155
+    },
+    {
+        "content": "<p>Hello! My name is Jeremy Greco and I work for a software company called EMS Consultants in LaGrange, GA, United States. We currently create software for EMS clients that allows them to file their NEMSIS reports with several states. We are considering implementing HL7 standards into our software to allow our clients to better communicate the record patient care reports with some hospitals which would prefer that standard. I was searching the HL7 website for an XML Schema that would allow us to create appropriate models in our software for this purpose but was unable to find an XML schema for patient care reports such that would fit the example found in the document on this page: <br>\n<a href=\"http://www.hl7.org/implement/standards/product_brief.cfm?product_id=276\" target=\"_blank\" title=\"http://www.hl7.org/implement/standards/product_brief.cfm?product_id=276\">http://www.hl7.org/implement/standards/product_brief.cfm?product_id=276</a><br>\nCan you help me locate what I am looking for?</p>",
+        "id": 162623108,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1554471156
+    },
+    {
+        "content": "<p>If anyone can help me assist this person I would really appreciate it.  I've shared about this stream and the mailing lists but am happy to reply with your reply to help out the user.</p>",
+        "id": 162623150,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1554471211
+    },
+    {
+        "content": "<p>There aren't separate schemas for different CDA implementation guides.  All CDA implementations use the same schema.  However, some CDA implementation guides are accompanied by schematrons that impose some, sometimes even most of the rules defined in the IG.  I'm not sure where those would be located for this IG though.  <span class=\"user-mention\" data-user-id=\"120321\">@Lisa Nelson</span>?</p>",
+        "id": 162626256,
+        "sender_full_name": "Lloyd McKenzie",
+        "timestamp": 1554473294
+    },
+    {
+        "content": "<p><span aria-label=\"thank you\" class=\"emoji emoji-1f64f\" role=\"img\" title=\"thank you\">:thank_you:</span></p>",
+        "id": 162629936,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1554475918
+    },
+    {
+        "content": "<blockquote>\n<p><span aria-label=\"thank you\" class=\"emoji emoji-1f64f\" role=\"img\" title=\"thank you\">:thank_you:</span></p>\n</blockquote>\n<p>David,  the CDA R2.0 Schema is stored in GForge: <a href=\"https://gforge.hl7.org/gf/project/strucdoc/frs/\" target=\"_blank\" title=\"https://gforge.hl7.org/gf/project/strucdoc/frs/\">https://gforge.hl7.org/gf/project/strucdoc/frs/</a>   and the C-CDA R2.1 IG includes in the publication package for the Guide.  The schematron is specific for validating conformances defined in the templates while the Schema is specific for the defining the base CDA standard.</p>",
+        "id": 180160811,
+        "sender_full_name": "Lisa Nelson",
+        "timestamp": 1573151843
+    }
+]

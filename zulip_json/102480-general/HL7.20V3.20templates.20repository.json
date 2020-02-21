@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>is there an official HL7 V3 templates repository built by HL7 organization？The V3 template means a template of information model, for example, the medication order request. is the templates repository maintained by HL7 organization or local company using the HL7 V3? thanks very much！<br>\nps: The term \"templates repository\" is mentioned in 《HL7_TEMPLATES_R1_2018MAY.pdf》 from HL7.</p>",
+        "id": 160530103,
+        "sender_full_name": "huangxiaoshuo",
+        "timestamp": 1552349195
+    },
+    {
+        "content": "<p>(deleted)</p>",
+        "id": 160566911,
+        "sender_full_name": "huangxiaoshuo",
+        "timestamp": 1552395105
+    },
+    {
+        "content": "<p>(deleted)</p>",
+        "id": 160566964,
+        "sender_full_name": "huangxiaoshuo",
+        "timestamp": 1552395135
+    },
+    {
+        "content": "<p>There is no 'offical' v3 templates repository. There are a few CDA templating tools (MDHT, Trifolia, ART DECOR) which hold lots of v3 templates for v3-CDA documents, and ART DECOR holds a repository of some of the v3 messaging profiles. In v3 most repositories (if they exist at all) were created at the project level (e.g. a national infrastructure project).<br>\nThe lack of centrally available repository is v3 is one of the reasons for having on in FHIR.</p>",
+        "id": 160850789,
+        "sender_full_name": "Rene Spronk",
+        "timestamp": 1552631398
+    }
+]

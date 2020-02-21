@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>In the ORU^R01 messages, what is the OBR-26(parent result) and OBR-29(parent number) usually used for?</p>",
+        "id": 185937846,
+        "sender_full_name": "Julie Paulson",
+        "timestamp": 1579281828
+    },
+    {
+        "content": "<p>Typically they are used to connect a result to a previous result that was the impetus for the new result to be created. For example, a positive bacterial culture result (eg. urine culture that resulted in a bacterial isolate being found) could be the parent to the antibiotic susceptibility testing on that isolate. In this case the susceptibility result message will use OBR-26 and -29 to point back to the \"parent\" culture result. Reflex tests can also use these fields to link the reflex result to the original parent result.</p>",
+        "id": 186104578,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1579529254
+    },
+    {
+        "content": "<p>HL7's lab reporting (LRI) implementation guide (<a href=\"http://www.hl7.org/implement/standards/product_brief.cfm?product_id=279\" target=\"_blank\" title=\"http://www.hl7.org/implement/standards/product_brief.cfm?product_id=279\">http://www.hl7.org/implement/standards/product_brief.cfm?product_id=279</a>) has a good description of this in one of the later chapters.</p>",
+        "id": 186104837,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1579529429
+    },
+    {
+        "content": "<p>VERY helpful document - thank you Craig!</p>",
+        "id": 186128753,
+        "sender_full_name": "Julie Paulson",
+        "timestamp": 1579549704
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Continuing a discussion from the Testing BoF in Cologne that came up with <span class=\"user-mention\" data-user-id=\"104170\">@Frank Oemig</span>: we seem to need a canonical representation for v2 messages.</p>",
+        "id": 126845582,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1526852960
+    },
+    {
+        "content": "<p>This would be the v2 equivalent for the widely used Canonical XML - see <a href=\"https://en.wikipedia.org/wiki/Canonical_XML\" target=\"_blank\" title=\"https://en.wikipedia.org/wiki/Canonical_XML\">https://en.wikipedia.org/wiki/Canonical_XML</a></p>",
+        "id": 126845628,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1526853008
+    },
+    {
+        "content": "<p>it shouldn't be too hard:</p>\n<ul>\n<li>use the default delimiters</li>\n<li>no unneeded delimiters (including trailing delimiters)</li>\n<li>use UTF-8</li>\n<li>nothing escaped unless it needs to be</li>\n</ul>",
+        "id": 126845687,
+        "sender_full_name": "Grahame Grieve",
+        "timestamp": 1526853210
+    }
+]
