@@ -1,6 +1,6 @@
 on:
   schedule:
-   - cron: '*/20 * * * *'
+   - cron: '0 0/12 * *'
 
 jobs:
   publish_archive_job:
