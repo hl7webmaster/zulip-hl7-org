@@ -9,7 +9,7 @@ permalink: /stream/102479-announce/index.html
 
 ### Topics:
 
-* [new streams](topic/new.20streams.html) (5 messages, latest: Feb 06 2020 at 04:35)
+* [new streams](topic/new.20streams.html) (6 messages, latest: Feb 21 2020 at 18:29)
 * [Website Updates](topic/Website.20Updates.html) (5 messages, latest: Jan 03 2020 at 17:13)
 * [Interface Specification Document](topic/Interface.20Specification.20Document.html) (2 messages, latest: Dec 10 2019 at 18:35)
 * [FDA Approval](topic/FDA.20Approval.html) (2 messages, latest: Nov 13 2019 at 18:35)
@@ -22,4 +22,4 @@ permalink: /stream/102479-announce/index.html
 * [signups](topic/signups.html) (69 messages, latest: Jan 25 2018 at 20:30)
 * [welcome](topic/welcome.html) (2 messages, latest: Sep 20 2017 at 21:04)
 
-<hr><p>Last updated: Feb 21 2020 at 15:23 UTC</p>
+<hr><p>Last updated: Feb 22 2020 at 00:01 UTC</p>

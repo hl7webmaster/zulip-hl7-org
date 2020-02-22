@@ -28,5 +28,11 @@
         "id": 187519570,
         "sender_full_name": "Notification Bot",
         "timestamp": 1580963708
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"122628\">Joshua Procious</span> created a new stream <a class=\"stream\" data-stream-id=\"224150\" href=\"/#narrow/stream/224150-CodeX\">#CodeX</a>.</p>",
+        "id": 188760395,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1582309780
     }
 ]

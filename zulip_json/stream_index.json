@@ -152,6 +152,20 @@
                 }
             }
         },
+        "CodeX": {
+            "id": 224150,
+            "latest_id": 188760727,
+            "topic_data": {
+                "CodeX / mCODE Community of Practice": {
+                    "latest_date": 1582309939,
+                    "size": 1
+                },
+                "stream events": {
+                    "latest_date": 1582309780,
+                    "size": 1
+                }
+            }
+        },
         "Confluence Pilot": {
             "id": 139854,
             "latest_id": 134243483,
@@ -614,7 +628,7 @@
         },
         "announce": {
             "id": 102479,
-            "latest_id": 187519570,
+            "latest_id": 188760395,
             "topic_data": {
                 "Confluence/Jira": {
                     "latest_date": 1566921829,
@@ -649,8 +663,8 @@
                     "size": 5
                 },
                 "new streams": {
-                    "latest_date": 1580963708,
-                    "size": 5
+                    "latest_date": 1582309780,
+                    "size": 6
                 },
                 "signups": {
                     "latest_date": 1516912233,
@@ -885,5 +899,5 @@
             }
         }
     },
-    "time": 1582298606.4851873
+    "time": 1582329719.7425063
 }
