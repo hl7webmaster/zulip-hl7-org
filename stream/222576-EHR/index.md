@@ -12,4 +12,4 @@ permalink: /stream/222576-EHR/index.html
 * [Reducing Clinician Burden](topic/Reducing.20Clinician.20Burden.html) (2 messages, latest: Feb 06 2020 at 04:37)
 * [stream events](topic/stream.20events.html) (1 message, latest: Feb 06 2020 at 04:35)
 
-<hr><p>Last updated: Feb 23 2020 at 00:02 UTC</p>
+<hr><p>Last updated: Feb 24 2020 at 00:02 UTC</p>
