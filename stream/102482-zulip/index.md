@@ -14,4 +14,4 @@ permalink: /stream/102482-zulip/index.html
 * [second topic](topic/second.20topic.html) (5 messages, latest: Dec 06 2017 at 22:30)
 * [topic demonstration](topic/topic.20demonstration.html) (2 messages, latest: Sep 18 2017 at 19:39)
 
-<hr><p>Last updated: Feb 24 2020 at 00:02 UTC</p>
+<hr><p>Last updated: Feb 25 2020 at 00:02 UTC</p>
