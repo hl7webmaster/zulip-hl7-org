@@ -22,4 +22,4 @@ permalink: /stream/134904-HL7-implementation/index.html
 * [HL7 standard](topic/HL7.20standard.html) (5 messages, latest: Aug 02 2018 at 18:30)
 * [hello](topic/hello.html) (1 message, latest: Aug 01 2018 at 08:22)
 
-<hr><p>Last updated: Feb 26 2020 at 00:02 UTC</p>
+<hr><p>Last updated: Feb 27 2020 at 00:02 UTC</p>
