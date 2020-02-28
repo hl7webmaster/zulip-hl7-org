@@ -36,6 +36,16 @@ FT1-12 (CP) Transaction Amount – Unit</p>
 
 
 
+<a name="189249061"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/111455-Orders%20and%20Observations/topic/V2%20price%20info%20question/near/189249061" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Freida Hall <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/111455-Orders-and-Observations/topic/V2.20price.20info.20question.html#189249061">(Feb 27 2020 at 19:42)</a>:</h4>
+<p>Thanks Dan.  My thought was for ORC-1 we could use "RE-Observations/Performed Service to follow" from Table 0119 Order Control Codes to return price info re: the tests ordered.  </p>
+<p>We'd still rather send an ORM from the filler (vs. a query), which (my opinion) V2 permits as an update, change to the order,  in the ORM definition (from V2.5.1): <br>
+"The function of this message is to initiate the transmission of information about an order. This includes placing new orders, cancellation of existing orders, discontinuation, holding, etc. ORM messages can originate also with a placer, filler, or an interested third party.<br>
+The trigger event for this message is any change to an order. Such changes include submission of new orders, cancellations, updates, patient and non-patient specific orders, etc." </p>
+<p>The change/update is returning the price (test code and charge amount) info using the FT1 segment.</p>
+
+
+
 {% endraw %}
 
-<hr><p>Last updated: Feb 27 2020 at 00:02 UTC</p>
+<hr><p>Last updated: Feb 28 2020 at 00:02 UTC</p>

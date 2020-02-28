@@ -2518,5 +2518,17 @@
         "id": 189158918,
         "sender_full_name": "Notification Bot",
         "timestamp": 1582751130
+    },
+    {
+        "content": "<p>Thanks.  I'll add that.  Keep me posted if the reset does or does not work.</p>",
+        "id": 189216886,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1582813012
+    },
+    {
+        "content": "<p>The HVAC technician did imply he had some remaining work on a thermostat down there.</p>",
+        "id": 189216922,
+        "sender_full_name": "Dave Hamill",
+        "timestamp": 1582813029
     }
 ]

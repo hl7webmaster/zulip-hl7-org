@@ -10,5 +10,11 @@
         "id": 188668267,
         "sender_full_name": "Daniel Rutz",
         "timestamp": 1582226058
+    },
+    {
+        "content": "<p>Thanks Dan.  My thought was for ORC-1 we could use \"RE-Observations/Performed Service to follow\" from Table 0119 Order Control Codes to return price info re: the tests ordered.  </p>\n<p>We'd still rather send an ORM from the filler (vs. a query), which (my opinion) V2 permits as an update, change to the order,  in the ORM definition (from V2.5.1): <br>\n\"The function of this message is to initiate the transmission of information about an order. This includes placing new orders, cancellation of existing orders, discontinuation, holding, etc. ORM messages can originate also with a placer, filler, or an interested third party.<br>\nThe trigger event for this message is any change to an order. Such changes include submission of new orders, cancellations, updates, patient and non-patient specific orders, etc.\" </p>\n<p>The change/update is returning the price (test code and charge amount) info using the FT1 segment.</p>",
+        "id": 189249061,
+        "sender_full_name": "Freida Hall",
+        "timestamp": 1582832570
     }
 ]
