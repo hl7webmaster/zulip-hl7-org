@@ -30,6 +30,8 @@ permalink: /index.html
 
 * [Social](stream/110652-Social/index.html) (5 topics)
 
+* [CodeX](stream/224150-CodeX/index.html) (4 topics)
+
 * [Publishing](stream/106321-Publishing/index.html) (4 topics)
 
 * [zulip](stream/102482-zulip/index.html) (4 topics)
@@ -39,8 +41,6 @@ permalink: /index.html
 * [Public Health](stream/220681-Public-Health/index.html) (3 topics)
 
 * [CDA German (d-a-ch)](stream/216082-CDA-German-(d-a-ch)/index.html) (2 topics)
-
-* [CodeX](stream/224150-CodeX/index.html) (2 topics)
 
 * [DaVinci](stream/127872-DaVinci/index.html) (2 topics)
 
@@ -78,4 +78,4 @@ permalink: /index.html
 
 * [Work Opportunities](stream/215613-Work-Opportunities/index.html) (1 topic)
 
-<hr><p>Last updated: Feb 28 2020 at 00:02 UTC</p>
+<hr><p>Last updated: Feb 29 2020 at 00:02 UTC</p>

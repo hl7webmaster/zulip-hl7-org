@@ -154,8 +154,16 @@
         },
         "CodeX": {
             "id": 224150,
-            "latest_id": 188760727,
+            "latest_id": 189346889,
             "topic_data": {
+                "CoP": {
+                    "latest_date": 1582921025,
+                    "size": 1
+                },
+                "CodeX (General)": {
+                    "latest_date": 1582921003,
+                    "size": 1
+                },
                 "CodeX / mCODE Community of Practice": {
                     "latest_date": 1582309939,
                     "size": 1
@@ -480,7 +488,7 @@
         },
         "Social": {
             "id": 110652,
-            "latest_id": 189216922,
+            "latest_id": 189302096,
             "topic_data": {
                 "Articles": {
                     "latest_date": 1579748831,
@@ -499,8 +507,8 @@
                     "size": 14
                 },
                 "signups": {
-                    "latest_date": 1582813029,
-                    "size": 422
+                    "latest_date": 1582889460,
+                    "size": 423
                 }
             }
         },
@@ -899,5 +907,5 @@
             }
         }
     },
-    "time": 1582848149.6860113
+    "time": 1582934541.952008
 }
