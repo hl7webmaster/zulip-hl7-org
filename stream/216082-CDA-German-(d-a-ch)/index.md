@@ -12,4 +12,4 @@ permalink: /stream/216082-CDA-German-(d-a-ch)/index.html
 * [eRezept](topic/eRezept.html) (1 message, latest: Dec 03 2019 at 15:15)
 * [stream events](topic/stream.20events.html) (1 message, latest: Dec 03 2019 at 15:12)
 
-<hr><p>Last updated: Feb 29 2020 at 00:02 UTC</p>
+<hr><p>Last updated: Mar 01 2020 at 00:02 UTC</p>
