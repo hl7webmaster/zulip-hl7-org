@@ -1,0 +1,44 @@
+---
+layout: archive
+title: Zulip Chat Archive
+permalink: /stream/102480-general/topic/HL7.202.2E3.20ADT.20A28.20Event.20Question.html
+---
+
+<h2>Stream: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.202.2E3.20ADT.20A28.20Event.20Question.html">HL7 2.3 ADT A28 Event Question</a></h3>
+
+<hr>
+
+<base href="https://chat.hl7.org/">
+
+<head><link href="/style.css" rel="stylesheet"></head>
+
+{% raw %}
+
+<a name="189476648"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7%202.3%20ADT%20A28%20Event%20Question/near/189476648" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Mo Aamer <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.202.2E3.20ADT.20A28.20Event.20Question.html#189476648">(Mar 02 2020 at 10:02)</a>:</h4>
+<p>Hello all,<br>
+I have a question about ADT A28 event for adding a new person ... are PV1 (Patient visit) segment and (Patient Class)  mandatory fields while submitting the event? as this part is not clear for me in <a href="http://hl7.org" target="_blank" title="http://hl7.org">hl7.org</a> documentation <br>
+Thanks in advance.</p>
+
+
+
+<a name="189477262"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7%202.3%20ADT%20A28%20Event%20Question/near/189477262" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Mo Aamer <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.202.2E3.20ADT.20A28.20Event.20Question.html#189477262">(Mar 02 2020 at 10:12)</a>:</h4>
+<p>As per this site: <a href="https://hl7-definition.caristix.com/v2/HL7v2.3/TriggerEvents/ADT_A28" target="_blank" title="https://hl7-definition.caristix.com/v2/HL7v2.3/TriggerEvents/ADT_A28">https://hl7-definition.caristix.com/v2/HL7v2.3/TriggerEvents/ADT_A28</a> it is required segment, is it really required or not?</p>
+
+
+
+<a name="189494982"></a>
+<h4><a href="https://chat.hl7.org/#narrow/stream/102480-general/topic/HL7%202.3%20ADT%20A28%20Event%20Question/near/189494982" class="zl"><img src="https://hl7webmaster.github.io/zulip-hl7-org/assets/img/zulip2.png" alt="view this post on Zulip"></a> Craig Newman <a href="https://hl7webmaster.github.io/zulip-hl7-org/stream/102480-general/topic/HL7.202.2E3.20ADT.20A28.20Event.20Question.html#189494982">(Mar 02 2020 at 14:24)</a>:</h4>
+<p>The description for the A28 event (section 3.2.28 in v2.8.2 Chapter 2) says:<br>
+"To maintain backward compatibility with previous releases, the PV1 segment is required. However, a "pseudo-optional" PV1 can be achieved by valuing PV1-2 - Patient Class to N - not applicable."</p>
+<p>This is confirmed by the lack of square brackets [ ] around the PV1 segment in the message definition table for the A28 message. Compare PD1 (which is optional) to PV1 (which is not optional) in the message definition to see the difference.</p>
+<p>So PV1 is required, but may not contain any relevant information (although you should always check with your trading partners (if they are the source of the ADT message) to understand how they might be populating that segment (they may not use the "pseudo-optional" PV1 and may be putting important information in the segment).</p>
+<p><span class="user-mention" data-user-id="116961">@Alexander de Leon</span>  should be able to confirm this.</p>
+
+
+
+{% endraw %}
+
+<hr><p>Last updated: Mar 03 2020 at 00:02 UTC</p>

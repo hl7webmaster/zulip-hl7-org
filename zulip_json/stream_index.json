@@ -32,11 +32,15 @@
         },
         "CDA": {
             "id": 106320,
-            "latest_id": 187378202,
+            "latest_id": 189472191,
             "topic_data": {
                 "(no topic)": {
                     "latest_date": 1549493396,
                     "size": 2
+                },
+                "C-CDA": {
+                    "latest_date": 1583138668,
+                    "size": 1
                 },
                 "C-CDA IAT": {
                     "latest_date": 1552263513,
@@ -690,7 +694,7 @@
         },
         "general": {
             "id": 102480,
-            "latest_id": 188648356,
+            "latest_id": 189494982,
             "topic_data": {
                 "Apple": {
                     "latest_date": 1528303505,
@@ -732,6 +736,10 @@
                     "latest_date": 1535383024,
                     "size": 1
                 },
+                "HL7 2.3 ADT A28 Event Question": {
+                    "latest_date": 1583159080,
+                    "size": 3
+                },
                 "HL7 C# library": {
                     "latest_date": 1576685302,
                     "size": 1
@@ -755,6 +763,10 @@
                 "HL7 V3 templates repository": {
                     "latest_date": 1552631398,
                     "size": 4
+                },
+                "HL7 Vs HL7 refactored": {
+                    "latest_date": 1583158751,
+                    "size": 2
                 },
                 "HL7 data sharing options Healthcare Systems choose": {
                     "latest_date": 1545967852,
@@ -907,5 +919,5 @@
             }
         }
     },
-    "time": 1583107371.2846985
+    "time": 1583193723.4881704
 }

@@ -9,6 +9,8 @@ permalink: /stream/102480-general/index.html
 
 ### Topics:
 
+* [HL7 2.3 ADT A28 Event Question](topic/HL7.202.2E3.20ADT.20A28.20Event.20Question.html) (3 messages, latest: Mar 02 2020 at 14:24)
+* [HL7 Vs HL7 refactored](topic/HL7.20Vs.20HL7.20refactored.html) (2 messages, latest: Mar 02 2020 at 14:19)
 * [ORM^O01 Medications](topic/ORM.5EO01.20Medications.html) (5 messages, latest: Feb 20 2020 at 15:35)
 * [encounter number](topic/encounter.20number.html) (9 messages, latest: Feb 10 2020 at 20:58)
 * [ORU^R01 messages](topic/ORU.5ER01.20messages.html) (16 messages, latest: Feb 06 2020 at 15:17)
@@ -50,4 +52,4 @@ permalink: /stream/102480-general/index.html
 * [IT](topic/IT.html) (38 messages, latest: Dec 06 2017 at 23:31)
 * [welcome](topic/welcome.html) (5 messages, latest: Nov 13 2017 at 15:25)
 
-<hr><p>Last updated: Mar 02 2020 at 00:02 UTC</p>
+<hr><p>Last updated: Mar 03 2020 at 00:02 UTC</p>

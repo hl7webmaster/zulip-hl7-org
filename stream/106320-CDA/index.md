@@ -9,6 +9,7 @@ permalink: /stream/106320-CDA/index.html
 
 ### Topics:
 
+* [C-CDA](topic/C-CDA.html) (1 message, latest: Mar 02 2020 at 08:44)
 * [encounter links and C-CDA](topic/encounter.20links.20and.20C-CDA.html) (2 messages, latest: Feb 04 2020 at 17:16)
 * [Validation CDA](topic/Validation.20CDA.html) (5 messages, latest: Dec 23 2019 at 13:33)
 * [offset in Event-Related Interval of Time (EIVL)](topic/offset.20in.20Event-Related.20Interval.20of.20Time.20(EIVL).html) (5 messages, latest: Dec 09 2019 at 04:37)
@@ -29,4 +30,4 @@ permalink: /stream/106320-CDA/index.html
 * [HIMSS roundtable on attachments](topic/HIMSS.20roundtable.20on.20attachments.html) (2 messages, latest: Jan 27 2018 at 01:04)
 * [hello](topic/hello.html) (1 message, latest: Nov 28 2017 at 19:55)
 
-<hr><p>Last updated: Mar 02 2020 at 00:02 UTC</p>
+<hr><p>Last updated: Mar 03 2020 at 00:02 UTC</p>

@@ -8,9 +8,9 @@ permalink: /index.html
 
 ## Streams:
 
-* [general](stream/102480-general/index.html) (40 topics)
+* [general](stream/102480-general/index.html) (42 topics)
 
-* [CDA](stream/106320-CDA/index.html) (19 topics)
+* [CDA](stream/106320-CDA/index.html) (20 topics)
 
 * [HL7 implementation](stream/134904-HL7-implementation/index.html) (12 topics)
 
@@ -78,4 +78,4 @@ permalink: /index.html
 
 * [Work Opportunities](stream/215613-Work-Opportunities/index.html) (1 topic)
 
-<hr><p>Last updated: Mar 02 2020 at 00:02 UTC</p>
+<hr><p>Last updated: Mar 03 2020 at 00:02 UTC</p>

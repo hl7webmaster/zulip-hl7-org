@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>excuse my question if it is dumb, is there any difference between \"HL7\" and \"HL7 refactored\", if so please explain. thanks in advance.</p>",
+        "id": 189479302,
+        "sender_full_name": "Mo Aamer",
+        "timestamp": 1583145854
+    },
+    {
+        "content": "<p>If by \"HL7 refactored\" you mean this site: <a href=\"http://www.hl7.eu/refactored/hl7.html\" target=\"_blank\" title=\"http://www.hl7.eu/refactored/hl7.html\">http://www.hl7.eu/refactored/hl7.html</a>, then there is a difference. That site is a test for a future move to web based publishing of the v2 base standard. That site is not an official source of any v2 standards. The official v2 standards are downloadable from the HL7 master product grid.</p>",
+        "id": 189494500,
+        "sender_full_name": "Craig Newman",
+        "timestamp": 1583158751
+    }
+]
