@@ -30,4 +30,4 @@ permalink: /stream/106320-CDA/index.html
 * [HIMSS roundtable on attachments](topic/HIMSS.20roundtable.20on.20attachments.html) (2 messages, latest: Jan 27 2018 at 01:04)
 * [hello](topic/hello.html) (1 message, latest: Nov 28 2017 at 19:55)
 
-<hr><p>Last updated: Mar 03 2020 at 00:02 UTC</p>
+<hr><p>Last updated: Mar 04 2020 at 00:02 UTC</p>

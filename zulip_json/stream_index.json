@@ -492,7 +492,7 @@
         },
         "Social": {
             "id": 110652,
-            "latest_id": 189430149,
+            "latest_id": 189568492,
             "topic_data": {
                 "Articles": {
                     "latest_date": 1579748831,
@@ -511,8 +511,8 @@
                     "size": 14
                 },
                 "signups": {
-                    "latest_date": 1583062431,
-                    "size": 424
+                    "latest_date": 1583219418,
+                    "size": 425
                 }
             }
         },
@@ -919,5 +919,5 @@
             }
         }
     },
-    "time": 1583193723.4881704
+    "time": 1583280128.31691
 }
