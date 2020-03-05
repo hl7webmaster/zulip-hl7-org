@@ -258,6 +258,16 @@
                 }
             }
         },
+        "HL7 FHIR & SNOMED CT Coding": {
+            "id": 225434,
+            "latest_id": 189741713,
+            "topic_data": {
+                "stream events": {
+                    "latest_date": 1583360221,
+                    "size": 2
+                }
+            }
+        },
         "HL7 implementation": {
             "id": 134904,
             "latest_id": 187182947,
@@ -492,7 +502,7 @@
         },
         "Social": {
             "id": 110652,
-            "latest_id": 189568492,
+            "latest_id": 189741027,
             "topic_data": {
                 "Articles": {
                     "latest_date": 1579748831,
@@ -511,8 +521,8 @@
                     "size": 14
                 },
                 "signups": {
-                    "latest_date": 1583219418,
-                    "size": 425
+                    "latest_date": 1583359699,
+                    "size": 426
                 }
             }
         },
@@ -640,7 +650,7 @@
         },
         "announce": {
             "id": 102479,
-            "latest_id": 188760395,
+            "latest_id": 189741519,
             "topic_data": {
                 "Confluence/Jira": {
                     "latest_date": 1566921829,
@@ -675,8 +685,8 @@
                     "size": 5
                 },
                 "new streams": {
-                    "latest_date": 1582309780,
-                    "size": 6
+                    "latest_date": 1583360073,
+                    "size": 7
                 },
                 "signups": {
                     "latest_date": 1516912233,
@@ -694,7 +704,7 @@
         },
         "general": {
             "id": 102480,
-            "latest_id": 189494982,
+            "latest_id": 189724677,
             "topic_data": {
                 "Apple": {
                     "latest_date": 1528303505,
@@ -707,6 +717,10 @@
                 "CDA is ... ?": {
                     "latest_date": 1576080887,
                     "size": 7
+                },
+                "DG1": {
+                    "latest_date": 1583348909,
+                    "size": 1
                 },
                 "Deepak vs Tupac": {
                     "latest_date": 1524075418,
@@ -777,8 +791,8 @@
                     "size": 2
                 },
                 "HL7-INTERPAS": {
-                    "latest_date": 1580566755,
-                    "size": 3
+                    "latest_date": 1583349353,
+                    "size": 4
                 },
                 "HL7.org down?": {
                     "latest_date": 1525695766,
@@ -919,5 +933,5 @@
             }
         }
     },
-    "time": 1583280128.31691
+    "time": 1583366550.3408835
 }

@@ -9,6 +9,8 @@ permalink: /stream/102480-general/index.html
 
 ### Topics:
 
+* [HL7-INTERPAS](topic/HL7-INTERPAS.html) (4 messages, latest: Mar 04 2020 at 19:15)
+* [DG1](topic/DG1.html) (1 message, latest: Mar 04 2020 at 19:08)
 * [HL7 2.3 ADT A28 Event Question](topic/HL7.202.2E3.20ADT.20A28.20Event.20Question.html) (3 messages, latest: Mar 02 2020 at 14:24)
 * [HL7 Vs HL7 refactored](topic/HL7.20Vs.20HL7.20refactored.html) (2 messages, latest: Mar 02 2020 at 14:19)
 * [ORM^O01 Medications](topic/ORM.5EO01.20Medications.html) (5 messages, latest: Feb 20 2020 at 15:35)
@@ -16,7 +18,6 @@ permalink: /stream/102480-general/index.html
 * [ORU^R01 messages](topic/ORU.5ER01.20messages.html) (16 messages, latest: Feb 06 2020 at 15:17)
 * [HL7 Fundamentals](topic/HL7.20Fundamentals.html) (1 message, latest: Feb 04 2020 at 17:05)
 * [C-CDA](topic/C-CDA.html) (2 messages, latest: Feb 04 2020 at 16:28)
-* [HL7-INTERPAS](topic/HL7-INTERPAS.html) (3 messages, latest: Feb 01 2020 at 14:19)
 * [HL7 FHIR certification Study guide](topic/HL7.20FHIR.20certification.20Study.20guide.html) (3 messages, latest: Jan 22 2020 at 21:38)
 * [OBR-26 and OBR-29](topic/OBR-26.20and.20OBR-29.html) (4 messages, latest: Jan 20 2020 at 19:48)
 * [ORM^O01 Price](topic/ORM.5EO01.20Price.html) (3 messages, latest: Jan 17 2020 at 21:22)
@@ -52,4 +53,4 @@ permalink: /stream/102480-general/index.html
 * [IT](topic/IT.html) (38 messages, latest: Dec 06 2017 at 23:31)
 * [welcome](topic/welcome.html) (5 messages, latest: Nov 13 2017 at 15:25)
 
-<hr><p>Last updated: Mar 04 2020 at 00:02 UTC</p>
+<hr><p>Last updated: Mar 05 2020 at 00:02 UTC</p>

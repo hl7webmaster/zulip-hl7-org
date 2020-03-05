@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Stream created by <span class=\"user-mention silent\" data-user-id=\"268845\">manjuram mannuru</span>.</p>",
+        "id": 189741520,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1583360073
+    },
+    {
+        "content": "<p>I appreciate any leads suggestions on below topic !</p>\n<p>As part of your job, you are responsible for the development of coding standards for the submission of information to your organization and, ultimately, for inter-organizational data analytics. You have been assigned a number of values that require coding  and you need to select the appropriate coded values based on the organization business requirements. These requirements are:<br>\na.  Ease of adoption and use among analyst for  reporting and analytical purposes<br>\nb.  Ability for data to be shared with another health organization which heavily utilizes SNOMED-CT codes</p>\n<p>Key Deliverables:<br>\n1.  Indicate the coded values associated to the missing values (i.e. find codes for the question marks in coded values column of table above), and indicate which standard the value derived from<br>\n2.  In no more than two pages (double spaced), indicate your rational for choosing values either from FHIR or SNOMED-CT as a summary brief after identifying the proper codes for all the missing values above.</p>",
+        "id": 189741713,
+        "sender_full_name": "manjuram mannuru",
+        "timestamp": 1583360221
+    }
+]
