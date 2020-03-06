@@ -260,11 +260,11 @@
         },
         "HL7 FHIR & SNOMED CT Coding": {
             "id": 225434,
-            "latest_id": 189741713,
+            "latest_id": 189825020,
             "topic_data": {
                 "stream events": {
-                    "latest_date": 1583360221,
-                    "size": 2
+                    "latest_date": 1583435002,
+                    "size": 6
                 }
             }
         },
@@ -502,7 +502,7 @@
         },
         "Social": {
             "id": 110652,
-            "latest_id": 189741027,
+            "latest_id": 189804434,
             "topic_data": {
                 "Articles": {
                     "latest_date": 1579748831,
@@ -521,8 +521,8 @@
                     "size": 14
                 },
                 "signups": {
-                    "latest_date": 1583359699,
-                    "size": 426
+                    "latest_date": 1583423049,
+                    "size": 427
                 }
             }
         },
@@ -704,7 +704,7 @@
         },
         "general": {
             "id": 102480,
-            "latest_id": 189724677,
+            "latest_id": 189768914,
             "topic_data": {
                 "Apple": {
                     "latest_date": 1528303505,
@@ -779,8 +779,8 @@
                     "size": 4
                 },
                 "HL7 Vs HL7 refactored": {
-                    "latest_date": 1583158751,
-                    "size": 2
+                    "latest_date": 1583396779,
+                    "size": 3
                 },
                 "HL7 data sharing options Healthcare Systems choose": {
                     "latest_date": 1545967852,
@@ -933,5 +933,5 @@
             }
         }
     },
-    "time": 1583366550.3408835
+    "time": 1583452925.9809182
 }

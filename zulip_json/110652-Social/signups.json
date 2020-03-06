@@ -2554,5 +2554,11 @@
         "id": 189741027,
         "sender_full_name": "Notification Bot",
         "timestamp": 1583359699
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"269066\">Carmela Couderc</span> just signed up for Zulip. (total: 473)</p>",
+        "id": 189804434,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1583423049
     }
 ]

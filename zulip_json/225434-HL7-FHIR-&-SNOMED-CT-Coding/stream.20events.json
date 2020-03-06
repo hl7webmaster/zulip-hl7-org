@@ -10,5 +10,29 @@
         "id": 189741713,
         "sender_full_name": "manjuram mannuru",
         "timestamp": 1583360221
+    },
+    {
+        "content": "<p><a href=\"https://confluence.hl7.org/display/FHIR/FHIR+Rules+for+Asking+Questions\" target=\"_blank\" title=\"https://confluence.hl7.org/display/FHIR/FHIR+Rules+for+Asking+Questions\">https://confluence.hl7.org/display/FHIR/FHIR+Rules+for+Asking+Questions</a></p>",
+        "id": 189787416,
+        "sender_full_name": "David Pyke",
+        "timestamp": 1583412939
+    },
+    {
+        "content": "<p>Thank you David ! I appreciate your response.<br>\nI believe FHIR is a resource , SNOMED is a Coded form of data which can be converted in the form of FHIR to store &amp; retrieve in the server. Is it true ?</p>",
+        "id": 189796389,
+        "sender_full_name": "manjuram mannuru",
+        "timestamp": 1583418460
+    },
+    {
+        "content": "<p>You're going to need to do a lot of background research.  I suggest starting with <a href=\"https://hl7.org/fhir\" target=\"_blank\" title=\"https://hl7.org/fhir\">https://hl7.org/fhir</a></p>",
+        "id": 189816738,
+        "sender_full_name": "David Pyke",
+        "timestamp": 1583429677
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"116975\">David Pyke</span> <a href=\"#narrow/stream/225434-HL7-FHIR.20.26.20SNOMED.20CT.20Coding/topic/stream.20events/near/189816738\" title=\"#narrow/stream/225434-HL7-FHIR.20.26.20SNOMED.20CT.20Coding/topic/stream.20events/near/189816738\">said</a>:</p>\n<blockquote>\n<p>You're going to need to do a lot of background research.  I suggest starting with <a href=\"https://hl7.org/fhir\" target=\"_blank\" title=\"https://hl7.org/fhir\">https://hl7.org/fhir</a></p>\n</blockquote>\n<p>Thank you David, i appreciate for your time.</p>",
+        "id": 189825020,
+        "sender_full_name": "manjuram mannuru",
+        "timestamp": 1583435002
     }
 ]

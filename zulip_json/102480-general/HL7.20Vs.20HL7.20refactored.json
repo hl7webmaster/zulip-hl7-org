@@ -10,5 +10,11 @@
         "id": 189494500,
         "sender_full_name": "Craig Newman",
         "timestamp": 1583158751
+    },
+    {
+        "content": "<p>Correct. The refactored site provides the contents of v2.8.2 but in a new way that should be easier to understand. Feedback and errors are welcome.</p>",
+        "id": 189768914,
+        "sender_full_name": "Frank Oemig",
+        "timestamp": 1583396779
     }
 ]
