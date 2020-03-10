@@ -4,5 +4,11 @@
         "id": 189472191,
         "sender_full_name": "Vijay Kumar Maruthu",
         "timestamp": 1583138668
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"263746\">Vijay Kumar Maruthu</span> <a href=\"#narrow/stream/106320-CDA/topic/C-CDA/near/189472191\" title=\"#narrow/stream/106320-CDA/topic/C-CDA/near/189472191\">said</a>:</p>\n<blockquote>\n<p>Whether HPI, ROS and PE are part of CCD MU2 version? Where can I locate the IG for CCDA release 1.2?</p>\n</blockquote>\n<p>All versions are posted here: <a href=\"http://www.hl7.org/implement/standards/product_brief.cfm?product_id=492\" target=\"_blank\" title=\"http://www.hl7.org/implement/standards/product_brief.cfm?product_id=492\">http://www.hl7.org/implement/standards/product_brief.cfm?product_id=492</a></p>",
+        "id": 190093948,
+        "sender_full_name": "SueAnn Svaby",
+        "timestamp": 1583774268
     }
 ]

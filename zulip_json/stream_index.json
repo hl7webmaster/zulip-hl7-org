@@ -32,15 +32,15 @@
         },
         "CDA": {
             "id": 106320,
-            "latest_id": 189472191,
+            "latest_id": 190093948,
             "topic_data": {
                 "(no topic)": {
                     "latest_date": 1549493396,
                     "size": 2
                 },
                 "C-CDA": {
-                    "latest_date": 1583138668,
-                    "size": 1
+                    "latest_date": 1583774268,
+                    "size": 2
                 },
                 "C-CDA IAT": {
                     "latest_date": 1552263513,
@@ -933,5 +933,5 @@
             }
         }
     },
-    "time": 1583712142.2326024
+    "time": 1583798513.326939
 }
