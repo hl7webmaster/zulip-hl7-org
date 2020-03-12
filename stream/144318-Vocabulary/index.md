@@ -12,4 +12,4 @@ permalink: /stream/144318-Vocabulary/index.html
 * [Ethnicity](topic/Ethnicity.html) (2 messages, latest: May 20 2019 at 00:50)
 * [hello](topic/hello.html) (1 message, latest: Oct 02 2018 at 13:48)
 
-<hr><p>Last updated: Mar 11 2020 at 00:02 UTC</p>
+<hr><p>Last updated: Mar 12 2020 at 00:02 UTC</p>
