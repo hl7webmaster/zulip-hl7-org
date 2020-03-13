@@ -2566,5 +2566,11 @@
         "id": 189972318,
         "sender_full_name": "Notification Bot",
         "timestamp": 1583590999
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"270889\">Viet Nguyen</span> just signed up for Zulip. (total: 475)</p>",
+        "id": 190405095,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1584027907
     }
 ]

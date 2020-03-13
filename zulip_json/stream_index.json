@@ -502,7 +502,7 @@
         },
         "Social": {
             "id": 110652,
-            "latest_id": 189972318,
+            "latest_id": 190405095,
             "topic_data": {
                 "Articles": {
                     "latest_date": 1579748831,
@@ -521,8 +521,8 @@
                     "size": 14
                 },
                 "signups": {
-                    "latest_date": 1583590999,
-                    "size": 428
+                    "latest_date": 1584027907,
+                    "size": 429
                 }
             }
         },
@@ -650,7 +650,7 @@
         },
         "announce": {
             "id": 102479,
-            "latest_id": 189741519,
+            "latest_id": 190403922,
             "topic_data": {
                 "Confluence/Jira": {
                     "latest_date": 1566921829,
@@ -670,6 +670,10 @@
                 },
                 "Mirth Connect": {
                     "latest_date": 1561384599,
+                    "size": 1
+                },
+                "Moving to chat.fhir.org": {
+                    "latest_date": 1584027332,
                     "size": 1
                 },
                 "New users": {
@@ -933,5 +937,5 @@
             }
         }
     },
-    "time": 1583971321.5427797
+    "time": 1584057726.3155394
 }

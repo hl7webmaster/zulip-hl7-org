@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>Effective Monday, March 23, we will begin redirecting <a href=\"http://chat.hl7.org\" target=\"_blank\" title=\"http://chat.hl7.org\">chat.hl7.org</a> to <a href=\"http://chat.fhir.org\" target=\"_blank\" title=\"http://chat.fhir.org\">chat.fhir.org</a> to ensure use of the correct instance.  Access to <a href=\"http://chat.hl7.org\" target=\"_blank\" title=\"http://chat.hl7.org\">chat.hl7.org</a> will be disabled.</p>",
+        "id": 190403922,
+        "sender_full_name": "David Johnson",
+        "timestamp": 1584027332
+    }
+]

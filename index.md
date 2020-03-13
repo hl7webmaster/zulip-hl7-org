@@ -12,9 +12,9 @@ permalink: /index.html
 
 * [CDA](stream/106320-CDA/index.html) (20 topics)
 
-* [HL7 implementation](stream/134904-HL7-implementation/index.html) (12 topics)
+* [announce](stream/102479-announce/index.html) (13 topics)
 
-* [announce](stream/102479-announce/index.html) (12 topics)
+* [HL7 implementation](stream/134904-HL7-implementation/index.html) (12 topics)
 
 * [V2](stream/109445-V2/index.html) (11 topics)
 
@@ -80,4 +80,4 @@ permalink: /index.html
 
 * [Work Opportunities](stream/215613-Work-Opportunities/index.html) (1 topic)
 
-<hr><p>Last updated: Mar 12 2020 at 00:02 UTC</p>
+<hr><p>Last updated: Mar 13 2020 at 00:02 UTC</p>
