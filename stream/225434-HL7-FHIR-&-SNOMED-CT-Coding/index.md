@@ -11,4 +11,4 @@ permalink: /stream/225434-HL7-FHIR-&-SNOMED-CT-Coding/index.html
 
 * [stream events](topic/stream.20events.html) (6 messages, latest: Mar 05 2020 at 19:03)
 
-<hr><p>Last updated: Mar 17 2020 at 00:02 UTC</p>
+<hr><p>Last updated: Mar 18 2020 at 00:02 UTC</p>
