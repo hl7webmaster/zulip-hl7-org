@@ -2572,5 +2572,23 @@
         "id": 190405095,
         "sender_full_name": "Notification Bot",
         "timestamp": 1584027907
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"274216\">Sean McIlvenna</span> just signed up for Zulip. (total: 476)</p>",
+        "id": 191118662,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1584627319
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"274218\">Melissa Turner</span> just signed up for Zulip. (total: 477)</p>",
+        "id": 191119068,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1584627480
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"274392\">Nikita Granger</span> just signed up for Zulip. (total: 478)</p>",
+        "id": 191169543,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1584649066
     }
 ]
