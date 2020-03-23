@@ -9,6 +9,7 @@ permalink: /stream/102480-general/index.html
 
 ### Topics:
 
+* [Value Sets](topic/Value.20Sets.html) (1 message, latest: Mar 22 2020 at 16:26)
 * [HL7 Vs HL7 refactored](topic/HL7.20Vs.20HL7.20refactored.html) (3 messages, latest: Mar 05 2020 at 08:26)
 * [HL7-INTERPAS](topic/HL7-INTERPAS.html) (4 messages, latest: Mar 04 2020 at 19:15)
 * [DG1](topic/DG1.html) (1 message, latest: Mar 04 2020 at 19:08)
@@ -53,4 +54,4 @@ permalink: /stream/102480-general/index.html
 * [IT](topic/IT.html) (38 messages, latest: Dec 06 2017 at 23:31)
 * [welcome](topic/welcome.html) (5 messages, latest: Nov 13 2017 at 15:25)
 
-<hr><p>Last updated: Mar 22 2020 at 00:02 UTC</p>
+<hr><p>Last updated: Mar 23 2020 at 00:02 UTC</p>
